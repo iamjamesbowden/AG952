@@ -1,0 +1,16 @@
+Firm,Year,NetIncome_M_USD,OperatingMargin_Pct,Note
+Boeing,2017,8197,9.4,Pre-737 MAX crisis
+Boeing,2018,10460,10.4,737 MAX certification withdrawn Oct 2018
+Boeing,2019,-636,-0.8,Global grounding; $18.6B MAX charge
+Intel,2021,19868,24.6,Strong data-centre demand
+Intel,2022,8014,3.7,Revenue decline; restructuring announced
+Intel,2023,1689,1.7,Significant charges; IDM 2.0 in progress
+Peloton,2020,-72,-5.3,Pandemic growth; FY ending June 2020
+Peloton,2021,-189,-8.5,Peak revenue; operational cost escalation; FY ending June 2021
+Peloton,2022,-2800,-80.3,Demand collapse; recall; CEO replacement; FY ending June 2022
+SVB Financial,2020,441,21.2,Strong deposit growth
+SVB Financial,2021,1770,30.4,Accelerated growth; long-duration asset build
+SVB Financial,2022,1509,26.8,Filed Feb 2023 for FY2022; collapsed March 2023
+Luckin Coffee,2019,-475,-110.0,Pre-fraud disclosure; aggressive expansion
+Luckin Coffee,2020,-130,-28.0,Post-fraud disclosure; $310M fabrication admitted
+Luckin Coffee,2021,188,4.1,Post-restructuring recovery

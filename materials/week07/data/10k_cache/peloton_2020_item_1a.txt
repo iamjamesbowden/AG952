@@ -1,0 +1,8 @@
+[CACHED BACKUP PLACEHOLDER]
+This file is a placeholder for the cached 10-K section text.
+The notebook will attempt to download this section directly from SEC EDGAR.
+If you see this message, the EDGAR download failed. Please check your
+internet connection or contact your facilitator.
+
+To populate this file with real text, extract the relevant section from
+the firm's 10-K filing on SEC EDGAR and paste the plain text here.
