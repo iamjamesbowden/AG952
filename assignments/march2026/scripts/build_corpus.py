@@ -277,7 +277,8 @@ def find_10k_filings(cik: str, target_fiscal_years: list) -> list:
         dates      = block.get("filingDate", [])
         accessions = block.get("accessionNumber", [])
         periods    = block.get("reportDate", [""] * len(forms))
-        for form, date, acc, period in zip(forms, dates, accessions, periods):
+        pdocs      = block.get("primaryDocument", [""] * len(forms))
+        for form, date, acc, period, pdoc in zip(forms, dates, accessions, periods, pdocs):
             if form not in ("10-K", "10-K/A"):
                 continue
             # Determine fiscal year from reportDate when available
@@ -294,6 +295,7 @@ def find_10k_filings(cik: str, target_fiscal_years: list) -> list:
                     "accession":    acc.replace("-", ""),
                     "filing_date":  date,
                     "fiscal_year":  fy,
+                    "primary_doc":  pdoc,   # filename of main 10-K document
                 })
 
     _scan_block(subs.get("filings", {}).get("recent", {}))
@@ -312,28 +314,49 @@ def find_10k_filings(cik: str, target_fiscal_years: list) -> list:
     return results
 
 
-def get_filing_doc_url(cik: str, accession: str) -> str | None:
-    """Return the URL of the primary 10-K HTML/HTM document."""
+def get_filing_doc_url(cik: str, accession: str, primary_doc: str = "") -> str | None:
+    """
+    Return the URL of the primary 10-K HTML/HTM document.
+
+    Resolution order:
+    1. primaryDocument from the submissions API (most reliable).
+    2. index.json: HTM file with type="10-K", largest first.
+    3. index.json: any HTM file, largest first.
+    """
+    base = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession}"
+
+    # 1. Use primaryDocument when available
+    if primary_doc and primary_doc.lower().endswith((".htm", ".html")):
+        return f"{base}/{primary_doc}"
+
+    # 2-3. Fall back to filing index
     acc_fmt = f"{accession[:10]}-{accession[10:12]}-{accession[12:]}"
-    idx_url = (f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/"
-               f"{accession}/index.json")
+    idx_url = f"{base}/index.json"
     try:
         idx = edgar_get(idx_url).json()
     except Exception as e:
         log.warning("Cannot fetch filing index %s: %s", acc_fmt, e)
         return None
 
+    def _size(item):
+        try:
+            return int(item.get("size", 0))
+        except (ValueError, TypeError):
+            return 0
+
     items = idx.get("directory", {}).get("item", [])
-    # Prefer the document explicitly typed as 10-K
-    for item in items:
-        if item.get("type") == "10-K" and item["name"].lower().endswith((".htm", ".html")):
-            return (f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/"
-                    f"{accession}/{item['name']}")
-    # Fallback: first htm file
-    for item in items:
-        if item["name"].lower().endswith((".htm", ".html")):
-            return (f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/"
-                    f"{accession}/{item['name']}")
+    htm_items = [it for it in items if it["name"].lower().endswith((".htm", ".html"))]
+
+    # Prefer type="10-K", then any HTM; within each group pick the largest file
+    typed = sorted([it for it in htm_items if it.get("type") == "10-K"],
+                   key=_size, reverse=True)
+    if typed:
+        return f"{base}/{typed[0]['name']}"
+
+    others = sorted(htm_items, key=_size, reverse=True)
+    if others:
+        return f"{base}/{others[0]['name']}"
+
     return None
 
 
@@ -350,19 +373,22 @@ SECTIONS = [
     ),
     (
         "item_7",
+        # Match "Item 7." followed by any variant of the MD&A heading.
+        # The full title often includes "of Financial Condition and Results of
+        # Operations" which varies; we stop at "discussion" to stay flexible.
         re.compile(
-            r"item\s+7[\.\-\s]*management[\'\u2019]?s?\s+discussion\s+and\s+analysis",
+            r"item\s+7[\.\-\s]+management[\'\u2019s\s]{0,4}discussion",
             re.IGNORECASE,
         ),
-        re.compile(r"item\s+7a[\.\-\s]|item\s+8[\.\-\s]", re.IGNORECASE),
+        re.compile(r"item\s+7a[\.\s\.\-]|item\s+8[\.\s\.\-]", re.IGNORECASE),
     ),
     (
         "item_7a",
         re.compile(
-            r"item\s+7a[\.\-\s]*quantitative\s+and\s+qualitative\s+disclosures",
+            r"item\s+7a[\.\-\s]+quantitative",
             re.IGNORECASE,
         ),
-        re.compile(r"item\s+8[\.\-\s]", re.IGNORECASE),
+        re.compile(r"item\s+8[\.\s\.\-]", re.IGNORECASE),
     ),
 ]
 
@@ -381,22 +407,24 @@ def _html_to_text(html_bytes: bytes) -> str:
 def extract_section(text: str, start_pat: re.Pattern, end_pat: re.Pattern) -> str | None:
     """
     Extract text between start_pat and end_pat.
-    Returns cleaned body string, or None if start not found or body too short.
-    The function searches for the *second* occurrence of start_pat when the
-    first match falls inside a table of contents (i.e., is very short).
+
+    Iterates through occurrences of start_pat (up to 6 times) to skip
+    table-of-contents entries, which are short.  The first match whose body
+    exceeds MIN_BODY_CHARS is returned.
     """
+    MIN_BODY_CHARS = 1_000   # TOC entries are typically <200 chars
     pos = 0
-    for _ in range(3):          # try up to 3 occurrences of the start marker
+    for _ in range(6):
         m_start = start_pat.search(text, pos)
         if not m_start:
             return None
         tail = text[m_start.end():]
         m_end = end_pat.search(tail)
-        body = tail[: m_end.start()] if m_end else tail[:500_000]
+        body = tail[: m_end.start()] if m_end else tail[:600_000]
         body = re.sub(r"\s+", " ", body).strip()
-        if len(body) > 500:     # long enough to be a real section, not a TOC entry
+        if len(body) >= MIN_BODY_CHARS:
             return body
-        pos = m_start.end()     # advance and try the next occurrence
+        pos = m_start.end()
     return None
 
 
@@ -408,7 +436,7 @@ def download_sections(firm: dict, fiscal_year: int, filing: dict) -> list[dict]:
     cik = firm["cik"]
     acc = filing["accession"]
 
-    doc_url = get_filing_doc_url(cik, acc)
+    doc_url = get_filing_doc_url(cik, acc, filing.get("primary_doc", ""))
     if not doc_url:
         log.warning("  No document URL: %s %s FY%d", firm["firm"], acc, fiscal_year)
         return []
