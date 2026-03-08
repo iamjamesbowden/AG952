@@ -78,6 +78,11 @@ SCENARIO_A = [
     {"cik": "821189",  "firm": "EOG Resources",          "ticker": "EOG",  "category": "oil_gas"},
     {"cik": "1090012", "firm": "Devon Energy",           "ticker": "DVN",  "category": "oil_gas"},
     {"cik": "4447",    "firm": "Hess Corporation",       "ticker": "HES",  "category": "oil_gas"},
+    {"cik": "797468",  "firm": "Occidental Petroleum",   "ticker": "OXY",  "category": "oil_gas"},
+    {"cik": "101778",  "firm": "Marathon Oil",           "ticker": "MRO",  "category": "oil_gas"},
+    {"cik": "1110805", "firm": "Kinder Morgan",          "ticker": "KMI",  "category": "oil_gas"},
+    {"cik": "107263",  "firm": "Williams Companies",     "ticker": "WMB",  "category": "oil_gas"},
+    {"cik": "1094285", "firm": "Valero Energy",          "ticker": "VLO",  "category": "oil_gas"},
     # Integrated utilities
     {"cik": "753308",  "firm": "NextEra Energy",         "ticker": "NEE",  "category": "utility"},
     {"cik": "1326160", "firm": "Duke Energy",            "ticker": "DUK",  "category": "utility"},
@@ -86,6 +91,11 @@ SCENARIO_A = [
     {"cik": "8192",    "firm": "Exelon",                 "ticker": "EXC",  "category": "utility"},
     {"cik": "4904",    "firm": "American Electric Power","ticker": "AEP",  "category": "utility"},
     {"cik": "23632",   "firm": "Consolidated Edison",    "ticker": "ED",   "category": "utility"},
+    {"cik": "1016172", "firm": "Sempra Energy",          "ticker": "SRE",  "category": "utility"},
+    {"cik": "65011",   "firm": "Entergy",                "ticker": "ETR",  "category": "utility"},
+    {"cik": "1041813", "firm": "Xcel Energy",            "ticker": "XEL",  "category": "utility"},
+    {"cik": "922224",  "firm": "PPL Corporation",        "ticker": "PPL",  "category": "utility"},
+    {"cik": "1002910", "firm": "Ameren",                 "ticker": "AEE",  "category": "utility"},
     # Pure-play renewables
     {"cik": "1274494", "firm": "First Solar",            "ticker": "FSLR", "category": "renewable"},
     {"cik": "1409375", "firm": "Sunrun",                 "ticker": "RUN",  "category": "renewable"},
@@ -93,6 +103,8 @@ SCENARIO_A = [
     {"cik": "867773",  "firm": "SunPower",               "ticker": "SPWR", "category": "renewable"},
     {"cik": "1093691", "firm": "Plug Power",             "ticker": "PLUG", "category": "renewable"},
     {"cik": "1738483", "firm": "Clearway Energy",        "ticker": "CWEN", "category": "renewable"},
+    {"cik": "1368308", "firm": "Bloom Energy",           "ticker": "BE",   "category": "renewable"},
+    {"cik": "1690585", "firm": "Sunnova Energy",         "ticker": "NOVA", "category": "renewable"},
 ]
 YEARS_A = [2019, 2020, 2021, 2022, 2023]
 
@@ -152,40 +164,51 @@ SCENARIO_B = [
 
 # ── Scenario C: Risk Disclosure and the 2023 US Regional Banking Crisis ──────
 SCENARIO_C = [
-    # Failed banks
+    # Failed / resolved banks
     {"cik": "719739",  "firm": "SVB Financial Group",    "ticker": "SIVB", "category": "failed"},
     {"cik": "1288946", "firm": "Signature Bank",         "ticker": "SBNY", "category": "failed"},
     {"cik": "798941",  "firm": "First Republic Bank",    "ticker": "FRC",  "category": "failed"},
+    {"cik": "1312109", "firm": "Silvergate Capital",     "ticker": "SI",   "category": "failed"},
     # Stressed survivors
     {"cik": "1212545", "firm": "Western Alliance Bancorporation", "ticker": "WAL", "category": "stressed"},
     {"cik": "1102266", "firm": "PacWest Bancorp",        "ticker": "PACW", "category": "stressed"},
     {"cik": "28412",   "firm": "Comerica",               "ticker": "CMA",  "category": "stressed"},
     {"cik": "109380",  "firm": "Zions Bancorporation",   "ticker": "ZION", "category": "stressed"},
     {"cik": "91576",   "firm": "KeyCorp",                "ticker": "KEY",  "category": "stressed"},
+    {"cik": "35527",   "firm": "Fifth Third Bancorp",    "ticker": "FITB", "category": "stressed"},
+    {"cik": "1159165", "firm": "Citizens Financial Group","ticker": "CFG", "category": "stressed"},
     # Unaffected regional banks
     {"cik": "42682",   "firm": "Glacier Bancorp",        "ticker": "GBCI", "category": "unaffected_regional"},
-    {"cik": "70858",   "firm": "Old National Bancorp",   "ticker": "ONB",  "category": "unaffected_regional"},
+    {"cik": "875357",  "firm": "BOK Financial Corporation","ticker": "BOKF","category": "unaffected_regional"},
     {"cik": "1558243", "firm": "Independent Bank Group", "ticker": "IBTX", "category": "unaffected_regional"},
     {"cik": "46619",   "firm": "Heartland Financial USA","ticker": "HTLF", "category": "unaffected_regional"},
     {"cik": "764038",  "firm": "South State Corporation","ticker": "SSB",  "category": "unaffected_regional"},
     {"cik": "1062613", "firm": "TowneBank",              "ticker": "TOWN", "category": "unaffected_regional"},
     {"cik": "203596",  "firm": "WesBanco",               "ticker": "WSBC", "category": "unaffected_regional"},
-    {"cik": "715787",  "firm": "Renasant Corporation",   "ticker": "RNST", "category": "unaffected_regional"},
-    {"cik": "1108320", "firm": "Glacier Hills Bankshares","ticker": "GHBS","category": "unaffected_regional"},
+    {"cik": "36966",   "firm": "First Horizon Corporation","ticker": "FHN","category": "unaffected_regional"},
+    {"cik": "730469",  "firm": "Seacoast Banking Corp",  "ticker": "SBCF", "category": "unaffected_regional"},
     {"cik": "883948",  "firm": "Banner Financial Group", "ticker": "BANR", "category": "unaffected_regional"},
+    {"cik": "1015328", "firm": "Wintrust Financial",     "ticker": "WTFC", "category": "unaffected_regional"},
+    {"cik": "102426",  "firm": "Valley National Bancorp","ticker": "VLY",  "category": "unaffected_regional"},
+    {"cik": "1115025", "firm": "Pinnacle Financial Partners","ticker": "PNFP","category": "unaffected_regional"},
+    {"cik": "1169770", "firm": "Eagle Bancorp",          "ticker": "EAGL", "category": "unaffected_regional"},
+    {"cik": "1390478", "firm": "HomeStreet",             "ticker": "HMST", "category": "unaffected_regional"},
+    {"cik": "834494",  "firm": "First BanCorp",          "ticker": "FBP",  "category": "unaffected_regional"},
     # Large systemic banks
     {"cik": "19617",   "firm": "JPMorgan Chase",         "ticker": "JPM",  "category": "large_systemic"},
     {"cik": "70858",   "firm": "Bank of America",        "ticker": "BAC",  "category": "large_systemic"},
-    {"cik": "72971",   "firm": "Citigroup",              "ticker": "C",    "category": "large_systemic"},
+    {"cik": "831001",  "firm": "Citigroup",              "ticker": "C",    "category": "large_systemic"},
     {"cik": "72971",   "firm": "Wells Fargo",            "ticker": "WFC",  "category": "large_systemic"},
     {"cik": "886982",  "firm": "Morgan Stanley",         "ticker": "MS",   "category": "large_systemic"},
     {"cik": "65984",   "firm": "Goldman Sachs",          "ticker": "GS",   "category": "large_systemic"},
     {"cik": "49196",   "firm": "US Bancorp",             "ticker": "USB",  "category": "large_systemic"},
+    {"cik": "713676",  "firm": "PNC Financial Services", "ticker": "PNC",  "category": "large_systemic"},
+    {"cik": "1660156", "firm": "Truist Financial",       "ticker": "TFC",  "category": "large_systemic"},
 ]
-YEARS_C = [2020, 2021, 2022]
+YEARS_C = [2019, 2020, 2021, 2022, 2023]
 
 
-# ── Scenario D: Supply Chain Risk Before and After COVID-19 2019-2022 ────────
+# ── Scenario D: Supply Chain Risk Before and After COVID-19 2019-2023 ────────
 SCENARIO_D = [
     # Automotive
     {"cik": "37996",   "firm": "Ford Motor Company",     "ticker": "F",    "category": "automotive"},
@@ -193,11 +216,12 @@ SCENARIO_D = [
     {"cik": "1318605", "firm": "Tesla",                  "ticker": "TSLA", "category": "automotive"},
     {"cik": "723254",  "firm": "BorgWarner",             "ticker": "BWA",  "category": "automotive"},
     {"cik": "60714",   "firm": "Aptiv",                  "ticker": "APTV", "category": "automotive"},
+    {"cik": "59478",   "firm": "Lear Corporation",       "ticker": "LEA",  "category": "automotive"},
     # Consumer electronics
     {"cik": "320193",  "firm": "Apple",                  "ticker": "AAPL", "category": "electronics"},
     {"cik": "826083",  "firm": "HP Inc",                 "ticker": "HPQ",  "category": "electronics"},
     {"cik": "217346",  "firm": "Dell Technologies",      "ticker": "DELL", "category": "electronics"},
-    {"cik": "1418819", "firm": "Qualcomm",               "ticker": "QCOM", "category": "electronics"},
+    {"cik": "804328",  "firm": "Qualcomm",               "ticker": "QCOM", "category": "electronics"},
     {"cik": "1037868", "firm": "Jabil",                  "ticker": "JBL",  "category": "electronics"},
     # Retail (supply-chain intensive)
     {"cik": "104169",  "firm": "Walmart",                "ticker": "WMT",  "category": "retail"},
@@ -205,20 +229,32 @@ SCENARIO_D = [
     {"cik": "1018724", "firm": "Amazon",                 "ticker": "AMZN", "category": "retail"},
     {"cik": "354950",  "firm": "Home Depot",             "ticker": "HD",   "category": "retail"},
     {"cik": "764478",  "firm": "Best Buy",               "ticker": "BBY",  "category": "retail"},
+    {"cik": "909832",  "firm": "Costco Wholesale",       "ticker": "COST", "category": "retail"},
+    {"cik": "109198",  "firm": "TJX Companies",          "ticker": "TJX",  "category": "retail"},
     # Industrial manufacturing
     {"cik": "66740",   "firm": "3M",                     "ticker": "MMM",  "category": "industrial"},
     {"cik": "773840",  "firm": "Honeywell",              "ticker": "HON",  "category": "industrial"},
     {"cik": "76334",   "firm": "Parker Hannifin",        "ticker": "PH",   "category": "industrial"},
     {"cik": "49826",   "firm": "Illinois Tool Works",    "ticker": "ITW",  "category": "industrial"},
     {"cik": "1439891", "firm": "Flex Ltd",               "ticker": "FLEX", "category": "industrial"},
+    {"cik": "12927",   "firm": "Boeing",                 "ticker": "BA",   "category": "industrial"},
+    {"cik": "18230",   "firm": "Caterpillar",            "ticker": "CAT",  "category": "industrial"},
+    {"cik": "315189",  "firm": "Deere and Company",      "ticker": "DE",   "category": "industrial"},
+    {"cik": "32604",   "firm": "Emerson Electric",       "ticker": "EMR",  "category": "industrial"},
+    {"cik": "26172",   "firm": "Cummins",                "ticker": "CMI",  "category": "industrial"},
+    {"cik": "313616",  "firm": "Danaher Corporation",    "ticker": "DHR",  "category": "industrial"},
+    {"cik": "31462",   "firm": "Eaton Corporation",      "ticker": "ETN",  "category": "industrial"},
+    {"cik": "936468",  "firm": "Lockheed Martin",        "ticker": "LMT",  "category": "industrial"},
     # Logistics
     {"cik": "230568",  "firm": "FedEx",                  "ticker": "FDX",  "category": "logistics"},
-    {"cik": "100030",  "firm": "UPS",                    "ticker": "UPS",  "category": "logistics"},
+    {"cik": "1090727", "firm": "UPS",                    "ticker": "UPS",  "category": "logistics"},
     {"cik": "1054374", "firm": "Expeditors International","ticker": "EXPD","category": "logistics"},
-    {"cik": "1166928", "firm": "XPO Logistics",          "ticker": "XPO",  "category": "logistics"},
+    {"cik": "1043277", "firm": "CH Robinson Worldwide",  "ticker": "CHRW", "category": "logistics"},
     {"cik": "813672",  "firm": "Ryder System",           "ticker": "R",    "category": "logistics"},
+    {"cik": "728535",  "firm": "JB Hunt Transport",      "ticker": "JBHT", "category": "logistics"},
+    {"cik": "793074",  "firm": "Werner Enterprises",     "ticker": "WERN", "category": "logistics"},
 ]
-YEARS_D = [2019, 2020, 2021, 2022]
+YEARS_D = [2019, 2020, 2021, 2022, 2023]
 
 
 # ---------------------------------------------------------------------------
