@@ -50,7 +50,7 @@ REPO_ROOT   = Path(__file__).resolve().parents[3]   # …/AG952
 DATA_ROOT   = REPO_ROOT / "assignments" / "march2026" / "data"
 LOG_FILE    = DATA_ROOT / "build_corpus.log"
 
-HEADERS     = {"User-Agent": "AG952 Research iamjamesbowden@users.noreply.github.com"}
+HEADERS     = {"User-Agent": "University of Strathclyde AG952 Research james.bowden@strath.ac.uk"}
 RATE_SLEEP  = 0.15   # seconds between every EDGAR request
 
 logging.basicConfig(
