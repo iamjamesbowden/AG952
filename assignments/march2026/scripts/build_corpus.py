@@ -48,6 +48,7 @@ warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 REPO_ROOT   = Path(__file__).resolve().parents[3]   # …/AG952
 DATA_ROOT   = REPO_ROOT / "assignments" / "march2026" / "data"
+DATA_ROOT.mkdir(parents=True, exist_ok=True)        # create before logging starts
 LOG_FILE    = DATA_ROOT / "build_corpus.log"
 
 HEADERS     = {"User-Agent": "University of Strathclyde AG952 Research james.bowden@strath.ac.uk"}
