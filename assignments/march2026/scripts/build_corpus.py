@@ -373,22 +373,22 @@ SECTIONS = [
     ),
     (
         "item_7",
-        # Match "Item 7." followed by any variant of the MD&A heading.
-        # The full title often includes "of Financial Condition and Results of
-        # Operations" which varies; we stop at "discussion" to stay flexible.
+        # Use .{0,30} between "management" and "discussion" to tolerate any
+        # spacing or apostrophe encoding that XBRL text extraction produces.
         re.compile(
-            r"item\s+7[\.\-\s]+management[\'\u2019s\s]{0,4}discussion",
+            r"item\s+7[\.\-\s]+management.{0,30}discussion",
             re.IGNORECASE,
         ),
-        re.compile(r"item\s+7a[\.\s\.\-]|item\s+8[\.\s\.\-]", re.IGNORECASE),
+        re.compile(r"item\s+7a[\s\.\-]|item\s+8[\s\.\-]", re.IGNORECASE),
     ),
     (
         "item_7a",
+        # Match "Item 7A" followed by any punctuation/space then "quantitative".
         re.compile(
             r"item\s+7a[\.\-\s]+quantitative",
             re.IGNORECASE,
         ),
-        re.compile(r"item\s+8[\.\s\.\-]", re.IGNORECASE),
+        re.compile(r"item\s+8[\s\.\-]", re.IGNORECASE),
     ),
 ]
 
@@ -412,7 +412,9 @@ def extract_section(text: str, start_pat: re.Pattern, end_pat: re.Pattern) -> st
     table-of-contents entries, which are short.  The first match whose body
     exceeds MIN_BODY_CHARS is returned.
     """
-    MIN_BODY_CHARS = 1_000   # TOC entries are typically <200 chars
+    MIN_BODY_CHARS = 100     # TOC entries are typically <50 chars; genuine
+                             # short sections (e.g. "not required" Item 7As)
+                             # are typically 100-300 chars
     pos = 0
     for _ in range(6):
         m_start = start_pat.search(text, pos)
