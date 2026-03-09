@@ -109,7 +109,6 @@ Run the cell. Three inputs appear:
    - **lm_dictionary** – Loughran-McDonald financial sentiment dictionary
    - **harvard_iv** – Harvard General Inquirer dictionary
    - **naive_bayes** – Machine learning classifier (Naive Bayes)
-   - **logistic_regression** – Machine learning classifier (Logistic Regression)
 
 2. **Positive threshold** (default ≥ 0.10) and **Negative threshold** (default ≤ −0.10) – These apply to all methods. Every sentiment approach produces a continuous score in [−1, +1]: dictionary methods use (positive words − negative words) / (positive + negative); ML methods use P(Positive) − P(Negative). The thresholds determine where the boundaries between Positive, Neutral, and Negative fall. Scores in between the two thresholds are classified as Neutral.
 
@@ -123,9 +122,9 @@ A classification metrics table (Precision, Recall, F1) and a confusion matrix ar
 
 **The classification metrics table and confusion matrix must appear in your written report**, along with a discussion of what the results reveal about the method's accuracy and limitations.
 
-### Step 6b – ML Classifier Sentiment (if you chose naive_bayes or logistic_regression)
+### Step 6b – ML Classifier Sentiment (if you chose naive_bayes)
 
-Run this cell if you selected a machine learning model. Rather than hard class labels, the classifier computes a net probability score — P(Positive) − P(Negative) — for each document. The thresholds set in Step 6 are then applied to categorise each document.
+Run this cell if you selected the Naive Bayes classifier. Rather than hard class labels, the classifier computes a net probability score — P(Positive) − P(Negative) — for each document. The thresholds set in Step 6 are then applied to categorise each document.
 
 Performance is evaluated using **5-fold stratified cross-validation** across all 286 seed sentences, so every sentence is assessed by a model that was not trained on it. A classification metrics table (Precision, Recall, F1) and confusion matrix are displayed, both also in plain text for easy copying. The final model is trained on all 286 seed sentences before being applied to the full corpus.
 
