@@ -1,869 +1,1165 @@
-2026-03-09 00:02:59,126  INFO     ============================================================
-2026-03-09 00:02:59,126  INFO     Starting Scenario A  (32 firms)
-2026-03-09 00:02:59,126  INFO     ============================================================
-2026-03-09 00:02:59,198  INFO     Resuming Scenario A: 365 rows already saved
-2026-03-09 00:02:59,198  INFO     [A] 1/32  ExxonMobil (CIK 34088)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:00,959  INFO       Skipping ExxonMobil FY2023 (already saved)
-2026-03-09 00:03:00,960  INFO       Skipping ExxonMobil FY2022 (already saved)
-2026-03-09 00:03:00,960  INFO       Skipping ExxonMobil FY2021 (already saved)
-2026-03-09 00:03:00,960  INFO       Skipping ExxonMobil FY2020 (already saved)
-2026-03-09 00:03:00,960  INFO       Skipping ExxonMobil FY2019 (already saved)
-2026-03-09 00:03:01,115  INFO     [A] 2/32  Chevron (CIK 93410)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:01,371  INFO       Skipping Chevron FY2023 (already saved)
-2026-03-09 00:03:01,371  INFO       Skipping Chevron FY2022 (already saved)
-2026-03-09 00:03:01,371  INFO       Skipping Chevron FY2021 (already saved)
-2026-03-09 00:03:01,371  INFO       Skipping Chevron FY2020 (already saved)
-2026-03-09 00:03:01,371  INFO       Skipping Chevron FY2019 (already saved)
-2026-03-09 00:03:01,523  INFO     [A] 3/32  ConocoPhillips (CIK 1163165)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:01,867  INFO       Skipping ConocoPhillips FY2023 (already saved)
-2026-03-09 00:03:01,868  INFO       Skipping ConocoPhillips FY2022 (already saved)
-2026-03-09 00:03:01,868  INFO       Skipping ConocoPhillips FY2021 (already saved)
-2026-03-09 00:03:01,868  INFO       Skipping ConocoPhillips FY2020 (already saved)
-2026-03-09 00:03:01,868  INFO       Skipping ConocoPhillips FY2019 (already saved)
-2026-03-09 00:03:02,019  INFO     [A] 4/32  Pioneer Natural Resources (CIK 1038357)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:02,756  WARNING    Pioneer Natural Resources FY2023  item_1a  NOT FOUND
-2026-03-09 00:03:02,758  WARNING    Pioneer Natural Resources FY2023  item_7  NOT FOUND
-2026-03-09 00:03:02,759  WARNING    Pioneer Natural Resources FY2023  item_7a  NOT FOUND
-2026-03-09 00:03:02,759  INFO       Skipping Pioneer Natural Resources FY2022 (already saved)
-2026-03-09 00:03:02,759  INFO       Skipping Pioneer Natural Resources FY2021 (already saved)
-2026-03-09 00:03:02,759  INFO       Skipping Pioneer Natural Resources FY2020 (already saved)
-2026-03-09 00:03:02,759  INFO       Skipping Pioneer Natural Resources FY2019 (already saved)
-2026-03-09 00:03:02,896  INFO     [A] 5/32  EOG Resources (CIK 821189)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:03,201  INFO       Skipping EOG Resources FY2023 (already saved)
-2026-03-09 00:03:03,201  INFO       Skipping EOG Resources FY2022 (already saved)
-2026-03-09 00:03:03,201  INFO       Skipping EOG Resources FY2021 (already saved)
-2026-03-09 00:03:03,201  INFO       Skipping EOG Resources FY2020 (already saved)
-2026-03-09 00:03:03,201  INFO       Skipping EOG Resources FY2019 (already saved)
-2026-03-09 00:03:03,350  INFO     [A] 6/32  Devon Energy (CIK 1090012)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:03,556  INFO       Skipping Devon Energy FY2023 (already saved)
-2026-03-09 00:03:03,556  INFO       Skipping Devon Energy FY2022 (already saved)
-2026-03-09 00:03:03,556  INFO       Skipping Devon Energy FY2021 (already saved)
-2026-03-09 00:03:03,556  INFO       Skipping Devon Energy FY2020 (already saved)
-2026-03-09 00:03:03,557  INFO       Skipping Devon Energy FY2019 (already saved)
-2026-03-09 00:03:03,706  INFO     [A] 7/32  Hess Corporation (CIK 4447)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:03,916  INFO       Skipping Hess Corporation FY2023 (already saved)
-2026-03-09 00:03:03,916  INFO       Skipping Hess Corporation FY2022 (already saved)
-2026-03-09 00:03:03,916  INFO       Skipping Hess Corporation FY2021 (already saved)
-2026-03-09 00:03:03,916  INFO       Skipping Hess Corporation FY2020 (already saved)
-2026-03-09 00:03:03,916  INFO       Skipping Hess Corporation FY2019 (already saved)
-2026-03-09 00:03:04,069  INFO     [A] 8/32  Occidental Petroleum (CIK 797468)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:04,261  INFO       Skipping Occidental Petroleum FY2023 (already saved)
-2026-03-09 00:03:04,755  WARNING    Occidental Petroleum FY2022  item_1a  NOT FOUND
-2026-03-09 00:03:04,757  WARNING    Occidental Petroleum FY2022  item_7  NOT FOUND
-2026-03-09 00:03:04,759  WARNING    Occidental Petroleum FY2022  item_7a  NOT FOUND
-2026-03-09 00:03:04,759  INFO       Skipping Occidental Petroleum FY2021 (already saved)
-2026-03-09 00:03:04,759  INFO       Skipping Occidental Petroleum FY2020 (already saved)
-2026-03-09 00:03:04,759  INFO       Skipping Occidental Petroleum FY2019 (already saved)
-2026-03-09 00:03:04,884  INFO     [A] 9/32  Marathon Oil (CIK 101778)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:05,064  INFO       Skipping Marathon Oil FY2023 (already saved)
-2026-03-09 00:03:05,064  INFO       Skipping Marathon Oil FY2022 (already saved)
-2026-03-09 00:03:05,064  INFO       Skipping Marathon Oil FY2021 (already saved)
-2026-03-09 00:03:05,064  INFO       Skipping Marathon Oil FY2020 (already saved)
-2026-03-09 00:03:05,064  INFO       Skipping Marathon Oil FY2019 (already saved)
-2026-03-09 00:03:05,224  INFO     [A] 10/32  Kinder Morgan (CIK 1110805)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:05,443  INFO       Skipping Kinder Morgan FY2023 (already saved)
-2026-03-09 00:03:05,443  INFO       Skipping Kinder Morgan FY2022 (already saved)
-2026-03-09 00:03:05,443  INFO       Skipping Kinder Morgan FY2021 (already saved)
-2026-03-09 00:03:05,443  INFO       Skipping Kinder Morgan FY2020 (already saved)
-2026-03-09 00:03:05,443  INFO       Skipping Kinder Morgan FY2019 (already saved)
-2026-03-09 00:03:05,596  INFO     [A] 11/32  Williams Companies (CIK 107263)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:05,829  INFO       Skipping Williams Companies FY2023 (already saved)
-2026-03-09 00:03:05,830  INFO       Skipping Williams Companies FY2022 (already saved)
-2026-03-09 00:03:05,830  INFO       Skipping Williams Companies FY2021 (already saved)
-2026-03-09 00:03:05,830  INFO       Skipping Williams Companies FY2020 (already saved)
-2026-03-09 00:03:05,830  INFO       Skipping Williams Companies FY2019 (already saved)
-2026-03-09 00:03:05,982  INFO     [A] 12/32  Valero Energy (CIK 1094285)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:06,535  INFO       Skipping Valero Energy FY2023 (already saved)
-2026-03-09 00:03:06,535  INFO       Skipping Valero Energy FY2022 (already saved)
-2026-03-09 00:03:06,535  INFO       Skipping Valero Energy FY2021 (already saved)
-2026-03-09 00:03:06,535  INFO       Skipping Valero Energy FY2019 (already saved)
-2026-03-09 00:03:06,688  INFO     [A] 13/32  NextEra Energy (CIK 753308)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:06,917  INFO       Skipping NextEra Energy FY2023 (already saved)
-2026-03-09 00:03:06,917  INFO       Skipping NextEra Energy FY2022 (already saved)
-2026-03-09 00:03:06,917  INFO       Skipping NextEra Energy FY2021 (already saved)
-2026-03-09 00:03:06,917  INFO       Skipping NextEra Energy FY2020 (already saved)
-2026-03-09 00:03:06,917  INFO       Skipping NextEra Energy FY2019 (already saved)
-2026-03-09 00:03:07,068  INFO     [A] 14/32  Duke Energy (CIK 1326160)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:07,262  INFO       Skipping Duke Energy FY2023 (already saved)
-2026-03-09 00:03:07,262  INFO       Skipping Duke Energy FY2022 (already saved)
-2026-03-09 00:03:07,262  INFO       Skipping Duke Energy FY2021 (already saved)
-2026-03-09 00:03:07,262  INFO       Skipping Duke Energy FY2020 (already saved)
-2026-03-09 00:03:07,262  INFO       Skipping Duke Energy FY2019 (already saved)
-2026-03-09 00:03:07,416  INFO     [A] 15/32  Southern Company (CIK 92122)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:08,038  INFO       Skipping Southern Company FY2023 (already saved)
-2026-03-09 00:03:08,039  INFO       Skipping Southern Company FY2022 (already saved)
-2026-03-09 00:03:08,039  INFO       Skipping Southern Company FY2021 (already saved)
-2026-03-09 00:03:08,039  INFO       Skipping Southern Company FY2020 (already saved)
-2026-03-09 00:03:08,039  INFO       Skipping Southern Company FY2019 (already saved)
-2026-03-09 00:03:08,186  INFO     [A] 16/32  Dominion Energy (CIK 715957)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:08,365  INFO       Skipping Dominion Energy FY2023 (already saved)
-2026-03-09 00:03:08,365  INFO       Skipping Dominion Energy FY2022 (already saved)
-2026-03-09 00:03:08,366  INFO       Skipping Dominion Energy FY2021 (already saved)
-2026-03-09 00:03:08,366  INFO       Skipping Dominion Energy FY2020 (already saved)
-2026-03-09 00:03:08,366  INFO       Skipping Dominion Energy FY2019 (already saved)
-2026-03-09 00:03:08,521  INFO     [A] 17/32  Exelon (CIK 8192)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:08,705  INFO       Skipping Exelon FY2023 (already saved)
-2026-03-09 00:03:08,706  INFO       Skipping Exelon FY2022 (already saved)
-2026-03-09 00:03:08,706  INFO       Skipping Exelon FY2021 (already saved)
-2026-03-09 00:03:08,706  INFO       Skipping Exelon FY2020 (already saved)
-2026-03-09 00:03:08,706  INFO       Skipping Exelon FY2019 (already saved)
-2026-03-09 00:03:08,851  INFO     [A] 18/32  American Electric Power (CIK 4904)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:09,034  INFO       Skipping American Electric Power FY2023 (already saved)
-2026-03-09 00:03:09,035  INFO       Skipping American Electric Power FY2022 (already saved)
-2026-03-09 00:03:09,035  INFO       Skipping American Electric Power FY2021 (already saved)
-2026-03-09 00:03:09,035  INFO       Skipping American Electric Power FY2020 (already saved)
-2026-03-09 00:03:09,035  INFO       Skipping American Electric Power FY2019 (already saved)
-2026-03-09 00:03:09,184  INFO     [A] 19/32  Consolidated Edison (CIK 23632)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:10,217  WARNING    Consolidated Edison FY2023  item_1a  NOT FOUND
-2026-03-09 00:03:10,222  WARNING    Consolidated Edison FY2023  item_7  NOT FOUND
-2026-03-09 00:03:10,227  WARNING    Consolidated Edison FY2023  item_7a  NOT FOUND
-2026-03-09 00:03:10,802  WARNING    Consolidated Edison FY2022  item_1a  NOT FOUND
-2026-03-09 00:03:10,807  WARNING    Consolidated Edison FY2022  item_7  NOT FOUND
-2026-03-09 00:03:10,812  WARNING    Consolidated Edison FY2022  item_7a  NOT FOUND
-2026-03-09 00:03:11,366  WARNING    Consolidated Edison FY2021  item_1a  NOT FOUND
-2026-03-09 00:03:11,371  WARNING    Consolidated Edison FY2021  item_7  NOT FOUND
-2026-03-09 00:03:11,375  WARNING    Consolidated Edison FY2021  item_7a  NOT FOUND
-2026-03-09 00:03:11,939  WARNING    Consolidated Edison FY2020  item_1a  NOT FOUND
-2026-03-09 00:03:11,944  WARNING    Consolidated Edison FY2020  item_7  NOT FOUND
-2026-03-09 00:03:11,949  WARNING    Consolidated Edison FY2020  item_7a  NOT FOUND
-2026-03-09 00:03:12,672  WARNING    Consolidated Edison FY2019  item_1a  NOT FOUND
-2026-03-09 00:03:12,677  WARNING    Consolidated Edison FY2019  item_7  NOT FOUND
-2026-03-09 00:03:12,681  WARNING    Consolidated Edison FY2019  item_7a  NOT FOUND
-2026-03-09 00:03:12,808  INFO     [A] 20/32  Sempra Energy (CIK 1016172)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:13,027  WARNING    No 10-K filings found for Sempra Energy in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:13,027  INFO     [A] 21/32  Entergy (CIK 65011)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:13,849  INFO       Skipping Entergy FY2021 (already saved)
-2026-03-09 00:03:13,849  INFO       Skipping Entergy FY2020 (already saved)
-2026-03-09 00:03:13,849  INFO       Skipping Entergy FY2019 (already saved)
-2026-03-09 00:03:14,000  INFO     [A] 22/32  Xcel Energy (CIK 1041813)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:14,217  WARNING    No 10-K filings found for Xcel Energy in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:14,217  INFO     [A] 23/32  PPL Corporation (CIK 922224)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:14,633  INFO       Skipping PPL Corporation FY2023 (already saved)
-2026-03-09 00:03:14,633  INFO       Skipping PPL Corporation FY2022 (already saved)
-2026-03-09 00:03:14,633  INFO       Skipping PPL Corporation FY2021 (already saved)
-2026-03-09 00:03:14,633  INFO       Skipping PPL Corporation FY2020 (already saved)
-2026-03-09 00:03:14,633  INFO       Skipping PPL Corporation FY2019 (already saved)
-2026-03-09 00:03:14,799  INFO     [A] 24/32  Ameren (CIK 1002910)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:15,079  INFO       Skipping Ameren FY2023 (already saved)
-2026-03-09 00:03:15,079  INFO       Skipping Ameren FY2022 (already saved)
-2026-03-09 00:03:15,079  INFO       Skipping Ameren FY2021 (already saved)
-2026-03-09 00:03:15,079  INFO       Skipping Ameren FY2020 (already saved)
-2026-03-09 00:03:15,079  INFO       Skipping Ameren FY2019 (already saved)
-2026-03-09 00:03:15,247  INFO     [A] 25/32  First Solar (CIK 1274494)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:15,459  INFO       Skipping First Solar FY2023 (already saved)
-2026-03-09 00:03:15,459  INFO       Skipping First Solar FY2022 (already saved)
-2026-03-09 00:03:15,459  INFO       Skipping First Solar FY2021 (already saved)
-2026-03-09 00:03:15,459  INFO       Skipping First Solar FY2020 (already saved)
-2026-03-09 00:03:15,460  INFO       Skipping First Solar FY2019 (already saved)
-2026-03-09 00:03:15,628  INFO     [A] 26/32  Sunrun (CIK 1409375)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:15,816  INFO       Skipping Sunrun FY2023 (already saved)
-2026-03-09 00:03:15,816  INFO       Skipping Sunrun FY2022 (already saved)
-2026-03-09 00:03:15,817  INFO       Skipping Sunrun FY2021 (already saved)
-2026-03-09 00:03:15,817  INFO       Skipping Sunrun FY2020 (already saved)
-2026-03-09 00:03:15,819  INFO       Skipping Sunrun FY2019 (already saved)
-2026-03-09 00:03:15,974  INFO     [A] 27/32  Enphase Energy (CIK 1463101)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:16,196  INFO       Skipping Enphase Energy FY2023 (already saved)
-2026-03-09 00:03:16,196  INFO       Skipping Enphase Energy FY2022 (already saved)
-2026-03-09 00:03:16,196  INFO       Skipping Enphase Energy FY2021 (already saved)
-2026-03-09 00:03:16,196  INFO       Skipping Enphase Energy FY2020 (already saved)
-2026-03-09 00:03:16,196  INFO       Skipping Enphase Energy FY2019 (already saved)
-2026-03-09 00:03:16,361  INFO     [A] 28/32  SunPower (CIK 867773)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:17,202  INFO       Skipping SunPower FY2023 (already saved)
-2026-03-09 00:03:17,202  INFO       Skipping SunPower FY2022 (already saved)
-2026-03-09 00:03:17,202  INFO       Skipping SunPower FY2021 (already saved)
-2026-03-09 00:03:17,203  INFO       Skipping SunPower FY2019 (already saved)
-2026-03-09 00:03:17,369  INFO     [A] 29/32  Plug Power (CIK 1093691)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:17,627  INFO       Skipping Plug Power FY2023 (already saved)
-2026-03-09 00:03:17,904  WARNING    Plug Power FY2022  item_1a  NOT FOUND
-2026-03-09 00:03:17,905  WARNING    Plug Power FY2022  item_7  NOT FOUND
-2026-03-09 00:03:17,906  WARNING    Plug Power FY2022  item_7a  NOT FOUND
-2026-03-09 00:03:17,906  INFO       Skipping Plug Power FY2020 (already saved)
-2026-03-09 00:03:17,906  INFO       Skipping Plug Power FY2021 (already saved)
-2026-03-09 00:03:17,906  INFO       Skipping Plug Power FY2019 (already saved)
-2026-03-09 00:03:18,030  INFO     [A] 30/32  Clearway Energy (CIK 1738483)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:18,349  WARNING    No 10-K filings found for Clearway Energy in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:18,349  INFO     [A] 31/32  Bloom Energy (CIK 1368308)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:18,756  WARNING    No 10-K filings found for Bloom Energy in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:18,757  INFO     [A] 32/32  Sunnova Energy (CIK 1690585)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:19,094  INFO       Skipping Sunnova Energy FY2023 (already saved)
-2026-03-09 00:03:19,358  WARNING    Sunnova Energy FY2022  item_1a  NOT FOUND
-2026-03-09 00:03:19,359  WARNING    Sunnova Energy FY2022  item_7  NOT FOUND
-2026-03-09 00:03:19,360  WARNING    Sunnova Energy FY2022  item_7a  NOT FOUND
-2026-03-09 00:03:19,360  INFO       Skipping Sunnova Energy FY2021 (already saved)
-2026-03-09 00:03:19,360  INFO       Skipping Sunnova Energy FY2020 (already saved)
-2026-03-09 00:03:19,360  INFO       Skipping Sunnova Energy FY2019 (already saved)
-2026-03-09 00:03:19,610  INFO     Scenario A complete: 365 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_a/corpus.csv
-2026-03-09 00:03:19,611  INFO     ============================================================
-2026-03-09 00:03:19,611  INFO     Starting Scenario B  (40 firms)
-2026-03-09 00:03:19,611  INFO     ============================================================
-2026-03-09 00:03:19,723  INFO     Resuming Scenario B: 447 rows already saved
-2026-03-09 00:03:19,723  INFO     [B] 1/40  Chesapeake Energy (CIK 895126)  years=[2017, 2018, 2019]
-2026-03-09 00:03:20,323  WARNING    Chesapeake Energy FY2019  item_1a  NOT FOUND
-2026-03-09 00:03:20,324  WARNING    Chesapeake Energy FY2019  item_7  NOT FOUND
-2026-03-09 00:03:20,325  WARNING    Chesapeake Energy FY2019  item_7a  NOT FOUND
-2026-03-09 00:03:20,325  INFO       Skipping Chesapeake Energy FY2018 (already saved)
-2026-03-09 00:03:20,325  INFO       Skipping Chesapeake Energy FY2017 (already saved)
-2026-03-09 00:03:20,486  INFO     [B] 2/40  Frontier Communications (CIK 20520)  years=[2017, 2018, 2019]
-2026-03-09 00:03:21,059  WARNING    Frontier Communications FY2019  item_1a  NOT FOUND
-2026-03-09 00:03:21,060  WARNING    Frontier Communications FY2019  item_7  NOT FOUND
-2026-03-09 00:03:21,061  WARNING    Frontier Communications FY2019  item_7a  NOT FOUND
-2026-03-09 00:03:21,061  INFO       Skipping Frontier Communications FY2018 (already saved)
-2026-03-09 00:03:21,061  INFO       Skipping Frontier Communications FY2017 (already saved)
-2026-03-09 00:03:21,220  INFO     [B] 3/40  Whiting Petroleum (CIK 1255474)  years=[2017, 2018, 2019]
-2026-03-09 00:03:21,531  INFO       Skipping Whiting Petroleum FY2019 (already saved)
-2026-03-09 00:03:21,531  INFO       Skipping Whiting Petroleum FY2018 (already saved)
-2026-03-09 00:03:22,091  WARNING    Whiting Petroleum FY2017  item_1a  NOT FOUND
-2026-03-09 00:03:22,096  WARNING    Whiting Petroleum FY2017  item_7  NOT FOUND
-2026-03-09 00:03:22,100  WARNING    Whiting Petroleum FY2017  item_7a  NOT FOUND
-2026-03-09 00:03:22,256  INFO     [B] 4/40  JC Penney (CIK 1166928)  years=[2017, 2018, 2019]
-2026-03-09 00:03:22,452  INFO       Skipping JC Penney FY2019 (already saved)
-2026-03-09 00:03:22,452  INFO       Skipping JC Penney FY2018 (already saved)
-2026-03-09 00:03:22,453  INFO       Skipping JC Penney FY2017 (already saved)
-2026-03-09 00:03:22,649  INFO     [B] 5/40  Hertz Global Holdings (CIK 47987)  years=[2017, 2018, 2019]
-2026-03-09 00:03:22,822  ERROR      Cannot get submissions for Hertz Global Holdings: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000047987.json
-2026-03-09 00:03:22,822  INFO     [B] 6/40  Pier 1 Imports (CIK 78890)  years=[2017, 2018, 2019]
-2026-03-09 00:03:23,512  INFO       Skipping Pier 1 Imports FY2019 (already saved)
-2026-03-09 00:03:23,512  INFO       Skipping Pier 1 Imports FY2018 (already saved)
-2026-03-09 00:03:23,512  INFO       Skipping Pier 1 Imports FY2017 (already saved)
-2026-03-09 00:03:23,716  INFO     [B] 7/40  Tuesday Morning (CIK 1092234)  years=[2017, 2018, 2019]
-2026-03-09 00:03:23,878  ERROR      Cannot get submissions for Tuesday Morning: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001092234.json
-2026-03-09 00:03:23,879  INFO     [B] 8/40  Denbury Resources (CIK 945764)  years=[2017, 2018, 2019]
-2026-03-09 00:03:24,396  INFO       Skipping Denbury Resources FY2019 (already saved)
-2026-03-09 00:03:24,396  INFO       Skipping Denbury Resources FY2018 (already saved)
-2026-03-09 00:03:24,396  INFO       Skipping Denbury Resources FY2017 (already saved)
-2026-03-09 00:03:24,600  INFO     [B] 9/40  Oasis Petroleum (CIK 1486159)  years=[2017, 2018, 2019]
-2026-03-09 00:03:24,928  INFO       Skipping Oasis Petroleum FY2019 (already saved)
-2026-03-09 00:03:24,928  INFO       Skipping Oasis Petroleum FY2018 (already saved)
-2026-03-09 00:03:24,928  INFO       Skipping Oasis Petroleum FY2017 (already saved)
-2026-03-09 00:03:25,126  INFO     [B] 10/40  California Resources (CIK 1609702)  years=[2017, 2018, 2019]
-2026-03-09 00:03:25,423  INFO       Skipping California Resources FY2019 (already saved)
-2026-03-09 00:03:25,424  INFO       Skipping California Resources FY2018 (already saved)
-2026-03-09 00:03:25,424  INFO       Skipping California Resources FY2017 (already saved)
-2026-03-09 00:03:25,624  INFO     [B] 11/40  PG&E (CIK 1004440)  years=[2016, 2017, 2018]
-2026-03-09 00:03:26,155  WARNING    No 10-K filings found for PG&E in [2016, 2017, 2018]
-2026-03-09 00:03:26,155  INFO     [B] 12/40  Sears Holdings (CIK 1456501)  years=[2015, 2016, 2017]
-2026-03-09 00:03:26,471  WARNING    No 10-K filings found for Sears Holdings in [2015, 2016, 2017]
-2026-03-09 00:03:26,471  INFO     [B] 13/40  iHeartMedia (CIK 739708)  years=[2015, 2016, 2017]
-2026-03-09 00:03:26,959  INFO       Skipping iHeartMedia FY2017 (already saved)
-2026-03-09 00:03:26,959  INFO       Skipping iHeartMedia FY2016 (already saved)
-2026-03-09 00:03:26,959  INFO       Skipping iHeartMedia FY2015 (already saved)
-2026-03-09 00:03:27,162  INFO     [B] 14/40  Windstream Holdings (CIK 1282266)  years=[2016, 2017, 2018]
-2026-03-09 00:03:27,651  WARNING    Windstream Holdings FY2018  item_1a  NOT FOUND
-2026-03-09 00:03:27,652  WARNING    Windstream Holdings FY2018  item_7  NOT FOUND
-2026-03-09 00:03:27,653  WARNING    Windstream Holdings FY2018  item_7a  NOT FOUND
-2026-03-09 00:03:27,653  INFO       Skipping Windstream Holdings FY2017 (already saved)
-2026-03-09 00:03:27,653  INFO       Skipping Windstream Holdings FY2016 (already saved)
-2026-03-09 00:03:27,812  INFO     [B] 15/40  Nine West Holdings (CIK 1005210)  years=[2015, 2016, 2017]
-2026-03-09 00:03:28,028  INFO       Skipping Nine West Holdings FY2017 (already saved)
-2026-03-09 00:03:28,028  INFO       Skipping Nine West Holdings FY2016 (already saved)
-2026-03-09 00:03:28,028  INFO       Skipping Nine West Holdings FY2015 (already saved)
-2026-03-09 00:03:28,227  INFO     [B] 16/40  Revlon (CIK 887921)  years=[2019, 2020, 2021]
-2026-03-09 00:03:28,714  WARNING    Revlon FY2021  item_1a  NOT FOUND
-2026-03-09 00:03:28,715  WARNING    Revlon FY2021  item_7  NOT FOUND
-2026-03-09 00:03:28,716  WARNING    Revlon FY2021  item_7a  NOT FOUND
-2026-03-09 00:03:28,716  INFO       Skipping Revlon FY2020 (already saved)
-2026-03-09 00:03:28,716  INFO       Skipping Revlon FY2019 (already saved)
-2026-03-09 00:03:28,872  INFO     [B] 17/40  Bed Bath and Beyond (CIK 886158)  years=[2020, 2021, 2022]
-2026-03-09 00:03:29,546  WARNING    Bed Bath and Beyond FY2022  item_1a  NOT FOUND
-2026-03-09 00:03:29,548  WARNING    Bed Bath and Beyond FY2022  item_7  NOT FOUND
-2026-03-09 00:03:29,550  WARNING    Bed Bath and Beyond FY2022  item_7a  NOT FOUND
-2026-03-09 00:03:29,597  WARNING    Bed Bath and Beyond FY2021  item_1a  NOT FOUND
-2026-03-09 00:03:29,597  WARNING    Bed Bath and Beyond FY2021  item_7  NOT FOUND
-2026-03-09 00:03:29,597  WARNING    Bed Bath and Beyond FY2021  item_7a  NOT FOUND
-2026-03-09 00:03:29,970  WARNING    Bed Bath and Beyond FY2020  item_1a  NOT FOUND
-2026-03-09 00:03:29,972  WARNING    Bed Bath and Beyond FY2020  item_7  NOT FOUND
-2026-03-09 00:03:29,974  WARNING    Bed Bath and Beyond FY2020  item_7a  NOT FOUND
-2026-03-09 00:03:30,133  INFO     [B] 18/40  Rite Aid (CIK 84129)  years=[2020, 2021, 2022]
-2026-03-09 00:03:30,364  INFO       Skipping Rite Aid FY2022 (already saved)
-2026-03-09 00:03:30,364  INFO       Skipping Rite Aid FY2021 (already saved)
-2026-03-09 00:03:30,364  INFO       Skipping Rite Aid FY2020 (already saved)
-2026-03-09 00:03:30,567  INFO     [B] 19/40  WeWork (CIK 1801762)  years=[2020, 2021, 2022]
-2026-03-09 00:03:30,741  INFO       Skipping WeWork FY2021 (already saved)
-2026-03-09 00:03:30,933  INFO     [B] 20/40  Party City (CIK 1540159)  years=[2020, 2021, 2022]
-2026-03-09 00:03:31,372  WARNING    Party City FY2022  item_1a  NOT FOUND
-2026-03-09 00:03:31,373  WARNING    Party City FY2022  item_7  NOT FOUND
-2026-03-09 00:03:31,373  WARNING    Party City FY2022  item_7a  NOT FOUND
-2026-03-09 00:03:31,373  INFO       Skipping Party City FY2021 (already saved)
-2026-03-09 00:03:31,373  INFO       Skipping Party City FY2020 (already saved)
-2026-03-09 00:03:31,554  INFO     [B] 21/40  Devon Energy (CIK 1090012)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:31,877  INFO       Skipping Devon Energy FY2022 (already saved)
-2026-03-09 00:03:31,878  INFO       Skipping Devon Energy FY2021 (already saved)
-2026-03-09 00:03:31,878  INFO       Skipping Devon Energy FY2020 (already saved)
-2026-03-09 00:03:31,878  INFO       Skipping Devon Energy FY2019 (already saved)
-2026-03-09 00:03:31,878  INFO       Skipping Devon Energy FY2018 (already saved)
-2026-03-09 00:03:31,878  INFO       Skipping Devon Energy FY2017 (already saved)
-2026-03-09 00:03:31,879  INFO       Skipping Devon Energy FY2016 (already saved)
-2026-03-09 00:03:32,075  INFO     [B] 22/40  Lumen Technologies (CIK 18926)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:32,257  INFO       Skipping Lumen Technologies FY2022 (already saved)
-2026-03-09 00:03:32,258  INFO       Skipping Lumen Technologies FY2021 (already saved)
-2026-03-09 00:03:32,258  INFO       Skipping Lumen Technologies FY2020 (already saved)
-2026-03-09 00:03:32,258  INFO       Skipping Lumen Technologies FY2019 (already saved)
-2026-03-09 00:03:32,258  INFO       Skipping Lumen Technologies FY2018 (already saved)
-2026-03-09 00:03:32,258  INFO       Skipping Lumen Technologies FY2017 (already saved)
-2026-03-09 00:03:32,258  INFO       Skipping Lumen Technologies FY2016 (already saved)
-2026-03-09 00:03:32,447  INFO     [B] 23/40  Range Resources (CIK 101830)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:33,907  WARNING    Range Resources FY2019  item_1a  NOT FOUND
-2026-03-09 00:03:33,909  WARNING    Range Resources FY2019  item_7  NOT FOUND
-2026-03-09 00:03:33,911  WARNING    Range Resources FY2019  item_7a  NOT FOUND
-2026-03-09 00:03:33,911  INFO       Skipping Range Resources FY2018 (already saved)
-2026-03-09 00:03:33,911  INFO       Skipping Range Resources FY2017 (already saved)
-2026-03-09 00:03:33,911  INFO       Skipping Range Resources FY2016 (already saved)
-2026-03-09 00:03:34,072  INFO     [B] 24/40  Kohl's (CIK 1096752)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:34,329  INFO       Skipping Kohl's FY2022 (already saved)
-2026-03-09 00:03:34,330  INFO       Skipping Kohl's FY2021 (already saved)
-2026-03-09 00:03:34,330  INFO       Skipping Kohl's FY2020 (already saved)
-2026-03-09 00:03:34,330  INFO       Skipping Kohl's FY2019 (already saved)
-2026-03-09 00:03:34,330  INFO       Skipping Kohl's FY2018 (already saved)
-2026-03-09 00:03:34,330  INFO       Skipping Kohl's FY2017 (already saved)
-2026-03-09 00:03:34,330  INFO       Skipping Kohl's FY2016 (already saved)
-2026-03-09 00:03:34,530  INFO     [B] 25/40  Avis Budget Group (CIK 47111)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:35,119  INFO       Skipping Avis Budget Group FY2022 (already saved)
-2026-03-09 00:03:35,119  INFO       Skipping Avis Budget Group FY2021 (already saved)
-2026-03-09 00:03:35,119  INFO       Skipping Avis Budget Group FY2020 (already saved)
-2026-03-09 00:03:35,119  INFO       Skipping Avis Budget Group FY2019 (already saved)
-2026-03-09 00:03:35,119  INFO       Skipping Avis Budget Group FY2018 (already saved)
-2026-03-09 00:03:35,119  INFO       Skipping Avis Budget Group FY2017 (already saved)
-2026-03-09 00:03:35,119  INFO       Skipping Avis Budget Group FY2016 (already saved)
-2026-03-09 00:03:35,316  INFO     [B] 26/40  Williams-Sonoma (CIK 60440)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:35,470  ERROR      Cannot get submissions for Williams-Sonoma: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000060440.json
-2026-03-09 00:03:35,471  INFO     [B] 27/40  Dollar Tree (CIK 40533)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:36,382  INFO       Skipping Dollar Tree FY2022 (already saved)
-2026-03-09 00:03:36,383  INFO       Skipping Dollar Tree FY2021 (already saved)
-2026-03-09 00:03:36,383  INFO       Skipping Dollar Tree FY2020 (already saved)
-2026-03-09 00:03:36,383  INFO       Skipping Dollar Tree FY2019 (already saved)
-2026-03-09 00:03:36,383  INFO       Skipping Dollar Tree FY2018 (already saved)
-2026-03-09 00:03:36,383  INFO       Skipping Dollar Tree FY2017 (already saved)
-2026-03-09 00:03:36,383  INFO       Skipping Dollar Tree FY2016 (already saved)
-2026-03-09 00:03:36,580  INFO     [B] 28/40  SM Energy (CIK 715787)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:37,155  INFO       Skipping SM Energy FY2022 (already saved)
-2026-03-09 00:03:37,156  INFO       Skipping SM Energy FY2021 (already saved)
-2026-03-09 00:03:37,156  INFO       Skipping SM Energy FY2019 (already saved)
-2026-03-09 00:03:37,156  INFO       Skipping SM Energy FY2018 (already saved)
-2026-03-09 00:03:37,156  INFO       Skipping SM Energy FY2017 (already saved)
-2026-03-09 00:03:37,156  INFO       Skipping SM Energy FY2016 (already saved)
-2026-03-09 00:03:37,354  INFO     [B] 29/40  Callon Petroleum (CIK 783412)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:37,551  INFO       Skipping Callon Petroleum FY2022 (already saved)
-2026-03-09 00:03:37,551  INFO       Skipping Callon Petroleum FY2021 (already saved)
-2026-03-09 00:03:37,552  INFO       Skipping Callon Petroleum FY2020 (already saved)
-2026-03-09 00:03:37,552  INFO       Skipping Callon Petroleum FY2019 (already saved)
-2026-03-09 00:03:37,552  INFO       Skipping Callon Petroleum FY2018 (already saved)
-2026-03-09 00:03:37,552  INFO       Skipping Callon Petroleum FY2017 (already saved)
-2026-03-09 00:03:37,552  INFO       Skipping Callon Petroleum FY2016 (already saved)
-2026-03-09 00:03:37,755  INFO     [B] 30/40  Edison International (CIK 1004440)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:38,312  WARNING    No 10-K filings found for Edison International in [2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:38,313  INFO     [B] 31/40  Dollar General (CIK 1666700)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:38,988  INFO       Skipping Dollar General FY2022 (already saved)
-2026-03-09 00:03:38,988  INFO       Skipping Dollar General FY2021 (already saved)
-2026-03-09 00:03:38,988  INFO       Skipping Dollar General FY2020 (already saved)
-2026-03-09 00:03:38,988  INFO       Skipping Dollar General FY2019 (already saved)
-2026-03-09 00:03:38,988  INFO       Skipping Dollar General FY2018 (already saved)
-2026-03-09 00:03:38,988  INFO       Skipping Dollar General FY2017 (already saved)
-2026-03-09 00:03:39,189  INFO     [B] 32/40  Macy's (CIK 23217)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:39,413  INFO       Skipping Macy's FY2022 (already saved)
-2026-03-09 00:03:39,414  INFO       Skipping Macy's FY2021 (already saved)
-2026-03-09 00:03:39,414  INFO       Skipping Macy's FY2020 (already saved)
-2026-03-09 00:03:39,414  INFO       Skipping Macy's FY2019 (already saved)
-2026-03-09 00:03:39,414  INFO       Skipping Macy's FY2018 (already saved)
-2026-03-09 00:03:39,414  INFO       Skipping Macy's FY2017 (already saved)
-2026-03-09 00:03:39,414  INFO       Skipping Macy's FY2016 (already saved)
-2026-03-09 00:03:39,615  INFO     [B] 33/40  Netflix (CIK 1085869)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:39,838  INFO       Skipping Netflix FY2022 (already saved)
-2026-03-09 00:03:39,838  INFO       Skipping Netflix FY2021 (already saved)
-2026-03-09 00:03:39,838  INFO       Skipping Netflix FY2020 (already saved)
-2026-03-09 00:03:39,838  INFO       Skipping Netflix FY2019 (already saved)
-2026-03-09 00:03:39,838  INFO       Skipping Netflix FY2018 (already saved)
-2026-03-09 00:03:39,839  INFO       Skipping Netflix FY2017 (already saved)
-2026-03-09 00:03:40,051  WARNING    Netflix FY2016  item_1a  NOT FOUND
-2026-03-09 00:03:40,052  WARNING    Netflix FY2016  item_7  NOT FOUND
-2026-03-09 00:03:40,052  WARNING    Netflix FY2016  item_7a  NOT FOUND
-2026-03-09 00:03:40,238  INFO     [B] 34/40  Zions Bancorporation (CIK 109380)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:40,989  INFO       Skipping Zions Bancorporation FY2022 (already saved)
-2026-03-09 00:03:40,990  INFO       Skipping Zions Bancorporation FY2021 (already saved)
-2026-03-09 00:03:40,990  INFO       Skipping Zions Bancorporation FY2020 (already saved)
-2026-03-09 00:03:40,990  INFO       Skipping Zions Bancorporation FY2019 (already saved)
-2026-03-09 00:03:40,990  INFO       Skipping Zions Bancorporation FY2018 (already saved)
-2026-03-09 00:03:40,990  INFO       Skipping Zions Bancorporation FY2017 (already saved)
-2026-03-09 00:03:40,990  INFO       Skipping Zions Bancorporation FY2016 (already saved)
-2026-03-09 00:03:41,189  INFO     [B] 35/40  Hasbro (CIK 49071)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:41,907  INFO       Skipping Hasbro FY2022 (already saved)
-2026-03-09 00:03:41,907  INFO       Skipping Hasbro FY2021 (already saved)
-2026-03-09 00:03:41,907  INFO       Skipping Hasbro FY2020 (already saved)
-2026-03-09 00:03:41,907  INFO       Skipping Hasbro FY2019 (already saved)
-2026-03-09 00:03:41,907  INFO       Skipping Hasbro FY2018 (already saved)
-2026-03-09 00:03:41,908  INFO       Skipping Hasbro FY2017 (already saved)
-2026-03-09 00:03:41,908  INFO       Skipping Hasbro FY2016 (already saved)
-2026-03-09 00:03:42,105  INFO     [B] 36/40  Leggett and Platt (CIK 310764)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:42,322  INFO       Skipping Leggett and Platt FY2022 (already saved)
-2026-03-09 00:03:42,323  INFO       Skipping Leggett and Platt FY2021 (already saved)
-2026-03-09 00:03:42,323  INFO       Skipping Leggett and Platt FY2020 (already saved)
-2026-03-09 00:03:42,323  INFO       Skipping Leggett and Platt FY2019 (already saved)
-2026-03-09 00:03:42,323  INFO       Skipping Leggett and Platt FY2018 (already saved)
-2026-03-09 00:03:42,323  INFO       Skipping Leggett and Platt FY2017 (already saved)
-2026-03-09 00:03:42,323  INFO       Skipping Leggett and Platt FY2016 (already saved)
-2026-03-09 00:03:42,519  INFO     [B] 37/40  Briggs and Stratton (CIK 14846)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:42,706  INFO       Skipping Briggs and Stratton FY2022 (already saved)
-2026-03-09 00:03:42,706  INFO       Skipping Briggs and Stratton FY2021 (already saved)
-2026-03-09 00:03:42,706  INFO       Skipping Briggs and Stratton FY2020 (already saved)
-2026-03-09 00:03:42,706  INFO       Skipping Briggs and Stratton FY2019 (already saved)
-2026-03-09 00:03:42,706  INFO       Skipping Briggs and Stratton FY2018 (already saved)
-2026-03-09 00:03:42,706  INFO       Skipping Briggs and Stratton FY2017 (already saved)
-2026-03-09 00:03:42,706  INFO       Skipping Briggs and Stratton FY2016 (already saved)
-2026-03-09 00:03:42,903  INFO     [B] 38/40  Office Depot (CIK 726854)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:43,090  INFO       Skipping Office Depot FY2022 (already saved)
-2026-03-09 00:03:43,091  INFO       Skipping Office Depot FY2021 (already saved)
-2026-03-09 00:03:43,091  INFO       Skipping Office Depot FY2020 (already saved)
-2026-03-09 00:03:43,091  INFO       Skipping Office Depot FY2019 (already saved)
-2026-03-09 00:03:43,091  INFO       Skipping Office Depot FY2018 (already saved)
-2026-03-09 00:03:43,091  INFO       Skipping Office Depot FY2017 (already saved)
-2026-03-09 00:03:43,091  INFO       Skipping Office Depot FY2016 (already saved)
-2026-03-09 00:03:43,282  INFO     [B] 39/40  Albertsons (CIK 1616862)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:43,480  INFO       Skipping Albertsons FY2022 (already saved)
-2026-03-09 00:03:43,480  INFO       Skipping Albertsons FY2021 (already saved)
-2026-03-09 00:03:43,480  INFO       Skipping Albertsons FY2020 (already saved)
-2026-03-09 00:03:43,480  INFO       Skipping Albertsons FY2019 (already saved)
-2026-03-09 00:03:43,480  INFO       Skipping Albertsons FY2018 (already saved)
-2026-03-09 00:03:43,480  INFO       Skipping Albertsons FY2017 (already saved)
-2026-03-09 00:03:43,481  INFO       Skipping Albertsons FY2016 (already saved)
-2026-03-09 00:03:43,677  INFO     [B] 40/40  Walgreens Boots Alliance (CIK 68505)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
-2026-03-09 00:03:44,014  INFO       Skipping Walgreens Boots Alliance FY2022 (already saved)
-2026-03-09 00:03:44,014  INFO       Skipping Walgreens Boots Alliance FY2021 (already saved)
-2026-03-09 00:03:44,014  INFO       Skipping Walgreens Boots Alliance FY2020 (already saved)
-2026-03-09 00:03:44,014  INFO       Skipping Walgreens Boots Alliance FY2019 (already saved)
-2026-03-09 00:03:44,014  INFO       Skipping Walgreens Boots Alliance FY2018 (already saved)
-2026-03-09 00:03:44,014  INFO       Skipping Walgreens Boots Alliance FY2017 (already saved)
-2026-03-09 00:03:44,015  INFO       Skipping Walgreens Boots Alliance FY2016 (already saved)
-2026-03-09 00:03:44,373  INFO     Scenario B complete: 447 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_b/corpus.csv
-2026-03-09 00:03:44,374  INFO     ============================================================
-2026-03-09 00:03:44,374  INFO     Starting Scenario C  (36 firms)
-2026-03-09 00:03:44,374  INFO     ============================================================
-2026-03-09 00:03:44,482  INFO     Resuming Scenario C: 347 rows already saved
-2026-03-09 00:03:44,482  INFO     [C] 1/36  SVB Financial Group (CIK 719739)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:45,062  INFO       Skipping SVB Financial Group FY2022 (already saved)
-2026-03-09 00:03:45,062  INFO       Skipping SVB Financial Group FY2021 (already saved)
-2026-03-09 00:03:45,062  INFO       Skipping SVB Financial Group FY2020 (already saved)
-2026-03-09 00:03:45,062  INFO       Skipping SVB Financial Group FY2019 (already saved)
-2026-03-09 00:03:45,287  INFO     [C] 2/36  Signature Bank (CIK 1288946)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:45,516  WARNING    No 10-K filings found for Signature Bank in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:45,516  INFO     [C] 3/36  First Republic Bank (CIK 798941)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:45,864  INFO       Skipping First Republic Bank FY2023 (already saved)
-2026-03-09 00:03:45,864  INFO       Skipping First Republic Bank FY2022 (already saved)
-2026-03-09 00:03:45,865  INFO       Skipping First Republic Bank FY2021 (already saved)
-2026-03-09 00:03:45,865  INFO       Skipping First Republic Bank FY2020 (already saved)
-2026-03-09 00:03:45,865  INFO       Skipping First Republic Bank FY2019 (already saved)
-2026-03-09 00:03:46,093  INFO     [C] 4/36  Silvergate Capital (CIK 1312109)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:46,274  INFO       Skipping Silvergate Capital FY2021 (already saved)
-2026-03-09 00:03:46,274  INFO       Skipping Silvergate Capital FY2020 (already saved)
-2026-03-09 00:03:46,274  INFO       Skipping Silvergate Capital FY2019 (already saved)
-2026-03-09 00:03:46,493  INFO     [C] 5/36  Western Alliance Bancorporation (CIK 1212545)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:46,711  INFO       Skipping Western Alliance Bancorporation FY2023 (already saved)
-2026-03-09 00:03:46,712  INFO       Skipping Western Alliance Bancorporation FY2022 (already saved)
-2026-03-09 00:03:46,712  INFO       Skipping Western Alliance Bancorporation FY2021 (already saved)
-2026-03-09 00:03:46,712  INFO       Skipping Western Alliance Bancorporation FY2020 (already saved)
-2026-03-09 00:03:46,712  INFO       Skipping Western Alliance Bancorporation FY2019 (already saved)
-2026-03-09 00:03:46,944  INFO     [C] 6/36  PacWest Bancorp (CIK 1102266)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:47,529  INFO       Skipping PacWest Bancorp FY2019 (already saved)
-2026-03-09 00:03:47,756  INFO     [C] 7/36  Comerica (CIK 28412)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:47,933  INFO       Skipping Comerica FY2023 (already saved)
-2026-03-09 00:03:47,934  INFO       Skipping Comerica FY2022 (already saved)
-2026-03-09 00:03:47,934  INFO       Skipping Comerica FY2021 (already saved)
-2026-03-09 00:03:47,934  INFO       Skipping Comerica FY2020 (already saved)
-2026-03-09 00:03:47,934  INFO       Skipping Comerica FY2019 (already saved)
-2026-03-09 00:03:48,147  INFO     [C] 8/36  Zions Bancorporation (CIK 109380)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:48,767  INFO       Skipping Zions Bancorporation FY2023 (already saved)
-2026-03-09 00:03:48,767  INFO       Skipping Zions Bancorporation FY2022 (already saved)
-2026-03-09 00:03:48,767  INFO       Skipping Zions Bancorporation FY2021 (already saved)
-2026-03-09 00:03:48,767  INFO       Skipping Zions Bancorporation FY2020 (already saved)
-2026-03-09 00:03:48,768  INFO       Skipping Zions Bancorporation FY2019 (already saved)
-2026-03-09 00:03:48,994  INFO     [C] 9/36  KeyCorp (CIK 91576)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:49,261  INFO       Skipping KeyCorp FY2023 (already saved)
-2026-03-09 00:03:49,261  INFO       Skipping KeyCorp FY2022 (already saved)
-2026-03-09 00:03:49,261  INFO       Skipping KeyCorp FY2021 (already saved)
-2026-03-09 00:03:49,261  INFO       Skipping KeyCorp FY2020 (already saved)
-2026-03-09 00:03:49,261  INFO       Skipping KeyCorp FY2019 (already saved)
-2026-03-09 00:03:49,487  INFO     [C] 10/36  Fifth Third Bancorp (CIK 35527)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:49,679  INFO       Skipping Fifth Third Bancorp FY2023 (already saved)
-2026-03-09 00:03:49,679  INFO       Skipping Fifth Third Bancorp FY2022 (already saved)
-2026-03-09 00:03:49,679  INFO       Skipping Fifth Third Bancorp FY2021 (already saved)
-2026-03-09 00:03:49,679  INFO       Skipping Fifth Third Bancorp FY2020 (already saved)
-2026-03-09 00:03:49,679  INFO       Skipping Fifth Third Bancorp FY2019 (already saved)
-2026-03-09 00:03:49,894  INFO     [C] 11/36  Citizens Financial Group (CIK 1159165)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:50,062  WARNING    No 10-K filings found for Citizens Financial Group in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:50,063  INFO     [C] 12/36  Glacier Bancorp (CIK 42682)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:50,510  INFO       Skipping Glacier Bancorp FY2023 (already saved)
-2026-03-09 00:03:50,511  INFO       Skipping Glacier Bancorp FY2022 (already saved)
-2026-03-09 00:03:50,511  INFO       Skipping Glacier Bancorp FY2021 (already saved)
-2026-03-09 00:03:50,511  INFO       Skipping Glacier Bancorp FY2020 (already saved)
-2026-03-09 00:03:50,511  INFO       Skipping Glacier Bancorp FY2019 (already saved)
-2026-03-09 00:03:50,748  INFO     [C] 13/36  BOK Financial Corporation (CIK 875357)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:50,965  INFO       Skipping BOK Financial Corporation FY2023 (already saved)
-2026-03-09 00:03:50,965  INFO       Skipping BOK Financial Corporation FY2022 (already saved)
-2026-03-09 00:03:50,966  INFO       Skipping BOK Financial Corporation FY2021 (already saved)
-2026-03-09 00:03:50,966  INFO       Skipping BOK Financial Corporation FY2020 (already saved)
-2026-03-09 00:03:50,966  INFO       Skipping BOK Financial Corporation FY2019 (already saved)
-2026-03-09 00:03:51,190  INFO     [C] 14/36  Independent Bank Group (CIK 1558243)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:51,561  WARNING    No 10-K filings found for Independent Bank Group in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:51,561  INFO     [C] 15/36  Heartland Financial USA (CIK 46619)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:51,897  INFO       Skipping Heartland Financial USA FY2023 (already saved)
-2026-03-09 00:03:51,897  INFO       Skipping Heartland Financial USA FY2022 (already saved)
-2026-03-09 00:03:51,897  INFO       Skipping Heartland Financial USA FY2021 (already saved)
-2026-03-09 00:03:51,898  INFO       Skipping Heartland Financial USA FY2020 (already saved)
-2026-03-09 00:03:51,898  INFO       Skipping Heartland Financial USA FY2019 (already saved)
-2026-03-09 00:03:52,125  INFO     [C] 16/36  South State Corporation (CIK 764038)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:52,332  INFO       Skipping South State Corporation FY2023 (already saved)
-2026-03-09 00:03:52,333  INFO       Skipping South State Corporation FY2022 (already saved)
-2026-03-09 00:03:52,333  INFO       Skipping South State Corporation FY2021 (already saved)
-2026-03-09 00:03:52,333  INFO       Skipping South State Corporation FY2020 (already saved)
-2026-03-09 00:03:52,685  WARNING    South State Corporation FY2019  item_1a  NOT FOUND
-2026-03-09 00:03:52,687  WARNING    South State Corporation FY2019  item_7  NOT FOUND
-2026-03-09 00:03:52,688  WARNING    South State Corporation FY2019  item_7a  NOT FOUND
-2026-03-09 00:03:52,878  INFO     [C] 17/36  TowneBank (CIK 1062613)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:53,477  WARNING    No 10-K filings found for TowneBank in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:53,478  INFO     [C] 18/36  WesBanco (CIK 203596)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:53,821  INFO       Skipping WesBanco FY2023 (already saved)
-2026-03-09 00:03:53,822  INFO       Skipping WesBanco FY2022 (already saved)
-2026-03-09 00:03:53,822  INFO       Skipping WesBanco FY2021 (already saved)
-2026-03-09 00:03:54,028  WARNING    WesBanco FY2020  item_1a  NOT FOUND
-2026-03-09 00:03:54,028  WARNING    WesBanco FY2020  item_7  NOT FOUND
-2026-03-09 00:03:54,029  WARNING    WesBanco FY2020  item_7a  NOT FOUND
-2026-03-09 00:03:54,029  INFO       Skipping WesBanco FY2019 (already saved)
-2026-03-09 00:03:54,237  INFO     [C] 19/36  First Horizon Corporation (CIK 36966)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:54,710  INFO       Skipping First Horizon Corporation FY2023 (already saved)
-2026-03-09 00:03:54,710  INFO       Skipping First Horizon Corporation FY2022 (already saved)
-2026-03-09 00:03:54,956  WARNING    First Horizon Corporation FY2021  item_1a  NOT FOUND
-2026-03-09 00:03:54,957  WARNING    First Horizon Corporation FY2021  item_7  NOT FOUND
-2026-03-09 00:03:54,957  WARNING    First Horizon Corporation FY2021  item_7a  NOT FOUND
-2026-03-09 00:03:54,957  INFO       Skipping First Horizon Corporation FY2020 (already saved)
-2026-03-09 00:03:54,957  INFO       Skipping First Horizon Corporation FY2019 (already saved)
-2026-03-09 00:03:55,154  INFO     [C] 20/36  Seacoast Banking Corp (CIK 730469)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:55,427  WARNING    No 10-K filings found for Seacoast Banking Corp in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:55,427  INFO     [C] 21/36  Banner Financial Group (CIK 883948)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:55,835  INFO       Skipping Banner Financial Group FY2023 (already saved)
-2026-03-09 00:03:55,835  INFO       Skipping Banner Financial Group FY2022 (already saved)
-2026-03-09 00:03:55,835  INFO       Skipping Banner Financial Group FY2021 (already saved)
-2026-03-09 00:03:55,835  INFO       Skipping Banner Financial Group FY2020 (already saved)
-2026-03-09 00:03:55,835  INFO       Skipping Banner Financial Group FY2019 (already saved)
-2026-03-09 00:03:56,065  INFO     [C] 22/36  Wintrust Financial (CIK 1015328)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:56,246  INFO       Skipping Wintrust Financial FY2023 (already saved)
-2026-03-09 00:03:56,246  INFO       Skipping Wintrust Financial FY2022 (already saved)
-2026-03-09 00:03:56,246  INFO       Skipping Wintrust Financial FY2021 (already saved)
-2026-03-09 00:03:56,247  INFO       Skipping Wintrust Financial FY2020 (already saved)
-2026-03-09 00:03:56,247  INFO       Skipping Wintrust Financial FY2019 (already saved)
-2026-03-09 00:03:56,468  INFO     [C] 23/36  Valley National Bancorp (CIK 102426)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:56,740  WARNING    No 10-K filings found for Valley National Bancorp in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:56,740  INFO     [C] 24/36  Pinnacle Financial Partners (CIK 1115025)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:57,065  ERROR      Cannot get submissions for Pinnacle Financial Partners: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001115025.json
-2026-03-09 00:03:57,066  INFO     [C] 25/36  Eagle Bancorp (CIK 1169770)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:57,427  INFO       Skipping Eagle Bancorp FY2023 (already saved)
-2026-03-09 00:03:57,427  INFO       Skipping Eagle Bancorp FY2022 (already saved)
-2026-03-09 00:03:57,427  INFO       Skipping Eagle Bancorp FY2021 (already saved)
-2026-03-09 00:03:57,427  INFO       Skipping Eagle Bancorp FY2020 (already saved)
-2026-03-09 00:03:57,427  INFO       Skipping Eagle Bancorp FY2019 (already saved)
-2026-03-09 00:03:57,668  INFO     [C] 26/36  HomeStreet (CIK 1390478)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:57,860  INFO       Skipping HomeStreet FY2023 (already saved)
-2026-03-09 00:03:57,860  INFO       Skipping HomeStreet FY2022 (already saved)
-2026-03-09 00:03:57,860  INFO       Skipping HomeStreet FY2021 (already saved)
-2026-03-09 00:03:57,860  INFO       Skipping HomeStreet FY2020 (already saved)
-2026-03-09 00:03:57,860  INFO       Skipping HomeStreet FY2019 (already saved)
-2026-03-09 00:03:58,073  INFO     [C] 27/36  First BanCorp (CIK 834494)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:03:58,245  ERROR      Cannot get submissions for First BanCorp: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000834494.json
-2026-03-09 00:03:58,245  INFO     [C] 28/36  JPMorgan Chase (CIK 19617)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:15,768  INFO       Skipping JPMorgan Chase FY2023 (already saved)
-2026-03-09 00:04:15,768  INFO       Skipping JPMorgan Chase FY2022 (already saved)
-2026-03-09 00:04:15,768  INFO       Skipping JPMorgan Chase FY2021 (already saved)
-2026-03-09 00:04:15,768  INFO       Skipping JPMorgan Chase FY2020 (already saved)
-2026-03-09 00:04:15,769  INFO       Skipping JPMorgan Chase FY2019 (already saved)
-2026-03-09 00:04:15,983  INFO     [C] 29/36  Bank of America (CIK 70858)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:20,371  INFO       Skipping Bank of America FY2023 (already saved)
-2026-03-09 00:04:20,372  INFO       Skipping Bank of America FY2022 (already saved)
-2026-03-09 00:04:20,372  INFO       Skipping Bank of America FY2021 (already saved)
-2026-03-09 00:04:20,372  INFO       Skipping Bank of America FY2020 (already saved)
-2026-03-09 00:04:20,372  INFO       Skipping Bank of America FY2019 (already saved)
-2026-03-09 00:04:20,592  INFO     [C] 30/36  Citigroup (CIK 831001)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:32,346  WARNING    Citigroup FY2023  item_1a  NOT FOUND
-2026-03-09 00:04:32,355  WARNING    Citigroup FY2023  item_7  NOT FOUND
-2026-03-09 00:04:32,364  WARNING    Citigroup FY2023  item_7a  NOT FOUND
-2026-03-09 00:04:33,624  WARNING    Citigroup FY2022  item_1a  NOT FOUND
-2026-03-09 00:04:33,633  WARNING    Citigroup FY2022  item_7  NOT FOUND
-2026-03-09 00:04:33,642  WARNING    Citigroup FY2022  item_7a  NOT FOUND
-2026-03-09 00:04:34,919  WARNING    Citigroup FY2021  item_1a  NOT FOUND
-2026-03-09 00:04:34,927  WARNING    Citigroup FY2021  item_7  NOT FOUND
-2026-03-09 00:04:34,935  WARNING    Citigroup FY2021  item_7a  NOT FOUND
-2026-03-09 00:04:36,167  WARNING    Citigroup FY2020  item_1a  NOT FOUND
-2026-03-09 00:04:36,176  WARNING    Citigroup FY2020  item_7  NOT FOUND
-2026-03-09 00:04:36,184  WARNING    Citigroup FY2020  item_7a  NOT FOUND
-2026-03-09 00:04:37,808  WARNING    Citigroup FY2019  item_1a  NOT FOUND
-2026-03-09 00:04:37,816  WARNING    Citigroup FY2019  item_7  NOT FOUND
-2026-03-09 00:04:37,824  WARNING    Citigroup FY2019  item_7a  NOT FOUND
-2026-03-09 00:04:38,008  INFO     [C] 31/36  Wells Fargo (CIK 72971)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:38,837  INFO       Skipping Wells Fargo FY2023 (already saved)
-2026-03-09 00:04:38,837  INFO       Skipping Wells Fargo FY2022 (already saved)
-2026-03-09 00:04:38,837  INFO       Skipping Wells Fargo FY2021 (already saved)
-2026-03-09 00:04:38,838  INFO       Skipping Wells Fargo FY2020 (already saved)
-2026-03-09 00:04:38,838  INFO       Skipping Wells Fargo FY2019 (already saved)
-2026-03-09 00:04:39,062  INFO     [C] 32/36  Morgan Stanley (CIK 886982)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:48,586  WARNING    Morgan Stanley FY2023  item_1a  NOT FOUND
-2026-03-09 00:04:48,587  WARNING    Morgan Stanley FY2023  item_7  NOT FOUND
-2026-03-09 00:04:48,587  WARNING    Morgan Stanley FY2023  item_7a  NOT FOUND
-2026-03-09 00:04:48,587  INFO       Skipping Morgan Stanley FY2022 (already saved)
-2026-03-09 00:04:48,587  INFO       Skipping Morgan Stanley FY2021 (already saved)
-2026-03-09 00:04:48,587  INFO       Skipping Morgan Stanley FY2020 (already saved)
-2026-03-09 00:04:48,587  INFO       Skipping Morgan Stanley FY2019 (already saved)
-2026-03-09 00:04:48,792  INFO     [C] 33/36  Goldman Sachs (CIK 65984)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:49,499  INFO       Skipping Goldman Sachs FY2023 (already saved)
-2026-03-09 00:04:49,499  INFO       Skipping Goldman Sachs FY2022 (already saved)
-2026-03-09 00:04:49,499  INFO       Skipping Goldman Sachs FY2021 (already saved)
-2026-03-09 00:04:49,499  INFO       Skipping Goldman Sachs FY2020 (already saved)
-2026-03-09 00:04:49,499  INFO       Skipping Goldman Sachs FY2019 (already saved)
-2026-03-09 00:04:49,718  INFO     [C] 34/36  US Bancorp (CIK 49196)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:50,523  INFO       Skipping US Bancorp FY2023 (already saved)
-2026-03-09 00:04:50,524  INFO       Skipping US Bancorp FY2022 (already saved)
-2026-03-09 00:04:50,524  INFO       Skipping US Bancorp FY2021 (already saved)
-2026-03-09 00:04:50,524  INFO       Skipping US Bancorp FY2020 (already saved)
-2026-03-09 00:04:50,524  INFO       Skipping US Bancorp FY2019 (already saved)
-2026-03-09 00:04:50,748  INFO     [C] 35/36  PNC Financial Services (CIK 713676)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:51,546  INFO       Skipping PNC Financial Services FY2023 (already saved)
-2026-03-09 00:04:51,547  INFO       Skipping PNC Financial Services FY2022 (already saved)
-2026-03-09 00:04:51,547  INFO       Skipping PNC Financial Services FY2021 (already saved)
-2026-03-09 00:04:51,547  INFO       Skipping PNC Financial Services FY2020 (already saved)
-2026-03-09 00:04:51,547  INFO       Skipping PNC Financial Services FY2019 (already saved)
-2026-03-09 00:04:51,770  INFO     [C] 36/36  Truist Financial (CIK 1660156)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:51,981  WARNING    No 10-K filings found for Truist Financial in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:52,211  INFO     Scenario C complete: 347 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_c/corpus.csv
-2026-03-09 00:04:52,213  INFO     ============================================================
-2026-03-09 00:04:52,213  INFO     Starting Scenario D  (38 firms)
-2026-03-09 00:04:52,213  INFO     ============================================================
-2026-03-09 00:04:52,307  INFO     Resuming Scenario D: 493 rows already saved
-2026-03-09 00:04:52,307  INFO     [D] 1/38  Ford Motor Company (CIK 37996)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:52,489  INFO       Skipping Ford Motor Company FY2023 (already saved)
-2026-03-09 00:04:52,490  INFO       Skipping Ford Motor Company FY2022 (already saved)
-2026-03-09 00:04:52,490  INFO       Skipping Ford Motor Company FY2021 (already saved)
-2026-03-09 00:04:52,490  INFO       Skipping Ford Motor Company FY2020 (already saved)
-2026-03-09 00:04:52,490  INFO       Skipping Ford Motor Company FY2019 (already saved)
-2026-03-09 00:04:52,664  INFO     [D] 2/38  General Motors (CIK 40987)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:52,887  INFO       Skipping General Motors FY2023 (already saved)
-2026-03-09 00:04:52,887  INFO       Skipping General Motors FY2022 (already saved)
-2026-03-09 00:04:52,888  INFO       Skipping General Motors FY2021 (already saved)
-2026-03-09 00:04:52,888  INFO       Skipping General Motors FY2020 (already saved)
-2026-03-09 00:04:52,888  INFO       Skipping General Motors FY2019 (already saved)
-2026-03-09 00:04:53,088  INFO     [D] 3/38  Tesla (CIK 1318605)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:53,284  INFO       Skipping Tesla FY2023 (already saved)
-2026-03-09 00:04:53,285  INFO       Skipping Tesla FY2022 (already saved)
-2026-03-09 00:04:53,662  WARNING    Tesla FY2021  item_1a  NOT FOUND
-2026-03-09 00:04:53,663  WARNING    Tesla FY2021  item_7  NOT FOUND
-2026-03-09 00:04:53,665  WARNING    Tesla FY2021  item_7a  NOT FOUND
-2026-03-09 00:04:53,958  WARNING    Tesla FY2020  item_1a  NOT FOUND
-2026-03-09 00:04:53,959  WARNING    Tesla FY2020  item_7  NOT FOUND
-2026-03-09 00:04:53,961  WARNING    Tesla FY2020  item_7a  NOT FOUND
-2026-03-09 00:04:54,197  WARNING    Tesla FY2019  item_1a  NOT FOUND
-2026-03-09 00:04:54,198  WARNING    Tesla FY2019  item_7  NOT FOUND
-2026-03-09 00:04:54,200  WARNING    Tesla FY2019  item_7a  NOT FOUND
-2026-03-09 00:04:54,340  INFO     [D] 4/38  BorgWarner (CIK 723254)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:54,560  INFO       Skipping BorgWarner FY2023 (already saved)
-2026-03-09 00:04:54,560  INFO       Skipping BorgWarner FY2022 (already saved)
-2026-03-09 00:04:54,561  INFO       Skipping BorgWarner FY2021 (already saved)
-2026-03-09 00:04:54,561  INFO       Skipping BorgWarner FY2020 (already saved)
-2026-03-09 00:04:54,561  INFO       Skipping BorgWarner FY2019 (already saved)
-2026-03-09 00:04:54,747  INFO     [D] 5/38  Aptiv (CIK 60714)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:54,940  INFO       Skipping Aptiv FY2023 (already saved)
-2026-03-09 00:04:54,940  INFO       Skipping Aptiv FY2022 (already saved)
-2026-03-09 00:04:55,164  WARNING    Aptiv FY2021  item_1a  NOT FOUND
-2026-03-09 00:04:55,165  WARNING    Aptiv FY2021  item_7  NOT FOUND
-2026-03-09 00:04:55,165  WARNING    Aptiv FY2021  item_7a  NOT FOUND
-2026-03-09 00:04:55,165  INFO       Skipping Aptiv FY2020 (already saved)
-2026-03-09 00:04:55,165  INFO       Skipping Aptiv FY2019 (already saved)
-2026-03-09 00:04:55,319  INFO     [D] 6/38  Lear Corporation (CIK 59478)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:55,921  INFO       Skipping Lear Corporation FY2023 (already saved)
-2026-03-09 00:04:55,921  INFO       Skipping Lear Corporation FY2022 (already saved)
-2026-03-09 00:04:55,921  INFO       Skipping Lear Corporation FY2021 (already saved)
-2026-03-09 00:04:55,921  INFO       Skipping Lear Corporation FY2020 (already saved)
-2026-03-09 00:04:55,921  INFO       Skipping Lear Corporation FY2019 (already saved)
-2026-03-09 00:04:56,116  INFO     [D] 7/38  Apple (CIK 320193)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:56,311  INFO       Skipping Apple FY2023 (already saved)
-2026-03-09 00:04:56,311  INFO       Skipping Apple FY2022 (already saved)
-2026-03-09 00:04:56,311  INFO       Skipping Apple FY2021 (already saved)
-2026-03-09 00:04:56,312  INFO       Skipping Apple FY2020 (already saved)
-2026-03-09 00:04:56,312  INFO       Skipping Apple FY2019 (already saved)
-2026-03-09 00:04:56,482  INFO     [D] 8/38  HP Inc (CIK 826083)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:57,043  WARNING    No 10-K filings found for HP Inc in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:57,044  INFO     [D] 9/38  Dell Technologies (CIK 217346)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:57,894  INFO       Skipping Dell Technologies FY2023 (already saved)
-2026-03-09 00:04:57,894  INFO       Skipping Dell Technologies FY2022 (already saved)
-2026-03-09 00:04:57,894  INFO       Skipping Dell Technologies FY2021 (already saved)
-2026-03-09 00:04:57,894  INFO       Skipping Dell Technologies FY2020 (already saved)
-2026-03-09 00:04:58,075  INFO     [D] 10/38  Qualcomm (CIK 804328)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:58,284  INFO       Skipping Qualcomm FY2023 (already saved)
-2026-03-09 00:04:58,284  INFO       Skipping Qualcomm FY2022 (already saved)
-2026-03-09 00:04:58,284  INFO       Skipping Qualcomm FY2021 (already saved)
-2026-03-09 00:04:58,284  INFO       Skipping Qualcomm FY2020 (already saved)
-2026-03-09 00:04:58,284  INFO       Skipping Qualcomm FY2019 (already saved)
-2026-03-09 00:04:58,472  INFO     [D] 11/38  Jabil (CIK 1037868)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:58,667  INFO       Skipping Jabil FY2023 (already saved)
-2026-03-09 00:04:58,668  INFO       Skipping Jabil FY2022 (already saved)
-2026-03-09 00:04:58,668  INFO       Skipping Jabil FY2021 (already saved)
-2026-03-09 00:04:58,668  INFO       Skipping Jabil FY2020 (already saved)
-2026-03-09 00:04:58,668  INFO       Skipping Jabil FY2019 (already saved)
-2026-03-09 00:04:58,838  INFO     [D] 12/38  Walmart (CIK 104169)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:59,507  INFO       Skipping Walmart FY2023 (already saved)
-2026-03-09 00:04:59,507  INFO       Skipping Walmart FY2022 (already saved)
-2026-03-09 00:04:59,507  INFO       Skipping Walmart FY2021 (already saved)
-2026-03-09 00:04:59,507  INFO       Skipping Walmart FY2020 (already saved)
-2026-03-09 00:04:59,507  INFO       Skipping Walmart FY2019 (already saved)
-2026-03-09 00:04:59,692  INFO     [D] 13/38  Target (CIK 27419)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:04:59,921  INFO       Skipping Target FY2023 (already saved)
-2026-03-09 00:04:59,921  INFO       Skipping Target FY2022 (already saved)
-2026-03-09 00:04:59,921  INFO       Skipping Target FY2021 (already saved)
-2026-03-09 00:04:59,921  INFO       Skipping Target FY2020 (already saved)
-2026-03-09 00:04:59,921  INFO       Skipping Target FY2019 (already saved)
-2026-03-09 00:05:00,113  INFO     [D] 14/38  Amazon (CIK 1018724)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:00,500  INFO       Skipping Amazon FY2023 (already saved)
-2026-03-09 00:05:00,501  INFO       Skipping Amazon FY2022 (already saved)
-2026-03-09 00:05:00,501  INFO       Skipping Amazon FY2021 (already saved)
-2026-03-09 00:05:00,501  INFO       Skipping Amazon FY2020 (already saved)
-2026-03-09 00:05:00,501  INFO       Skipping Amazon FY2019 (already saved)
-2026-03-09 00:05:00,689  INFO     [D] 15/38  Home Depot (CIK 354950)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:00,915  INFO       Skipping Home Depot FY2023 (already saved)
-2026-03-09 00:05:00,915  INFO       Skipping Home Depot FY2022 (already saved)
-2026-03-09 00:05:00,915  INFO       Skipping Home Depot FY2021 (already saved)
-2026-03-09 00:05:00,915  INFO       Skipping Home Depot FY2020 (already saved)
-2026-03-09 00:05:00,915  INFO       Skipping Home Depot FY2019 (already saved)
-2026-03-09 00:05:01,110  INFO     [D] 16/38  Best Buy (CIK 764478)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:01,503  INFO       Skipping Best Buy FY2023 (already saved)
-2026-03-09 00:05:01,503  INFO       Skipping Best Buy FY2022 (already saved)
-2026-03-09 00:05:01,504  INFO       Skipping Best Buy FY2021 (already saved)
-2026-03-09 00:05:01,504  INFO       Skipping Best Buy FY2020 (already saved)
-2026-03-09 00:05:01,504  INFO       Skipping Best Buy FY2019 (already saved)
-2026-03-09 00:05:01,706  INFO     [D] 17/38  Costco Wholesale (CIK 909832)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:02,089  INFO       Skipping Costco Wholesale FY2023 (already saved)
-2026-03-09 00:05:02,089  INFO       Skipping Costco Wholesale FY2022 (already saved)
-2026-03-09 00:05:02,089  INFO       Skipping Costco Wholesale FY2021 (already saved)
-2026-03-09 00:05:02,089  INFO       Skipping Costco Wholesale FY2020 (already saved)
-2026-03-09 00:05:02,089  INFO       Skipping Costco Wholesale FY2019 (already saved)
-2026-03-09 00:05:02,275  INFO     [D] 18/38  TJX Companies (CIK 109198)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:02,532  INFO       Skipping TJX Companies FY2023 (already saved)
-2026-03-09 00:05:02,532  INFO       Skipping TJX Companies FY2022 (already saved)
-2026-03-09 00:05:02,532  INFO       Skipping TJX Companies FY2021 (already saved)
-2026-03-09 00:05:02,533  INFO       Skipping TJX Companies FY2020 (already saved)
-2026-03-09 00:05:02,533  INFO       Skipping TJX Companies FY2019 (already saved)
-2026-03-09 00:05:02,723  INFO     [D] 19/38  3M (CIK 66740)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:02,939  INFO       Skipping 3M FY2023 (already saved)
-2026-03-09 00:05:02,939  INFO       Skipping 3M FY2022 (already saved)
-2026-03-09 00:05:02,939  INFO       Skipping 3M FY2021 (already saved)
-2026-03-09 00:05:02,939  INFO       Skipping 3M FY2020 (already saved)
-2026-03-09 00:05:02,939  INFO       Skipping 3M FY2019 (already saved)
-2026-03-09 00:05:03,142  INFO     [D] 20/38  Honeywell (CIK 773840)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:03,897  WARNING    Honeywell FY2023  item_1a  NOT FOUND
-2026-03-09 00:05:03,900  WARNING    Honeywell FY2023  item_7  NOT FOUND
-2026-03-09 00:05:03,903  WARNING    Honeywell FY2023  item_7a  NOT FOUND
-2026-03-09 00:05:04,268  WARNING    Honeywell FY2022  item_1a  NOT FOUND
-2026-03-09 00:05:04,271  WARNING    Honeywell FY2022  item_7  NOT FOUND
-2026-03-09 00:05:04,274  WARNING    Honeywell FY2022  item_7a  NOT FOUND
-2026-03-09 00:05:04,601  WARNING    Honeywell FY2021  item_1a  NOT FOUND
-2026-03-09 00:05:04,604  WARNING    Honeywell FY2021  item_7  NOT FOUND
-2026-03-09 00:05:04,607  WARNING    Honeywell FY2021  item_7a  NOT FOUND
-2026-03-09 00:05:04,920  WARNING    Honeywell FY2020  item_1a  NOT FOUND
-2026-03-09 00:05:04,923  WARNING    Honeywell FY2020  item_7  NOT FOUND
-2026-03-09 00:05:04,925  WARNING    Honeywell FY2020  item_7a  NOT FOUND
-2026-03-09 00:05:04,926  INFO       Skipping Honeywell FY2019 (already saved)
-2026-03-09 00:05:05,062  INFO     [D] 21/38  Parker Hannifin (CIK 76334)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:05,253  INFO       Skipping Parker Hannifin FY2023 (already saved)
-2026-03-09 00:05:05,253  INFO       Skipping Parker Hannifin FY2022 (already saved)
-2026-03-09 00:05:05,253  INFO       Skipping Parker Hannifin FY2021 (already saved)
-2026-03-09 00:05:05,253  INFO       Skipping Parker Hannifin FY2020 (already saved)
-2026-03-09 00:05:05,254  INFO       Skipping Parker Hannifin FY2019 (already saved)
-2026-03-09 00:05:05,428  INFO     [D] 22/38  Illinois Tool Works (CIK 49826)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:05,714  INFO       Skipping Illinois Tool Works FY2023 (already saved)
-2026-03-09 00:05:05,714  INFO       Skipping Illinois Tool Works FY2022 (already saved)
-2026-03-09 00:05:05,715  INFO       Skipping Illinois Tool Works FY2021 (already saved)
-2026-03-09 00:05:05,715  INFO       Skipping Illinois Tool Works FY2020 (already saved)
-2026-03-09 00:05:05,715  INFO       Skipping Illinois Tool Works FY2019 (already saved)
-2026-03-09 00:05:05,912  INFO     [D] 23/38  Flex Ltd (CIK 1439891)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:06,178  WARNING    No 10-K filings found for Flex Ltd in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:06,178  INFO     [D] 24/38  Boeing (CIK 12927)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:06,902  INFO       Skipping Boeing FY2023 (already saved)
-2026-03-09 00:05:06,903  INFO       Skipping Boeing FY2022 (already saved)
-2026-03-09 00:05:06,903  INFO       Skipping Boeing FY2021 (already saved)
-2026-03-09 00:05:06,903  INFO       Skipping Boeing FY2020 (already saved)
-2026-03-09 00:05:06,903  INFO       Skipping Boeing FY2019 (already saved)
-2026-03-09 00:05:07,094  INFO     [D] 25/38  Caterpillar (CIK 18230)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:07,334  INFO       Skipping Caterpillar FY2023 (already saved)
-2026-03-09 00:05:07,334  INFO       Skipping Caterpillar FY2022 (already saved)
-2026-03-09 00:05:07,334  INFO       Skipping Caterpillar FY2021 (already saved)
-2026-03-09 00:05:07,334  INFO       Skipping Caterpillar FY2020 (already saved)
-2026-03-09 00:05:07,334  INFO       Skipping Caterpillar FY2019 (already saved)
-2026-03-09 00:05:07,526  INFO     [D] 26/38  Deere and Company (CIK 315189)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:07,782  INFO       Skipping Deere and Company FY2023 (already saved)
-2026-03-09 00:05:07,783  INFO       Skipping Deere and Company FY2022 (already saved)
-2026-03-09 00:05:07,783  INFO       Skipping Deere and Company FY2021 (already saved)
-2026-03-09 00:05:07,783  INFO       Skipping Deere and Company FY2020 (already saved)
-2026-03-09 00:05:07,783  INFO       Skipping Deere and Company FY2019 (already saved)
-2026-03-09 00:05:07,979  INFO     [D] 27/38  Emerson Electric (CIK 32604)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:08,160  INFO       Skipping Emerson Electric FY2023 (already saved)
-2026-03-09 00:05:08,160  INFO       Skipping Emerson Electric FY2022 (already saved)
-2026-03-09 00:05:08,161  INFO       Skipping Emerson Electric FY2021 (already saved)
-2026-03-09 00:05:08,161  INFO       Skipping Emerson Electric FY2020 (already saved)
-2026-03-09 00:05:08,161  INFO       Skipping Emerson Electric FY2019 (already saved)
-2026-03-09 00:05:08,340  INFO     [D] 28/38  Cummins (CIK 26172)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:08,743  INFO       Skipping Cummins FY2023 (already saved)
-2026-03-09 00:05:08,744  INFO       Skipping Cummins FY2022 (already saved)
-2026-03-09 00:05:08,744  INFO       Skipping Cummins FY2021 (already saved)
-2026-03-09 00:05:08,744  INFO       Skipping Cummins FY2020 (already saved)
-2026-03-09 00:05:08,744  INFO       Skipping Cummins FY2019 (already saved)
-2026-03-09 00:05:08,918  INFO     [D] 29/38  Danaher Corporation (CIK 313616)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:09,143  INFO       Skipping Danaher Corporation FY2023 (already saved)
-2026-03-09 00:05:09,144  INFO       Skipping Danaher Corporation FY2022 (already saved)
-2026-03-09 00:05:09,144  INFO       Skipping Danaher Corporation FY2021 (already saved)
-2026-03-09 00:05:09,144  INFO       Skipping Danaher Corporation FY2020 (already saved)
-2026-03-09 00:05:09,144  INFO       Skipping Danaher Corporation FY2019 (already saved)
-2026-03-09 00:05:09,332  INFO     [D] 30/38  Eaton Corporation (CIK 31462)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:09,918  INFO       Skipping Eaton Corporation FY2023 (already saved)
-2026-03-09 00:05:09,918  INFO       Skipping Eaton Corporation FY2022 (already saved)
-2026-03-09 00:05:09,918  INFO       Skipping Eaton Corporation FY2021 (already saved)
-2026-03-09 00:05:09,918  INFO       Skipping Eaton Corporation FY2020 (already saved)
-2026-03-09 00:05:09,918  INFO       Skipping Eaton Corporation FY2019 (already saved)
-2026-03-09 00:05:10,105  INFO     [D] 31/38  Lockheed Martin (CIK 936468)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:10,485  INFO       Skipping Lockheed Martin FY2023 (already saved)
-2026-03-09 00:05:10,485  INFO       Skipping Lockheed Martin FY2022 (already saved)
-2026-03-09 00:05:10,486  INFO       Skipping Lockheed Martin FY2021 (already saved)
-2026-03-09 00:05:10,486  INFO       Skipping Lockheed Martin FY2020 (already saved)
-2026-03-09 00:05:10,486  INFO       Skipping Lockheed Martin FY2019 (already saved)
-2026-03-09 00:05:10,670  INFO     [D] 32/38  FedEx (CIK 230568)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:10,851  ERROR      Cannot get submissions for FedEx: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000230568.json
-2026-03-09 00:05:10,852  INFO     [D] 33/38  UPS (CIK 1090727)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:11,304  INFO       Skipping UPS FY2023 (already saved)
-2026-03-09 00:05:11,304  INFO       Skipping UPS FY2022 (already saved)
-2026-03-09 00:05:11,304  INFO       Skipping UPS FY2021 (already saved)
-2026-03-09 00:05:11,304  INFO       Skipping UPS FY2020 (already saved)
-2026-03-09 00:05:11,304  INFO       Skipping UPS FY2019 (already saved)
-2026-03-09 00:05:11,496  INFO     [D] 34/38  Expeditors International (CIK 1054374)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:12,126  WARNING    No 10-K filings found for Expeditors International in [2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:12,126  INFO     [D] 35/38  CH Robinson Worldwide (CIK 1043277)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:12,474  INFO       Skipping CH Robinson Worldwide FY2023 (already saved)
-2026-03-09 00:05:12,475  INFO       Skipping CH Robinson Worldwide FY2022 (already saved)
-2026-03-09 00:05:12,475  INFO       Skipping CH Robinson Worldwide FY2021 (already saved)
-2026-03-09 00:05:12,475  INFO       Skipping CH Robinson Worldwide FY2020 (already saved)
-2026-03-09 00:05:12,475  INFO       Skipping CH Robinson Worldwide FY2019 (already saved)
-2026-03-09 00:05:12,655  INFO     [D] 36/38  Ryder System (CIK 813672)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:13,297  INFO       Skipping Ryder System FY2023 (already saved)
-2026-03-09 00:05:13,297  INFO       Skipping Ryder System FY2022 (already saved)
-2026-03-09 00:05:13,643  WARNING    Ryder System FY2021  item_1a  NOT FOUND
-2026-03-09 00:05:13,644  WARNING    Ryder System FY2021  item_7  NOT FOUND
-2026-03-09 00:05:13,645  WARNING    Ryder System FY2021  item_7a  NOT FOUND
-2026-03-09 00:05:13,645  INFO       Skipping Ryder System FY2019 (already saved)
-2026-03-09 00:05:13,796  INFO     [D] 37/38  JB Hunt Transport (CIK 728535)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:14,017  INFO       Skipping JB Hunt Transport FY2023 (already saved)
-2026-03-09 00:05:14,017  INFO       Skipping JB Hunt Transport FY2022 (already saved)
-2026-03-09 00:05:14,017  INFO       Skipping JB Hunt Transport FY2021 (already saved)
-2026-03-09 00:05:14,018  INFO       Skipping JB Hunt Transport FY2020 (already saved)
-2026-03-09 00:05:14,018  INFO       Skipping JB Hunt Transport FY2019 (already saved)
-2026-03-09 00:05:14,196  INFO     [D] 38/38  Werner Enterprises (CIK 793074)  years=[2019, 2020, 2021, 2022, 2023]
-2026-03-09 00:05:14,393  INFO       Skipping Werner Enterprises FY2023 (already saved)
-2026-03-09 00:05:14,393  INFO       Skipping Werner Enterprises FY2022 (already saved)
-2026-03-09 00:05:14,393  INFO       Skipping Werner Enterprises FY2021 (already saved)
-2026-03-09 00:05:14,393  INFO       Skipping Werner Enterprises FY2020 (already saved)
-2026-03-09 00:05:14,393  INFO       Skipping Werner Enterprises FY2019 (already saved)
-2026-03-09 00:05:14,729  INFO     Scenario D complete: 493 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_d/corpus.csv
-2026-03-09 00:05:14,730  INFO     All done. Output files:
-2026-03-09 00:05:14,801  INFO       scenario_a/corpus.csv  365 rows
-2026-03-09 00:05:14,903  INFO       scenario_b/corpus.csv  447 rows
-2026-03-09 00:05:15,009  INFO       scenario_c/corpus.csv  347 rows
-2026-03-09 00:05:15,099  INFO       scenario_d/corpus.csv  493 rows
+2026-03-09 00:22:54,859  INFO     ============================================================
+2026-03-09 00:22:54,859  INFO     Starting Scenario A  (32 firms)
+2026-03-09 00:22:54,859  INFO     ============================================================
+2026-03-09 00:22:54,935  INFO     Resuming Scenario A: 365 rows already saved
+2026-03-09 00:22:54,935  INFO     [A] 1/32  ExxonMobil (CIK 34088)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:56,193  INFO       Skipping ExxonMobil FY2023 (already saved)
+2026-03-09 00:22:56,193  INFO       Skipping ExxonMobil FY2022 (already saved)
+2026-03-09 00:22:56,193  INFO       Skipping ExxonMobil FY2021 (already saved)
+2026-03-09 00:22:56,193  INFO       Skipping ExxonMobil FY2020 (already saved)
+2026-03-09 00:22:56,193  INFO       Skipping ExxonMobil FY2019 (already saved)
+2026-03-09 00:22:56,348  INFO     [A] 2/32  Chevron (CIK 93410)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:56,688  INFO       Skipping Chevron FY2023 (already saved)
+2026-03-09 00:22:56,689  INFO       Skipping Chevron FY2022 (already saved)
+2026-03-09 00:22:56,689  INFO       Skipping Chevron FY2021 (already saved)
+2026-03-09 00:22:56,689  INFO       Skipping Chevron FY2020 (already saved)
+2026-03-09 00:22:56,689  INFO       Skipping Chevron FY2019 (already saved)
+2026-03-09 00:22:56,842  INFO     [A] 3/32  ConocoPhillips (CIK 1163165)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:57,048  INFO       Skipping ConocoPhillips FY2023 (already saved)
+2026-03-09 00:22:57,048  INFO       Skipping ConocoPhillips FY2022 (already saved)
+2026-03-09 00:22:57,048  INFO       Skipping ConocoPhillips FY2021 (already saved)
+2026-03-09 00:22:57,048  INFO       Skipping ConocoPhillips FY2020 (already saved)
+2026-03-09 00:22:57,048  INFO       Skipping ConocoPhillips FY2019 (already saved)
+2026-03-09 00:22:57,204  INFO     [A] 4/32  Pioneer Natural Resources (CIK 1038357)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:58,022  WARNING    Pioneer Natural Resources FY2023  item_1a  NOT FOUND
+2026-03-09 00:22:58,023  WARNING    Pioneer Natural Resources FY2023  item_7  NOT FOUND
+2026-03-09 00:22:58,024  WARNING    Pioneer Natural Resources FY2023  item_7a  NOT FOUND
+2026-03-09 00:22:58,024  INFO       Skipping Pioneer Natural Resources FY2022 (already saved)
+2026-03-09 00:22:58,024  INFO       Skipping Pioneer Natural Resources FY2021 (already saved)
+2026-03-09 00:22:58,024  INFO       Skipping Pioneer Natural Resources FY2020 (already saved)
+2026-03-09 00:22:58,024  INFO       Skipping Pioneer Natural Resources FY2019 (already saved)
+2026-03-09 00:22:58,149  INFO     [A] 5/32  EOG Resources (CIK 821189)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:58,334  INFO       Skipping EOG Resources FY2023 (already saved)
+2026-03-09 00:22:58,335  INFO       Skipping EOG Resources FY2022 (already saved)
+2026-03-09 00:22:58,335  INFO       Skipping EOG Resources FY2021 (already saved)
+2026-03-09 00:22:58,335  INFO       Skipping EOG Resources FY2020 (already saved)
+2026-03-09 00:22:58,335  INFO       Skipping EOG Resources FY2019 (already saved)
+2026-03-09 00:22:58,487  INFO     [A] 6/32  Devon Energy (CIK 1090012)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:58,739  INFO       Skipping Devon Energy FY2023 (already saved)
+2026-03-09 00:22:58,739  INFO       Skipping Devon Energy FY2022 (already saved)
+2026-03-09 00:22:58,739  INFO       Skipping Devon Energy FY2021 (already saved)
+2026-03-09 00:22:58,739  INFO       Skipping Devon Energy FY2020 (already saved)
+2026-03-09 00:22:58,739  INFO       Skipping Devon Energy FY2019 (already saved)
+2026-03-09 00:22:58,894  INFO     [A] 7/32  Hess Corporation (CIK 4447)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:59,123  INFO       Skipping Hess Corporation FY2023 (already saved)
+2026-03-09 00:22:59,123  INFO       Skipping Hess Corporation FY2022 (already saved)
+2026-03-09 00:22:59,124  INFO       Skipping Hess Corporation FY2021 (already saved)
+2026-03-09 00:22:59,124  INFO       Skipping Hess Corporation FY2020 (already saved)
+2026-03-09 00:22:59,124  INFO       Skipping Hess Corporation FY2019 (already saved)
+2026-03-09 00:22:59,279  INFO     [A] 8/32  Occidental Petroleum (CIK 797468)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:22:59,762  INFO       Skipping Occidental Petroleum FY2023 (already saved)
+2026-03-09 00:23:00,255  WARNING    Occidental Petroleum FY2022  item_1a  NOT FOUND
+2026-03-09 00:23:00,256  WARNING    Occidental Petroleum FY2022  item_7  NOT FOUND
+2026-03-09 00:23:00,258  WARNING    Occidental Petroleum FY2022  item_7a  NOT FOUND
+2026-03-09 00:23:00,258  INFO       Skipping Occidental Petroleum FY2021 (already saved)
+2026-03-09 00:23:00,258  INFO       Skipping Occidental Petroleum FY2020 (already saved)
+2026-03-09 00:23:00,258  INFO       Skipping Occidental Petroleum FY2019 (already saved)
+2026-03-09 00:23:00,385  INFO     [A] 9/32  Marathon Oil (CIK 101778)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:00,787  INFO       Skipping Marathon Oil FY2023 (already saved)
+2026-03-09 00:23:00,788  INFO       Skipping Marathon Oil FY2022 (already saved)
+2026-03-09 00:23:00,788  INFO       Skipping Marathon Oil FY2021 (already saved)
+2026-03-09 00:23:00,788  INFO       Skipping Marathon Oil FY2020 (already saved)
+2026-03-09 00:23:00,788  INFO       Skipping Marathon Oil FY2019 (already saved)
+2026-03-09 00:23:00,941  INFO     [A] 10/32  Kinder Morgan (CIK 1110805)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:01,289  INFO       Skipping Kinder Morgan FY2023 (already saved)
+2026-03-09 00:23:01,290  INFO       Skipping Kinder Morgan FY2022 (already saved)
+2026-03-09 00:23:01,290  INFO       Skipping Kinder Morgan FY2021 (already saved)
+2026-03-09 00:23:01,290  INFO       Skipping Kinder Morgan FY2020 (already saved)
+2026-03-09 00:23:01,290  INFO       Skipping Kinder Morgan FY2019 (already saved)
+2026-03-09 00:23:01,444  INFO     [A] 11/32  Williams Companies (CIK 107263)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:01,685  INFO       Skipping Williams Companies FY2023 (already saved)
+2026-03-09 00:23:01,685  INFO       Skipping Williams Companies FY2022 (already saved)
+2026-03-09 00:23:01,685  INFO       Skipping Williams Companies FY2021 (already saved)
+2026-03-09 00:23:01,685  INFO       Skipping Williams Companies FY2020 (already saved)
+2026-03-09 00:23:01,685  INFO       Skipping Williams Companies FY2019 (already saved)
+2026-03-09 00:23:01,841  INFO     [A] 12/32  Valero Energy (CIK 1094285)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:02,416  INFO       Skipping Valero Energy FY2023 (already saved)
+2026-03-09 00:23:02,417  INFO       Skipping Valero Energy FY2022 (already saved)
+2026-03-09 00:23:02,417  INFO       Skipping Valero Energy FY2021 (already saved)
+2026-03-09 00:23:02,417  INFO       Skipping Valero Energy FY2019 (already saved)
+2026-03-09 00:23:02,568  INFO     [A] 13/32  NextEra Energy (CIK 753308)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:02,949  INFO       Skipping NextEra Energy FY2023 (already saved)
+2026-03-09 00:23:02,949  INFO       Skipping NextEra Energy FY2022 (already saved)
+2026-03-09 00:23:02,949  INFO       Skipping NextEra Energy FY2021 (already saved)
+2026-03-09 00:23:02,949  INFO       Skipping NextEra Energy FY2020 (already saved)
+2026-03-09 00:23:02,949  INFO       Skipping NextEra Energy FY2019 (already saved)
+2026-03-09 00:23:03,102  INFO     [A] 14/32  Duke Energy (CIK 1326160)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:03,294  INFO       Skipping Duke Energy FY2023 (already saved)
+2026-03-09 00:23:03,294  INFO       Skipping Duke Energy FY2022 (already saved)
+2026-03-09 00:23:03,294  INFO       Skipping Duke Energy FY2021 (already saved)
+2026-03-09 00:23:03,294  INFO       Skipping Duke Energy FY2020 (already saved)
+2026-03-09 00:23:03,294  INFO       Skipping Duke Energy FY2019 (already saved)
+2026-03-09 00:23:03,454  INFO     [A] 15/32  Southern Company (CIK 92122)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:04,268  INFO       Skipping Southern Company FY2023 (already saved)
+2026-03-09 00:23:04,269  INFO       Skipping Southern Company FY2022 (already saved)
+2026-03-09 00:23:04,269  INFO       Skipping Southern Company FY2021 (already saved)
+2026-03-09 00:23:04,269  INFO       Skipping Southern Company FY2020 (already saved)
+2026-03-09 00:23:04,269  INFO       Skipping Southern Company FY2019 (already saved)
+2026-03-09 00:23:04,420  INFO     [A] 16/32  Dominion Energy (CIK 715957)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:04,832  INFO       Skipping Dominion Energy FY2023 (already saved)
+2026-03-09 00:23:04,832  INFO       Skipping Dominion Energy FY2022 (already saved)
+2026-03-09 00:23:04,832  INFO       Skipping Dominion Energy FY2021 (already saved)
+2026-03-09 00:23:04,832  INFO       Skipping Dominion Energy FY2020 (already saved)
+2026-03-09 00:23:04,832  INFO       Skipping Dominion Energy FY2019 (already saved)
+2026-03-09 00:23:04,987  INFO     [A] 17/32  Exelon (CIK 8192)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:05,249  INFO       Skipping Exelon FY2023 (already saved)
+2026-03-09 00:23:05,249  INFO       Skipping Exelon FY2022 (already saved)
+2026-03-09 00:23:05,250  INFO       Skipping Exelon FY2021 (already saved)
+2026-03-09 00:23:05,250  INFO       Skipping Exelon FY2020 (already saved)
+2026-03-09 00:23:05,250  INFO       Skipping Exelon FY2019 (already saved)
+2026-03-09 00:23:05,409  INFO     [A] 18/32  American Electric Power (CIK 4904)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:05,704  INFO       Skipping American Electric Power FY2023 (already saved)
+2026-03-09 00:23:05,704  INFO       Skipping American Electric Power FY2022 (already saved)
+2026-03-09 00:23:05,704  INFO       Skipping American Electric Power FY2021 (already saved)
+2026-03-09 00:23:05,704  INFO       Skipping American Electric Power FY2020 (already saved)
+2026-03-09 00:23:05,704  INFO       Skipping American Electric Power FY2019 (already saved)
+2026-03-09 00:23:05,858  INFO     [A] 19/32  Consolidated Edison (CIK 23632)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:06,894  WARNING    Consolidated Edison FY2023  item_1a  NOT FOUND
+2026-03-09 00:23:06,899  WARNING    Consolidated Edison FY2023  item_7  NOT FOUND
+2026-03-09 00:23:06,903  WARNING    Consolidated Edison FY2023  item_7a  NOT FOUND
+2026-03-09 00:23:07,494  WARNING    Consolidated Edison FY2022  item_1a  NOT FOUND
+2026-03-09 00:23:07,499  WARNING    Consolidated Edison FY2022  item_7  NOT FOUND
+2026-03-09 00:23:07,504  WARNING    Consolidated Edison FY2022  item_7a  NOT FOUND
+2026-03-09 00:23:08,063  WARNING    Consolidated Edison FY2021  item_1a  NOT FOUND
+2026-03-09 00:23:08,068  WARNING    Consolidated Edison FY2021  item_7  NOT FOUND
+2026-03-09 00:23:08,072  WARNING    Consolidated Edison FY2021  item_7a  NOT FOUND
+2026-03-09 00:23:08,631  WARNING    Consolidated Edison FY2020  item_1a  NOT FOUND
+2026-03-09 00:23:08,636  WARNING    Consolidated Edison FY2020  item_7  NOT FOUND
+2026-03-09 00:23:08,641  WARNING    Consolidated Edison FY2020  item_7a  NOT FOUND
+2026-03-09 00:23:09,374  WARNING    Consolidated Edison FY2019  item_1a  NOT FOUND
+2026-03-09 00:23:09,379  WARNING    Consolidated Edison FY2019  item_7  NOT FOUND
+2026-03-09 00:23:09,383  WARNING    Consolidated Edison FY2019  item_7a  NOT FOUND
+2026-03-09 00:23:09,509  INFO     [A] 20/32  Sempra Energy (CIK 1032208)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:11,191  INFO       Sempra Energy FY2023  item_1a  32086 words
+2026-03-09 00:23:11,191  INFO       Sempra Energy FY2023  item_7  27 words
+2026-03-09 00:23:11,199  INFO       Sempra Energy FY2023  item_7a  38470 words
+2026-03-09 00:23:12,192  INFO       Sempra Energy FY2022  item_1a  33104 words
+2026-03-09 00:23:12,192  INFO       Sempra Energy FY2022  item_7  25 words
+2026-03-09 00:23:12,200  INFO       Sempra Energy FY2022  item_7a  34836 words
+2026-03-09 00:23:13,237  INFO       Sempra Energy FY2021  item_1a  33801 words
+2026-03-09 00:23:13,237  INFO       Sempra Energy FY2021  item_7  25 words
+2026-03-09 00:23:13,246  INFO       Sempra Energy FY2021  item_7a  41469 words
+2026-03-09 00:23:14,227  INFO       Sempra Energy FY2020  item_1a  35698 words
+2026-03-09 00:23:14,227  INFO       Sempra Energy FY2020  item_7  27 words
+2026-03-09 00:23:14,234  INFO       Sempra Energy FY2020  item_7a  30751 words
+2026-03-09 00:23:15,665  INFO       Sempra Energy FY2019  item_1a  30006 words
+2026-03-09 00:23:15,665  INFO       Sempra Energy FY2019  item_7  27 words
+2026-03-09 00:23:15,674  INFO       Sempra Energy FY2019  item_7a  43653 words
+2026-03-09 00:23:15,820  INFO     [A] 21/32  Entergy (CIK 65011)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:16,862  INFO       Skipping Entergy FY2021 (already saved)
+2026-03-09 00:23:16,863  INFO       Skipping Entergy FY2020 (already saved)
+2026-03-09 00:23:16,863  INFO       Skipping Entergy FY2019 (already saved)
+2026-03-09 00:23:17,030  INFO     [A] 22/32  Xcel Energy (CIK 72903)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:17,961  WARNING    Xcel Energy FY2023  item_1a  NOT FOUND
+2026-03-09 00:23:17,965  WARNING    Xcel Energy FY2023  item_7  NOT FOUND
+2026-03-09 00:23:17,968  WARNING    Xcel Energy FY2023  item_7a  NOT FOUND
+2026-03-09 00:23:18,482  WARNING    Xcel Energy FY2022  item_1a  NOT FOUND
+2026-03-09 00:23:18,485  WARNING    Xcel Energy FY2022  item_7  NOT FOUND
+2026-03-09 00:23:18,488  WARNING    Xcel Energy FY2022  item_7a  NOT FOUND
+2026-03-09 00:23:19,025  WARNING    Xcel Energy FY2021  item_1a  NOT FOUND
+2026-03-09 00:23:19,028  WARNING    Xcel Energy FY2021  item_7  NOT FOUND
+2026-03-09 00:23:19,031  WARNING    Xcel Energy FY2021  item_7a  NOT FOUND
+2026-03-09 00:23:19,565  WARNING    Xcel Energy FY2020  item_1a  NOT FOUND
+2026-03-09 00:23:19,569  WARNING    Xcel Energy FY2020  item_7  NOT FOUND
+2026-03-09 00:23:19,572  WARNING    Xcel Energy FY2020  item_7a  NOT FOUND
+2026-03-09 00:23:20,527  WARNING    Xcel Energy FY2019  item_1a  NOT FOUND
+2026-03-09 00:23:20,531  WARNING    Xcel Energy FY2019  item_7  NOT FOUND
+2026-03-09 00:23:20,534  WARNING    Xcel Energy FY2019  item_7a  NOT FOUND
+2026-03-09 00:23:20,676  INFO     [A] 23/32  PPL Corporation (CIK 922224)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:20,900  INFO       Skipping PPL Corporation FY2023 (already saved)
+2026-03-09 00:23:20,901  INFO       Skipping PPL Corporation FY2022 (already saved)
+2026-03-09 00:23:20,901  INFO       Skipping PPL Corporation FY2021 (already saved)
+2026-03-09 00:23:20,901  INFO       Skipping PPL Corporation FY2020 (already saved)
+2026-03-09 00:23:20,901  INFO       Skipping PPL Corporation FY2019 (already saved)
+2026-03-09 00:23:21,068  INFO     [A] 24/32  Ameren (CIK 1002910)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:21,331  INFO       Skipping Ameren FY2023 (already saved)
+2026-03-09 00:23:21,331  INFO       Skipping Ameren FY2022 (already saved)
+2026-03-09 00:23:21,331  INFO       Skipping Ameren FY2021 (already saved)
+2026-03-09 00:23:21,331  INFO       Skipping Ameren FY2020 (already saved)
+2026-03-09 00:23:21,331  INFO       Skipping Ameren FY2019 (already saved)
+2026-03-09 00:23:21,504  INFO     [A] 25/32  First Solar (CIK 1274494)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:21,780  INFO       Skipping First Solar FY2023 (already saved)
+2026-03-09 00:23:21,780  INFO       Skipping First Solar FY2022 (already saved)
+2026-03-09 00:23:21,780  INFO       Skipping First Solar FY2021 (already saved)
+2026-03-09 00:23:21,780  INFO       Skipping First Solar FY2020 (already saved)
+2026-03-09 00:23:21,780  INFO       Skipping First Solar FY2019 (already saved)
+2026-03-09 00:23:21,951  INFO     [A] 26/32  Sunrun (CIK 1409375)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:22,173  INFO       Skipping Sunrun FY2023 (already saved)
+2026-03-09 00:23:22,174  INFO       Skipping Sunrun FY2022 (already saved)
+2026-03-09 00:23:22,174  INFO       Skipping Sunrun FY2021 (already saved)
+2026-03-09 00:23:22,174  INFO       Skipping Sunrun FY2020 (already saved)
+2026-03-09 00:23:22,174  INFO       Skipping Sunrun FY2019 (already saved)
+2026-03-09 00:23:22,343  INFO     [A] 27/32  Enphase Energy (CIK 1463101)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:22,712  INFO       Skipping Enphase Energy FY2023 (already saved)
+2026-03-09 00:23:22,712  INFO       Skipping Enphase Energy FY2022 (already saved)
+2026-03-09 00:23:22,712  INFO       Skipping Enphase Energy FY2021 (already saved)
+2026-03-09 00:23:22,712  INFO       Skipping Enphase Energy FY2020 (already saved)
+2026-03-09 00:23:22,712  INFO       Skipping Enphase Energy FY2019 (already saved)
+2026-03-09 00:23:22,879  INFO     [A] 28/32  SunPower (CIK 867773)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:23,725  INFO       Skipping SunPower FY2023 (already saved)
+2026-03-09 00:23:23,725  INFO       Skipping SunPower FY2022 (already saved)
+2026-03-09 00:23:23,725  INFO       Skipping SunPower FY2021 (already saved)
+2026-03-09 00:23:23,725  INFO       Skipping SunPower FY2019 (already saved)
+2026-03-09 00:23:23,893  INFO     [A] 29/32  Plug Power (CIK 1093691)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:24,235  INFO       Skipping Plug Power FY2023 (already saved)
+2026-03-09 00:23:24,540  WARNING    Plug Power FY2022  item_1a  NOT FOUND
+2026-03-09 00:23:24,541  WARNING    Plug Power FY2022  item_7  NOT FOUND
+2026-03-09 00:23:24,542  WARNING    Plug Power FY2022  item_7a  NOT FOUND
+2026-03-09 00:23:24,542  INFO       Skipping Plug Power FY2020 (already saved)
+2026-03-09 00:23:24,542  INFO       Skipping Plug Power FY2021 (already saved)
+2026-03-09 00:23:24,542  INFO       Skipping Plug Power FY2019 (already saved)
+2026-03-09 00:23:24,683  INFO     [A] 30/32  Clearway Energy (CIK 1567683)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:25,576  WARNING    Clearway Energy FY2023  item_1a  NOT FOUND
+2026-03-09 00:23:25,580  WARNING    Clearway Energy FY2023  item_7  NOT FOUND
+2026-03-09 00:23:25,583  WARNING    Clearway Energy FY2023  item_7a  NOT FOUND
+2026-03-09 00:23:26,014  WARNING    Clearway Energy FY2022  item_1a  NOT FOUND
+2026-03-09 00:23:26,018  WARNING    Clearway Energy FY2022  item_7  NOT FOUND
+2026-03-09 00:23:26,021  WARNING    Clearway Energy FY2022  item_7a  NOT FOUND
+2026-03-09 00:23:26,620  WARNING    Clearway Energy FY2021  item_1a  NOT FOUND
+2026-03-09 00:23:26,624  WARNING    Clearway Energy FY2021  item_7  NOT FOUND
+2026-03-09 00:23:26,628  WARNING    Clearway Energy FY2021  item_7a  NOT FOUND
+2026-03-09 00:23:27,090  INFO       Clearway Energy FY2020  item_1a  44965 words
+2026-03-09 00:23:27,094  WARNING    Clearway Energy FY2020  item_7  NOT FOUND
+2026-03-09 00:23:27,098  WARNING    Clearway Energy FY2020  item_7a  NOT FOUND
+2026-03-09 00:23:27,549  WARNING    Clearway Energy FY2019  item_1a  NOT FOUND
+2026-03-09 00:23:27,550  WARNING    Clearway Energy FY2019  item_7  NOT FOUND
+2026-03-09 00:23:27,550  WARNING    Clearway Energy FY2019  item_7a  NOT FOUND
+2026-03-09 00:23:27,713  INFO     [A] 31/32  Bloom Energy (CIK 1664703)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:28,474  WARNING    Bloom Energy FY2023  item_1a  NOT FOUND
+2026-03-09 00:23:28,479  WARNING    Bloom Energy FY2023  item_7  NOT FOUND
+2026-03-09 00:23:28,483  WARNING    Bloom Energy FY2023  item_7a  NOT FOUND
+2026-03-09 00:23:28,894  INFO       Bloom Energy FY2022  item_1a  23435 words
+2026-03-09 00:23:28,899  INFO       Bloom Energy FY2022  item_7  14209 words
+2026-03-09 00:23:28,902  INFO       Bloom Energy FY2022  item_7a  767 words
+2026-03-09 00:23:29,308  INFO       Bloom Energy FY2021  item_1a  20528 words
+2026-03-09 00:23:29,312  INFO       Bloom Energy FY2021  item_7  13549 words
+2026-03-09 00:23:29,314  INFO       Bloom Energy FY2021  item_7a  802 words
+2026-03-09 00:23:29,754  INFO       Bloom Energy FY2020  item_1a  22376 words
+2026-03-09 00:23:29,759  INFO       Bloom Energy FY2020  item_7  15632 words
+2026-03-09 00:23:29,761  INFO       Bloom Energy FY2020  item_7a  962 words
+2026-03-09 00:23:30,628  INFO       Bloom Energy FY2019  item_1a  8033 words
+2026-03-09 00:23:30,630  INFO       Bloom Energy FY2019  item_7  376 words
+2026-03-09 00:23:30,633  INFO       Bloom Energy FY2019  item_7a  929 words
+2026-03-09 00:23:30,782  INFO     [A] 32/32  Sunnova Energy (CIK 1772695)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:23:31,633  INFO       Sunnova Energy FY2023  item_1a  36164 words
+2026-03-09 00:23:31,639  INFO       Sunnova Energy FY2023  item_7  19400 words
+2026-03-09 00:23:31,643  INFO       Sunnova Energy FY2023  item_7a  184 words
+2026-03-09 00:23:32,099  INFO       Sunnova Energy FY2022  item_1a  37390 words
+2026-03-09 00:23:32,105  INFO       Sunnova Energy FY2022  item_7  17711 words
+2026-03-09 00:23:32,108  INFO       Sunnova Energy FY2022  item_7a  188 words
+2026-03-09 00:23:32,531  INFO       Sunnova Energy FY2021  item_1a  35003 words
+2026-03-09 00:23:32,537  INFO       Sunnova Energy FY2021  item_7  17804 words
+2026-03-09 00:23:32,540  INFO       Sunnova Energy FY2021  item_7a  184 words
+2026-03-09 00:23:32,980  INFO       Sunnova Energy FY2020  item_1a  45785 words
+2026-03-09 00:23:32,986  INFO       Sunnova Energy FY2020  item_7  19029 words
+2026-03-09 00:23:32,989  INFO       Sunnova Energy FY2020  item_7a  183 words
+2026-03-09 00:23:33,242  WARNING    Sunnova Energy FY2019  item_1a  NOT FOUND
+2026-03-09 00:23:33,243  WARNING    Sunnova Energy FY2019  item_7  NOT FOUND
+2026-03-09 00:23:33,245  WARNING    Sunnova Energy FY2019  item_7a  NOT FOUND
+2026-03-09 00:23:33,566  INFO     Scenario A complete: 405 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_a/corpus.csv
+2026-03-09 00:23:33,568  INFO     ============================================================
+2026-03-09 00:23:33,568  INFO     Starting Scenario B  (40 firms)
+2026-03-09 00:23:33,568  INFO     ============================================================
+2026-03-09 00:23:33,679  INFO     Resuming Scenario B: 447 rows already saved
+2026-03-09 00:23:33,679  INFO     [B] 1/40  Chesapeake Energy (CIK 895126)  years=[2017, 2018, 2019]
+2026-03-09 00:23:34,502  WARNING    Chesapeake Energy FY2019  item_1a  NOT FOUND
+2026-03-09 00:23:34,504  WARNING    Chesapeake Energy FY2019  item_7  NOT FOUND
+2026-03-09 00:23:34,505  WARNING    Chesapeake Energy FY2019  item_7a  NOT FOUND
+2026-03-09 00:23:34,505  INFO       Skipping Chesapeake Energy FY2018 (already saved)
+2026-03-09 00:23:34,505  INFO       Skipping Chesapeake Energy FY2017 (already saved)
+2026-03-09 00:23:34,671  INFO     [B] 2/40  Frontier Communications (CIK 20520)  years=[2017, 2018, 2019]
+2026-03-09 00:23:35,301  WARNING    Frontier Communications FY2019  item_1a  NOT FOUND
+2026-03-09 00:23:35,302  WARNING    Frontier Communications FY2019  item_7  NOT FOUND
+2026-03-09 00:23:35,303  WARNING    Frontier Communications FY2019  item_7a  NOT FOUND
+2026-03-09 00:23:35,303  INFO       Skipping Frontier Communications FY2018 (already saved)
+2026-03-09 00:23:35,303  INFO       Skipping Frontier Communications FY2017 (already saved)
+2026-03-09 00:23:35,467  INFO     [B] 3/40  Whiting Petroleum (CIK 1255474)  years=[2017, 2018, 2019]
+2026-03-09 00:23:35,681  INFO       Skipping Whiting Petroleum FY2019 (already saved)
+2026-03-09 00:23:35,681  INFO       Skipping Whiting Petroleum FY2018 (already saved)
+2026-03-09 00:23:36,231  WARNING    Whiting Petroleum FY2017  item_1a  NOT FOUND
+2026-03-09 00:23:36,235  WARNING    Whiting Petroleum FY2017  item_7  NOT FOUND
+2026-03-09 00:23:36,239  WARNING    Whiting Petroleum FY2017  item_7a  NOT FOUND
+2026-03-09 00:23:36,405  INFO     [B] 4/40  JC Penney (CIK 1166928)  years=[2017, 2018, 2019]
+2026-03-09 00:23:36,660  INFO       Skipping JC Penney FY2019 (already saved)
+2026-03-09 00:23:36,661  INFO       Skipping JC Penney FY2018 (already saved)
+2026-03-09 00:23:36,661  INFO       Skipping JC Penney FY2017 (already saved)
+2026-03-09 00:23:36,853  INFO     [B] 5/40  Hertz Global Holdings (CIK 1657853)  years=[2017, 2018, 2019]
+2026-03-09 00:23:38,045  INFO       Hertz Global Holdings FY2019  item_1a  11168 words
+2026-03-09 00:23:38,049  INFO       Hertz Global Holdings FY2019  item_7  15375 words
+2026-03-09 00:23:38,055  INFO       Hertz Global Holdings FY2019  item_7a  1479 words
+2026-03-09 00:23:38,758  INFO       Hertz Global Holdings FY2018  item_1a  10699 words
+2026-03-09 00:23:38,763  INFO       Hertz Global Holdings FY2018  item_7  17727 words
+2026-03-09 00:23:38,765  INFO       Hertz Global Holdings FY2018  item_7a  1446 words
+2026-03-09 00:23:39,471  INFO       Hertz Global Holdings FY2017  item_1a  11632 words
+2026-03-09 00:23:39,477  INFO       Hertz Global Holdings FY2017  item_7  20291 words
+2026-03-09 00:23:39,479  INFO       Hertz Global Holdings FY2017  item_7a  1701 words
+2026-03-09 00:23:39,653  INFO     [B] 6/40  Pier 1 Imports (CIK 78890)  years=[2017, 2018, 2019]
+2026-03-09 00:23:40,260  INFO       Skipping Pier 1 Imports FY2019 (already saved)
+2026-03-09 00:23:40,261  INFO       Skipping Pier 1 Imports FY2018 (already saved)
+2026-03-09 00:23:40,261  INFO       Skipping Pier 1 Imports FY2017 (already saved)
+2026-03-09 00:23:40,447  INFO     [B] 7/40  Tuesday Morning (CIK 878726)  years=[2017, 2018, 2019]
+2026-03-09 00:23:41,386  INFO       Tuesday Morning FY2019  item_1a  6366 words
+2026-03-09 00:23:41,388  INFO       Tuesday Morning FY2019  item_7  5562 words
+2026-03-09 00:23:41,389  INFO       Tuesday Morning FY2019  item_7a  215 words
+2026-03-09 00:23:41,707  INFO       Tuesday Morning FY2018  item_1a  6133 words
+2026-03-09 00:23:41,709  INFO       Tuesday Morning FY2018  item_7  7186 words
+2026-03-09 00:23:41,710  INFO       Tuesday Morning FY2018  item_7a  215 words
+2026-03-09 00:23:42,042  INFO       Tuesday Morning FY2017  item_1a  6115 words
+2026-03-09 00:23:42,044  INFO       Tuesday Morning FY2017  item_7  6848 words
+2026-03-09 00:23:42,045  INFO       Tuesday Morning FY2017  item_7a  215 words
+2026-03-09 00:23:42,212  INFO     [B] 8/40  Denbury Resources (CIK 945764)  years=[2017, 2018, 2019]
+2026-03-09 00:23:42,550  INFO       Skipping Denbury Resources FY2019 (already saved)
+2026-03-09 00:23:42,551  INFO       Skipping Denbury Resources FY2018 (already saved)
+2026-03-09 00:23:42,551  INFO       Skipping Denbury Resources FY2017 (already saved)
+2026-03-09 00:23:42,747  INFO     [B] 9/40  Oasis Petroleum (CIK 1486159)  years=[2017, 2018, 2019]
+2026-03-09 00:23:43,284  INFO       Skipping Oasis Petroleum FY2019 (already saved)
+2026-03-09 00:23:43,284  INFO       Skipping Oasis Petroleum FY2018 (already saved)
+2026-03-09 00:23:43,284  INFO       Skipping Oasis Petroleum FY2017 (already saved)
+2026-03-09 00:23:43,478  INFO     [B] 10/40  California Resources (CIK 1609702)  years=[2017, 2018, 2019]
+2026-03-09 00:23:43,697  INFO       Skipping California Resources FY2019 (already saved)
+2026-03-09 00:23:43,698  INFO       Skipping California Resources FY2018 (already saved)
+2026-03-09 00:23:43,698  INFO       Skipping California Resources FY2017 (already saved)
+2026-03-09 00:23:43,888  INFO     [B] 11/40  PG&E (CIK 1004980)  years=[2016, 2017, 2018]
+2026-03-09 00:23:44,995  WARNING    PG&E FY2018  item_1a  NOT FOUND
+2026-03-09 00:23:44,997  WARNING    PG&E FY2018  item_7  NOT FOUND
+2026-03-09 00:23:45,000  WARNING    PG&E FY2018  item_7a  NOT FOUND
+2026-03-09 00:23:45,660  INFO       PG&E FY2017  item_1a  25606 words
+2026-03-09 00:23:45,660  INFO       PG&E FY2017  item_7  42 words
+2026-03-09 00:23:45,663  INFO       PG&E FY2017  item_7a  45 words
+2026-03-09 00:23:46,449  INFO       PG&E FY2016  item_1a  21678 words
+2026-03-09 00:23:46,449  INFO       PG&E FY2016  item_7  43 words
+2026-03-09 00:23:46,452  INFO       PG&E FY2016  item_7a  45 words
+2026-03-09 00:23:46,623  INFO     [B] 12/40  Sears Holdings (CIK 1456501)  years=[2015, 2016, 2017]
+2026-03-09 00:23:46,963  WARNING    No 10-K filings found for Sears Holdings in [2015, 2016, 2017]
+2026-03-09 00:23:46,963  INFO     [B] 13/40  iHeartMedia (CIK 739708)  years=[2015, 2016, 2017]
+2026-03-09 00:23:47,481  INFO       Skipping iHeartMedia FY2017 (already saved)
+2026-03-09 00:23:47,482  INFO       Skipping iHeartMedia FY2016 (already saved)
+2026-03-09 00:23:47,482  INFO       Skipping iHeartMedia FY2015 (already saved)
+2026-03-09 00:23:47,676  INFO     [B] 14/40  Windstream Holdings (CIK 1282266)  years=[2016, 2017, 2018]
+2026-03-09 00:23:48,143  WARNING    Windstream Holdings FY2018  item_1a  NOT FOUND
+2026-03-09 00:23:48,144  WARNING    Windstream Holdings FY2018  item_7  NOT FOUND
+2026-03-09 00:23:48,145  WARNING    Windstream Holdings FY2018  item_7a  NOT FOUND
+2026-03-09 00:23:48,145  INFO       Skipping Windstream Holdings FY2017 (already saved)
+2026-03-09 00:23:48,145  INFO       Skipping Windstream Holdings FY2016 (already saved)
+2026-03-09 00:23:48,315  INFO     [B] 15/40  Nine West Holdings (CIK 1005210)  years=[2015, 2016, 2017]
+2026-03-09 00:23:48,512  INFO       Skipping Nine West Holdings FY2017 (already saved)
+2026-03-09 00:23:48,512  INFO       Skipping Nine West Holdings FY2016 (already saved)
+2026-03-09 00:23:48,512  INFO       Skipping Nine West Holdings FY2015 (already saved)
+2026-03-09 00:23:48,711  INFO     [B] 16/40  Revlon (CIK 887921)  years=[2019, 2020, 2021]
+2026-03-09 00:23:49,175  WARNING    Revlon FY2021  item_1a  NOT FOUND
+2026-03-09 00:23:49,176  WARNING    Revlon FY2021  item_7  NOT FOUND
+2026-03-09 00:23:49,177  WARNING    Revlon FY2021  item_7a  NOT FOUND
+2026-03-09 00:23:49,177  INFO       Skipping Revlon FY2020 (already saved)
+2026-03-09 00:23:49,177  INFO       Skipping Revlon FY2019 (already saved)
+2026-03-09 00:23:49,350  INFO     [B] 17/40  Bed Bath and Beyond (CIK 886158)  years=[2020, 2021, 2022]
+2026-03-09 00:23:49,942  WARNING    Bed Bath and Beyond FY2022  item_1a  NOT FOUND
+2026-03-09 00:23:49,945  WARNING    Bed Bath and Beyond FY2022  item_7  NOT FOUND
+2026-03-09 00:23:49,947  WARNING    Bed Bath and Beyond FY2022  item_7a  NOT FOUND
+2026-03-09 00:23:49,983  WARNING    Bed Bath and Beyond FY2021  item_1a  NOT FOUND
+2026-03-09 00:23:49,983  WARNING    Bed Bath and Beyond FY2021  item_7  NOT FOUND
+2026-03-09 00:23:49,983  WARNING    Bed Bath and Beyond FY2021  item_7a  NOT FOUND
+2026-03-09 00:23:50,345  WARNING    Bed Bath and Beyond FY2020  item_1a  NOT FOUND
+2026-03-09 00:23:50,347  WARNING    Bed Bath and Beyond FY2020  item_7  NOT FOUND
+2026-03-09 00:23:50,349  WARNING    Bed Bath and Beyond FY2020  item_7a  NOT FOUND
+2026-03-09 00:23:50,520  INFO     [B] 18/40  Rite Aid (CIK 84129)  years=[2020, 2021, 2022]
+2026-03-09 00:23:50,855  INFO       Skipping Rite Aid FY2022 (already saved)
+2026-03-09 00:23:50,856  INFO       Skipping Rite Aid FY2021 (already saved)
+2026-03-09 00:23:50,856  INFO       Skipping Rite Aid FY2020 (already saved)
+2026-03-09 00:23:51,051  INFO     [B] 19/40  WeWork (CIK 1801762)  years=[2020, 2021, 2022]
+2026-03-09 00:23:51,369  INFO       Skipping WeWork FY2021 (already saved)
+2026-03-09 00:23:51,571  INFO     [B] 20/40  Party City (CIK 1540159)  years=[2020, 2021, 2022]
+2026-03-09 00:23:51,994  WARNING    Party City FY2022  item_1a  NOT FOUND
+2026-03-09 00:23:51,994  WARNING    Party City FY2022  item_7  NOT FOUND
+2026-03-09 00:23:51,994  WARNING    Party City FY2022  item_7a  NOT FOUND
+2026-03-09 00:23:51,994  INFO       Skipping Party City FY2021 (already saved)
+2026-03-09 00:23:51,994  INFO       Skipping Party City FY2020 (already saved)
+2026-03-09 00:23:52,178  INFO     [B] 21/40  Devon Energy (CIK 1090012)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:23:52,386  INFO       Skipping Devon Energy FY2022 (already saved)
+2026-03-09 00:23:52,387  INFO       Skipping Devon Energy FY2021 (already saved)
+2026-03-09 00:23:52,387  INFO       Skipping Devon Energy FY2020 (already saved)
+2026-03-09 00:23:52,387  INFO       Skipping Devon Energy FY2019 (already saved)
+2026-03-09 00:23:52,387  INFO       Skipping Devon Energy FY2018 (already saved)
+2026-03-09 00:23:52,387  INFO       Skipping Devon Energy FY2017 (already saved)
+2026-03-09 00:23:52,387  INFO       Skipping Devon Energy FY2016 (already saved)
+2026-03-09 00:23:52,588  INFO     [B] 22/40  Lumen Technologies (CIK 18926)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:23:52,942  INFO       Skipping Lumen Technologies FY2022 (already saved)
+2026-03-09 00:23:52,942  INFO       Skipping Lumen Technologies FY2021 (already saved)
+2026-03-09 00:23:52,942  INFO       Skipping Lumen Technologies FY2020 (already saved)
+2026-03-09 00:23:52,942  INFO       Skipping Lumen Technologies FY2019 (already saved)
+2026-03-09 00:23:52,942  INFO       Skipping Lumen Technologies FY2018 (already saved)
+2026-03-09 00:23:52,943  INFO       Skipping Lumen Technologies FY2017 (already saved)
+2026-03-09 00:23:52,943  INFO       Skipping Lumen Technologies FY2016 (already saved)
+2026-03-09 00:23:53,144  INFO     [B] 23/40  Range Resources (CIK 101830)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:23:54,808  WARNING    Range Resources FY2019  item_1a  NOT FOUND
+2026-03-09 00:23:54,810  WARNING    Range Resources FY2019  item_7  NOT FOUND
+2026-03-09 00:23:54,812  WARNING    Range Resources FY2019  item_7a  NOT FOUND
+2026-03-09 00:23:54,812  INFO       Skipping Range Resources FY2018 (already saved)
+2026-03-09 00:23:54,812  INFO       Skipping Range Resources FY2017 (already saved)
+2026-03-09 00:23:54,812  INFO       Skipping Range Resources FY2016 (already saved)
+2026-03-09 00:23:54,985  INFO     [B] 24/40  Kohl's (CIK 1096752)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:23:55,263  INFO       Skipping Kohl's FY2022 (already saved)
+2026-03-09 00:23:55,263  INFO       Skipping Kohl's FY2021 (already saved)
+2026-03-09 00:23:55,263  INFO       Skipping Kohl's FY2020 (already saved)
+2026-03-09 00:23:55,263  INFO       Skipping Kohl's FY2019 (already saved)
+2026-03-09 00:23:55,263  INFO       Skipping Kohl's FY2018 (already saved)
+2026-03-09 00:23:55,263  INFO       Skipping Kohl's FY2017 (already saved)
+2026-03-09 00:23:55,263  INFO       Skipping Kohl's FY2016 (already saved)
+2026-03-09 00:23:55,462  INFO     [B] 25/40  Avis Budget Group (CIK 47111)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:23:56,391  INFO       Skipping Avis Budget Group FY2022 (already saved)
+2026-03-09 00:23:56,391  INFO       Skipping Avis Budget Group FY2021 (already saved)
+2026-03-09 00:23:56,391  INFO       Skipping Avis Budget Group FY2020 (already saved)
+2026-03-09 00:23:56,392  INFO       Skipping Avis Budget Group FY2019 (already saved)
+2026-03-09 00:23:56,392  INFO       Skipping Avis Budget Group FY2018 (already saved)
+2026-03-09 00:23:56,392  INFO       Skipping Avis Budget Group FY2017 (already saved)
+2026-03-09 00:23:56,392  INFO       Skipping Avis Budget Group FY2016 (already saved)
+2026-03-09 00:23:56,584  INFO     [B] 26/40  Williams-Sonoma (CIK 719955)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:23:57,211  INFO       Williams-Sonoma FY2022  item_1a  17128 words
+2026-03-09 00:23:57,213  INFO       Williams-Sonoma FY2022  item_7  5340 words
+2026-03-09 00:23:57,214  INFO       Williams-Sonoma FY2022  item_7a  434 words
+2026-03-09 00:23:57,594  INFO       Williams-Sonoma FY2021  item_1a  15125 words
+2026-03-09 00:23:57,596  INFO       Williams-Sonoma FY2021  item_7  6146 words
+2026-03-09 00:23:57,597  INFO       Williams-Sonoma FY2021  item_7a  530 words
+2026-03-09 00:23:57,939  INFO       Williams-Sonoma FY2020  item_1a  13787 words
+2026-03-09 00:23:57,941  INFO       Williams-Sonoma FY2020  item_7  6097 words
+2026-03-09 00:23:57,943  INFO       Williams-Sonoma FY2020  item_7a  505 words
+2026-03-09 00:23:58,215  INFO       Williams-Sonoma FY2019  item_1a  11796 words
+2026-03-09 00:23:58,218  INFO       Williams-Sonoma FY2019  item_7  6878 words
+2026-03-09 00:23:58,219  INFO       Williams-Sonoma FY2019  item_7a  495 words
+2026-03-09 00:23:58,492  INFO       Williams-Sonoma FY2018  item_1a  10938 words
+2026-03-09 00:23:58,494  INFO       Williams-Sonoma FY2018  item_7  6077 words
+2026-03-09 00:23:58,495  INFO       Williams-Sonoma FY2018  item_7a  512 words
+2026-03-09 00:23:58,827  INFO       Williams-Sonoma FY2017  item_1a  10916 words
+2026-03-09 00:23:58,829  INFO       Williams-Sonoma FY2017  item_7  5386 words
+2026-03-09 00:23:58,830  INFO       Williams-Sonoma FY2017  item_7a  493 words
+2026-03-09 00:23:59,123  INFO       Williams-Sonoma FY2016  item_1a  10551 words
+2026-03-09 00:23:59,125  INFO       Williams-Sonoma FY2016  item_7  5360 words
+2026-03-09 00:23:59,126  INFO       Williams-Sonoma FY2016  item_7a  493 words
+2026-03-09 00:23:59,301  INFO     [B] 27/40  Dollar Tree (CIK 40533)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:23:59,891  INFO       Skipping Dollar Tree FY2022 (already saved)
+2026-03-09 00:23:59,892  INFO       Skipping Dollar Tree FY2021 (already saved)
+2026-03-09 00:23:59,892  INFO       Skipping Dollar Tree FY2020 (already saved)
+2026-03-09 00:23:59,892  INFO       Skipping Dollar Tree FY2019 (already saved)
+2026-03-09 00:23:59,892  INFO       Skipping Dollar Tree FY2018 (already saved)
+2026-03-09 00:23:59,892  INFO       Skipping Dollar Tree FY2017 (already saved)
+2026-03-09 00:23:59,892  INFO       Skipping Dollar Tree FY2016 (already saved)
+2026-03-09 00:24:00,090  INFO     [B] 28/40  SM Energy (CIK 715787)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:00,653  INFO       Skipping SM Energy FY2022 (already saved)
+2026-03-09 00:24:00,653  INFO       Skipping SM Energy FY2021 (already saved)
+2026-03-09 00:24:00,653  INFO       Skipping SM Energy FY2019 (already saved)
+2026-03-09 00:24:00,653  INFO       Skipping SM Energy FY2018 (already saved)
+2026-03-09 00:24:00,653  INFO       Skipping SM Energy FY2017 (already saved)
+2026-03-09 00:24:00,653  INFO       Skipping SM Energy FY2016 (already saved)
+2026-03-09 00:24:00,853  INFO     [B] 29/40  Callon Petroleum (CIK 783412)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:01,158  INFO       Skipping Callon Petroleum FY2022 (already saved)
+2026-03-09 00:24:01,158  INFO       Skipping Callon Petroleum FY2021 (already saved)
+2026-03-09 00:24:01,158  INFO       Skipping Callon Petroleum FY2020 (already saved)
+2026-03-09 00:24:01,158  INFO       Skipping Callon Petroleum FY2019 (already saved)
+2026-03-09 00:24:01,158  INFO       Skipping Callon Petroleum FY2018 (already saved)
+2026-03-09 00:24:01,158  INFO       Skipping Callon Petroleum FY2017 (already saved)
+2026-03-09 00:24:01,158  INFO       Skipping Callon Petroleum FY2016 (already saved)
+2026-03-09 00:24:01,360  INFO     [B] 30/40  Edison International (CIK 827052)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:02,468  WARNING    Edison International FY2022  item_1a  NOT FOUND
+2026-03-09 00:24:02,487  INFO       Edison International FY2022  item_7  95948 words
+2026-03-09 00:24:02,491  WARNING    Edison International FY2022  item_7a  NOT FOUND
+2026-03-09 00:24:03,252  WARNING    Edison International FY2021  item_1a  NOT FOUND
+2026-03-09 00:24:03,270  INFO       Edison International FY2021  item_7  96198 words
+2026-03-09 00:24:03,274  WARNING    Edison International FY2021  item_7a  NOT FOUND
+2026-03-09 00:24:03,836  WARNING    Edison International FY2020  item_1a  NOT FOUND
+2026-03-09 00:24:03,853  INFO       Edison International FY2020  item_7  91606 words
+2026-03-09 00:24:03,858  WARNING    Edison International FY2020  item_7a  NOT FOUND
+2026-03-09 00:24:04,590  WARNING    Edison International FY2019  item_1a  NOT FOUND
+2026-03-09 00:24:04,607  INFO       Edison International FY2019  item_7  86387 words
+2026-03-09 00:24:04,611  WARNING    Edison International FY2019  item_7a  NOT FOUND
+2026-03-09 00:24:05,202  WARNING    Edison International FY2018  item_1a  NOT FOUND
+2026-03-09 00:24:05,206  WARNING    Edison International FY2018  item_7  NOT FOUND
+2026-03-09 00:24:05,210  WARNING    Edison International FY2018  item_7a  NOT FOUND
+2026-03-09 00:24:05,801  WARNING    Edison International FY2017  item_1a  NOT FOUND
+2026-03-09 00:24:05,805  WARNING    Edison International FY2017  item_7  NOT FOUND
+2026-03-09 00:24:05,808  WARNING    Edison International FY2017  item_7a  NOT FOUND
+2026-03-09 00:24:06,391  WARNING    Edison International FY2016  item_1a  NOT FOUND
+2026-03-09 00:24:06,394  WARNING    Edison International FY2016  item_7  NOT FOUND
+2026-03-09 00:24:06,398  WARNING    Edison International FY2016  item_7a  NOT FOUND
+2026-03-09 00:24:06,587  INFO     [B] 31/40  Dollar General (CIK 1666700)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:07,241  INFO       Skipping Dollar General FY2022 (already saved)
+2026-03-09 00:24:07,242  INFO       Skipping Dollar General FY2021 (already saved)
+2026-03-09 00:24:07,242  INFO       Skipping Dollar General FY2020 (already saved)
+2026-03-09 00:24:07,242  INFO       Skipping Dollar General FY2019 (already saved)
+2026-03-09 00:24:07,242  INFO       Skipping Dollar General FY2018 (already saved)
+2026-03-09 00:24:07,243  INFO       Skipping Dollar General FY2017 (already saved)
+2026-03-09 00:24:07,461  INFO     [B] 32/40  Macy's (CIK 23217)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:07,680  INFO       Skipping Macy's FY2022 (already saved)
+2026-03-09 00:24:07,680  INFO       Skipping Macy's FY2021 (already saved)
+2026-03-09 00:24:07,680  INFO       Skipping Macy's FY2020 (already saved)
+2026-03-09 00:24:07,680  INFO       Skipping Macy's FY2019 (already saved)
+2026-03-09 00:24:07,680  INFO       Skipping Macy's FY2018 (already saved)
+2026-03-09 00:24:07,680  INFO       Skipping Macy's FY2017 (already saved)
+2026-03-09 00:24:07,680  INFO       Skipping Macy's FY2016 (already saved)
+2026-03-09 00:24:07,896  INFO     [B] 33/40  Netflix (CIK 1085869)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:08,268  INFO       Skipping Netflix FY2022 (already saved)
+2026-03-09 00:24:08,268  INFO       Skipping Netflix FY2021 (already saved)
+2026-03-09 00:24:08,269  INFO       Skipping Netflix FY2020 (already saved)
+2026-03-09 00:24:08,269  INFO       Skipping Netflix FY2019 (already saved)
+2026-03-09 00:24:08,269  INFO       Skipping Netflix FY2018 (already saved)
+2026-03-09 00:24:08,269  INFO       Skipping Netflix FY2017 (already saved)
+2026-03-09 00:24:08,475  WARNING    Netflix FY2016  item_1a  NOT FOUND
+2026-03-09 00:24:08,475  WARNING    Netflix FY2016  item_7  NOT FOUND
+2026-03-09 00:24:08,476  WARNING    Netflix FY2016  item_7a  NOT FOUND
+2026-03-09 00:24:08,682  INFO     [B] 34/40  Zions Bancorporation (CIK 109380)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:09,270  INFO       Skipping Zions Bancorporation FY2022 (already saved)
+2026-03-09 00:24:09,270  INFO       Skipping Zions Bancorporation FY2021 (already saved)
+2026-03-09 00:24:09,270  INFO       Skipping Zions Bancorporation FY2020 (already saved)
+2026-03-09 00:24:09,270  INFO       Skipping Zions Bancorporation FY2019 (already saved)
+2026-03-09 00:24:09,270  INFO       Skipping Zions Bancorporation FY2018 (already saved)
+2026-03-09 00:24:09,270  INFO       Skipping Zions Bancorporation FY2017 (already saved)
+2026-03-09 00:24:09,270  INFO       Skipping Zions Bancorporation FY2016 (already saved)
+2026-03-09 00:24:09,483  INFO     [B] 35/40  Hasbro (CIK 49071)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:10,063  INFO       Skipping Hasbro FY2022 (already saved)
+2026-03-09 00:24:10,063  INFO       Skipping Hasbro FY2021 (already saved)
+2026-03-09 00:24:10,063  INFO       Skipping Hasbro FY2020 (already saved)
+2026-03-09 00:24:10,063  INFO       Skipping Hasbro FY2019 (already saved)
+2026-03-09 00:24:10,063  INFO       Skipping Hasbro FY2018 (already saved)
+2026-03-09 00:24:10,063  INFO       Skipping Hasbro FY2017 (already saved)
+2026-03-09 00:24:10,063  INFO       Skipping Hasbro FY2016 (already saved)
+2026-03-09 00:24:10,279  INFO     [B] 36/40  Leggett and Platt (CIK 310764)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:10,478  INFO       Skipping Leggett and Platt FY2022 (already saved)
+2026-03-09 00:24:10,478  INFO       Skipping Leggett and Platt FY2021 (already saved)
+2026-03-09 00:24:10,478  INFO       Skipping Leggett and Platt FY2020 (already saved)
+2026-03-09 00:24:10,478  INFO       Skipping Leggett and Platt FY2019 (already saved)
+2026-03-09 00:24:10,478  INFO       Skipping Leggett and Platt FY2018 (already saved)
+2026-03-09 00:24:10,478  INFO       Skipping Leggett and Platt FY2017 (already saved)
+2026-03-09 00:24:10,478  INFO       Skipping Leggett and Platt FY2016 (already saved)
+2026-03-09 00:24:10,693  INFO     [B] 37/40  Briggs and Stratton (CIK 14846)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:10,903  INFO       Skipping Briggs and Stratton FY2022 (already saved)
+2026-03-09 00:24:10,903  INFO       Skipping Briggs and Stratton FY2021 (already saved)
+2026-03-09 00:24:10,903  INFO       Skipping Briggs and Stratton FY2020 (already saved)
+2026-03-09 00:24:10,904  INFO       Skipping Briggs and Stratton FY2019 (already saved)
+2026-03-09 00:24:10,904  INFO       Skipping Briggs and Stratton FY2018 (already saved)
+2026-03-09 00:24:10,904  INFO       Skipping Briggs and Stratton FY2017 (already saved)
+2026-03-09 00:24:10,904  INFO       Skipping Briggs and Stratton FY2016 (already saved)
+2026-03-09 00:24:11,123  INFO     [B] 38/40  Office Depot (CIK 726854)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:11,301  INFO       Skipping Office Depot FY2022 (already saved)
+2026-03-09 00:24:11,301  INFO       Skipping Office Depot FY2021 (already saved)
+2026-03-09 00:24:11,301  INFO       Skipping Office Depot FY2020 (already saved)
+2026-03-09 00:24:11,301  INFO       Skipping Office Depot FY2019 (already saved)
+2026-03-09 00:24:11,301  INFO       Skipping Office Depot FY2018 (already saved)
+2026-03-09 00:24:11,301  INFO       Skipping Office Depot FY2017 (already saved)
+2026-03-09 00:24:11,301  INFO       Skipping Office Depot FY2016 (already saved)
+2026-03-09 00:24:11,512  INFO     [B] 39/40  Albertsons (CIK 1616862)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:11,700  INFO       Skipping Albertsons FY2022 (already saved)
+2026-03-09 00:24:11,700  INFO       Skipping Albertsons FY2021 (already saved)
+2026-03-09 00:24:11,700  INFO       Skipping Albertsons FY2020 (already saved)
+2026-03-09 00:24:11,700  INFO       Skipping Albertsons FY2019 (already saved)
+2026-03-09 00:24:11,700  INFO       Skipping Albertsons FY2018 (already saved)
+2026-03-09 00:24:11,700  INFO       Skipping Albertsons FY2017 (already saved)
+2026-03-09 00:24:11,700  INFO       Skipping Albertsons FY2016 (already saved)
+2026-03-09 00:24:11,913  INFO     [B] 40/40  Walgreens Boots Alliance (CIK 68505)  years=[2016, 2017, 2018, 2019, 2020, 2021, 2022]
+2026-03-09 00:24:12,094  INFO       Skipping Walgreens Boots Alliance FY2022 (already saved)
+2026-03-09 00:24:12,095  INFO       Skipping Walgreens Boots Alliance FY2021 (already saved)
+2026-03-09 00:24:12,095  INFO       Skipping Walgreens Boots Alliance FY2020 (already saved)
+2026-03-09 00:24:12,095  INFO       Skipping Walgreens Boots Alliance FY2019 (already saved)
+2026-03-09 00:24:12,095  INFO       Skipping Walgreens Boots Alliance FY2018 (already saved)
+2026-03-09 00:24:12,095  INFO       Skipping Walgreens Boots Alliance FY2017 (already saved)
+2026-03-09 00:24:12,095  INFO       Skipping Walgreens Boots Alliance FY2016 (already saved)
+2026-03-09 00:24:12,497  INFO     Scenario B complete: 496 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_b/corpus.csv
+2026-03-09 00:24:12,498  INFO     ============================================================
+2026-03-09 00:24:12,498  INFO     Starting Scenario C  (36 firms)
+2026-03-09 00:24:12,498  INFO     ============================================================
+2026-03-09 00:24:12,609  INFO     Resuming Scenario C: 347 rows already saved
+2026-03-09 00:24:12,609  INFO     [C] 1/36  SVB Financial Group (CIK 719739)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:13,213  INFO       Skipping SVB Financial Group FY2022 (already saved)
+2026-03-09 00:24:13,213  INFO       Skipping SVB Financial Group FY2021 (already saved)
+2026-03-09 00:24:13,213  INFO       Skipping SVB Financial Group FY2020 (already saved)
+2026-03-09 00:24:13,213  INFO       Skipping SVB Financial Group FY2019 (already saved)
+2026-03-09 00:24:13,427  INFO     [C] 2/36  Renasant Corporation (CIK 715072)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:14,425  INFO       Renasant Corporation FY2023  item_1a  9521 words
+2026-03-09 00:24:14,429  INFO       Renasant Corporation FY2023  item_7  15649 words
+2026-03-09 00:24:14,431  INFO       Renasant Corporation FY2023  item_7a  102 words
+2026-03-09 00:24:15,118  INFO       Renasant Corporation FY2022  item_1a  8950 words
+2026-03-09 00:24:15,122  INFO       Renasant Corporation FY2022  item_7  16307 words
+2026-03-09 00:24:15,124  INFO       Renasant Corporation FY2022  item_7a  102 words
+2026-03-09 00:24:15,885  INFO       Renasant Corporation FY2021  item_1a  8787 words
+2026-03-09 00:24:15,889  INFO       Renasant Corporation FY2021  item_7  17589 words
+2026-03-09 00:24:15,891  INFO       Renasant Corporation FY2021  item_7a  105 words
+2026-03-09 00:24:16,593  INFO       Renasant Corporation FY2020  item_1a  9610 words
+2026-03-09 00:24:16,598  INFO       Renasant Corporation FY2020  item_7  19335 words
+2026-03-09 00:24:16,600  INFO       Renasant Corporation FY2020  item_7a  105 words
+2026-03-09 00:24:17,439  INFO       Renasant Corporation FY2019  item_1a  9512 words
+2026-03-09 00:24:17,443  INFO       Renasant Corporation FY2019  item_7  17189 words
+2026-03-09 00:24:17,445  INFO       Renasant Corporation FY2019  item_7a  53 words
+2026-03-09 00:24:17,640  INFO     [C] 3/36  First Republic Bank (CIK 798941)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:17,828  INFO       Skipping First Republic Bank FY2023 (already saved)
+2026-03-09 00:24:17,828  INFO       Skipping First Republic Bank FY2022 (already saved)
+2026-03-09 00:24:17,828  INFO       Skipping First Republic Bank FY2021 (already saved)
+2026-03-09 00:24:17,829  INFO       Skipping First Republic Bank FY2020 (already saved)
+2026-03-09 00:24:17,829  INFO       Skipping First Republic Bank FY2019 (already saved)
+2026-03-09 00:24:18,051  INFO     [C] 4/36  Silvergate Capital (CIK 1312109)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:18,258  INFO       Skipping Silvergate Capital FY2021 (already saved)
+2026-03-09 00:24:18,258  INFO       Skipping Silvergate Capital FY2020 (already saved)
+2026-03-09 00:24:18,258  INFO       Skipping Silvergate Capital FY2019 (already saved)
+2026-03-09 00:24:18,486  INFO     [C] 5/36  Western Alliance Bancorporation (CIK 1212545)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:18,685  INFO       Skipping Western Alliance Bancorporation FY2023 (already saved)
+2026-03-09 00:24:18,686  INFO       Skipping Western Alliance Bancorporation FY2022 (already saved)
+2026-03-09 00:24:18,686  INFO       Skipping Western Alliance Bancorporation FY2021 (already saved)
+2026-03-09 00:24:18,686  INFO       Skipping Western Alliance Bancorporation FY2020 (already saved)
+2026-03-09 00:24:18,686  INFO       Skipping Western Alliance Bancorporation FY2019 (already saved)
+2026-03-09 00:24:18,909  INFO     [C] 6/36  PacWest Bancorp (CIK 1102266)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:19,445  INFO       Skipping PacWest Bancorp FY2019 (already saved)
+2026-03-09 00:24:19,667  INFO     [C] 7/36  Comerica (CIK 28412)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:19,870  INFO       Skipping Comerica FY2023 (already saved)
+2026-03-09 00:24:19,870  INFO       Skipping Comerica FY2022 (already saved)
+2026-03-09 00:24:19,870  INFO       Skipping Comerica FY2021 (already saved)
+2026-03-09 00:24:19,870  INFO       Skipping Comerica FY2020 (already saved)
+2026-03-09 00:24:19,870  INFO       Skipping Comerica FY2019 (already saved)
+2026-03-09 00:24:20,092  INFO     [C] 8/36  Zions Bancorporation (CIK 109380)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:20,652  INFO       Skipping Zions Bancorporation FY2023 (already saved)
+2026-03-09 00:24:20,653  INFO       Skipping Zions Bancorporation FY2022 (already saved)
+2026-03-09 00:24:20,653  INFO       Skipping Zions Bancorporation FY2021 (already saved)
+2026-03-09 00:24:20,653  INFO       Skipping Zions Bancorporation FY2020 (already saved)
+2026-03-09 00:24:20,653  INFO       Skipping Zions Bancorporation FY2019 (already saved)
+2026-03-09 00:24:20,873  INFO     [C] 9/36  KeyCorp (CIK 91576)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:21,041  INFO       Skipping KeyCorp FY2023 (already saved)
+2026-03-09 00:24:21,042  INFO       Skipping KeyCorp FY2022 (already saved)
+2026-03-09 00:24:21,042  INFO       Skipping KeyCorp FY2021 (already saved)
+2026-03-09 00:24:21,042  INFO       Skipping KeyCorp FY2020 (already saved)
+2026-03-09 00:24:21,042  INFO       Skipping KeyCorp FY2019 (already saved)
+2026-03-09 00:24:21,256  INFO     [C] 10/36  Fifth Third Bancorp (CIK 35527)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:21,462  INFO       Skipping Fifth Third Bancorp FY2023 (already saved)
+2026-03-09 00:24:21,462  INFO       Skipping Fifth Third Bancorp FY2022 (already saved)
+2026-03-09 00:24:21,462  INFO       Skipping Fifth Third Bancorp FY2021 (already saved)
+2026-03-09 00:24:21,462  INFO       Skipping Fifth Third Bancorp FY2020 (already saved)
+2026-03-09 00:24:21,462  INFO       Skipping Fifth Third Bancorp FY2019 (already saved)
+2026-03-09 00:24:21,694  INFO     [C] 11/36  Citizens Financial Group (CIK 759944)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:22,745  INFO       Citizens Financial Group FY2023  item_1a  9506 words
+2026-03-09 00:24:22,748  INFO       Citizens Financial Group FY2023  item_7  10014 words
+2026-03-09 00:24:22,750  INFO       Citizens Financial Group FY2023  item_7a  37 words
+2026-03-09 00:24:23,348  INFO       Citizens Financial Group FY2022  item_1a  10781 words
+2026-03-09 00:24:23,351  INFO       Citizens Financial Group FY2022  item_7  10392 words
+2026-03-09 00:24:23,354  INFO       Citizens Financial Group FY2022  item_7a  37 words
+2026-03-09 00:24:23,944  INFO       Citizens Financial Group FY2021  item_1a  11012 words
+2026-03-09 00:24:23,945  INFO       Citizens Financial Group FY2021  item_7  461 words
+2026-03-09 00:24:23,948  INFO       Citizens Financial Group FY2021  item_7a  48 words
+2026-03-09 00:24:24,549  INFO       Citizens Financial Group FY2020  item_1a  10814 words
+2026-03-09 00:24:24,551  INFO       Citizens Financial Group FY2020  item_7  3846 words
+2026-03-09 00:24:24,554  INFO       Citizens Financial Group FY2020  item_7a  48 words
+2026-03-09 00:24:25,457  INFO       Citizens Financial Group FY2019  item_1a  9746 words
+2026-03-09 00:24:25,459  INFO       Citizens Financial Group FY2019  item_7  4579 words
+2026-03-09 00:24:25,462  INFO       Citizens Financial Group FY2019  item_7a  48 words
+2026-03-09 00:24:25,663  INFO     [C] 12/36  Glacier Bancorp (CIK 42682)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:25,888  INFO       Skipping Glacier Bancorp FY2023 (already saved)
+2026-03-09 00:24:25,888  INFO       Skipping Glacier Bancorp FY2022 (already saved)
+2026-03-09 00:24:25,888  INFO       Skipping Glacier Bancorp FY2021 (already saved)
+2026-03-09 00:24:25,888  INFO       Skipping Glacier Bancorp FY2020 (already saved)
+2026-03-09 00:24:25,888  INFO       Skipping Glacier Bancorp FY2019 (already saved)
+2026-03-09 00:24:26,111  INFO     [C] 13/36  BOK Financial Corporation (CIK 875357)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:26,394  INFO       Skipping BOK Financial Corporation FY2023 (already saved)
+2026-03-09 00:24:26,394  INFO       Skipping BOK Financial Corporation FY2022 (already saved)
+2026-03-09 00:24:26,394  INFO       Skipping BOK Financial Corporation FY2021 (already saved)
+2026-03-09 00:24:26,394  INFO       Skipping BOK Financial Corporation FY2020 (already saved)
+2026-03-09 00:24:26,394  INFO       Skipping BOK Financial Corporation FY2019 (already saved)
+2026-03-09 00:24:26,616  INFO     [C] 14/36  Independent Bank Group (CIK 1564618)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:27,524  INFO       Independent Bank Group FY2023  item_1a  23983 words
+2026-03-09 00:24:27,532  INFO       Independent Bank Group FY2023  item_7  42343 words
+2026-03-09 00:24:27,534  INFO       Independent Bank Group FY2023  item_7a  933 words
+2026-03-09 00:24:28,029  INFO       Independent Bank Group FY2022  item_1a  23871 words
+2026-03-09 00:24:28,037  INFO       Independent Bank Group FY2022  item_7  39741 words
+2026-03-09 00:24:28,039  INFO       Independent Bank Group FY2022  item_7a  1043 words
+2026-03-09 00:24:28,513  INFO       Independent Bank Group FY2021  item_1a  25077 words
+2026-03-09 00:24:28,520  INFO       Independent Bank Group FY2021  item_7  41051 words
+2026-03-09 00:24:28,523  INFO       Independent Bank Group FY2021  item_7a  1137 words
+2026-03-09 00:24:29,082  INFO       Independent Bank Group FY2020  item_1a  25552 words
+2026-03-09 00:24:29,092  INFO       Independent Bank Group FY2020  item_7  51515 words
+2026-03-09 00:24:29,094  INFO       Independent Bank Group FY2020  item_7a  52 words
+2026-03-09 00:24:29,926  INFO       Independent Bank Group FY2019  item_1a  24127 words
+2026-03-09 00:24:29,936  INFO       Independent Bank Group FY2019  item_7  48749 words
+2026-03-09 00:24:29,939  INFO       Independent Bank Group FY2019  item_7a  51 words
+2026-03-09 00:24:30,152  INFO     [C] 15/36  Heartland Financial USA (CIK 46619)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:30,379  INFO       Skipping Heartland Financial USA FY2023 (already saved)
+2026-03-09 00:24:30,379  INFO       Skipping Heartland Financial USA FY2022 (already saved)
+2026-03-09 00:24:30,379  INFO       Skipping Heartland Financial USA FY2021 (already saved)
+2026-03-09 00:24:30,379  INFO       Skipping Heartland Financial USA FY2020 (already saved)
+2026-03-09 00:24:30,379  INFO       Skipping Heartland Financial USA FY2019 (already saved)
+2026-03-09 00:24:30,615  INFO     [C] 16/36  South State Corporation (CIK 764038)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:30,794  INFO       Skipping South State Corporation FY2023 (already saved)
+2026-03-09 00:24:30,794  INFO       Skipping South State Corporation FY2022 (already saved)
+2026-03-09 00:24:30,794  INFO       Skipping South State Corporation FY2021 (already saved)
+2026-03-09 00:24:30,794  INFO       Skipping South State Corporation FY2020 (already saved)
+2026-03-09 00:24:31,167  WARNING    South State Corporation FY2019  item_1a  NOT FOUND
+2026-03-09 00:24:31,169  WARNING    South State Corporation FY2019  item_7  NOT FOUND
+2026-03-09 00:24:31,170  WARNING    South State Corporation FY2019  item_7a  NOT FOUND
+2026-03-09 00:24:31,384  INFO     [C] 17/36  Hancock Whitney Corporation (CIK 750577)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:32,667  WARNING    Hancock Whitney Corporation FY2023  item_1a  NOT FOUND
+2026-03-09 00:24:32,671  INFO       Hancock Whitney Corporation FY2023  item_7  11951 words
+2026-03-09 00:24:32,674  INFO       Hancock Whitney Corporation FY2023  item_7a  55 words
+2026-03-09 00:24:33,563  WARNING    Hancock Whitney Corporation FY2022  item_1a  NOT FOUND
+2026-03-09 00:24:33,569  INFO       Hancock Whitney Corporation FY2022  item_7  24157 words
+2026-03-09 00:24:33,572  INFO       Hancock Whitney Corporation FY2022  item_7a  53 words
+2026-03-09 00:24:34,624  INFO       Hancock Whitney Corporation FY2021  item_1a  12773 words
+2026-03-09 00:24:34,631  INFO       Hancock Whitney Corporation FY2021  item_7  24511 words
+2026-03-09 00:24:34,634  INFO       Hancock Whitney Corporation FY2021  item_7a  52 words
+2026-03-09 00:24:35,775  INFO       Hancock Whitney Corporation FY2020  item_1a  12453 words
+2026-03-09 00:24:35,782  INFO       Hancock Whitney Corporation FY2020  item_7  21307 words
+2026-03-09 00:24:35,785  INFO       Hancock Whitney Corporation FY2020  item_7a  46 words
+2026-03-09 00:24:36,928  WARNING    Hancock Whitney Corporation FY2019  item_1a  NOT FOUND
+2026-03-09 00:24:36,930  INFO       Hancock Whitney Corporation FY2019  item_7  979 words
+2026-03-09 00:24:36,933  INFO       Hancock Whitney Corporation FY2019  item_7a  46 words
+2026-03-09 00:24:37,154  INFO     [C] 18/36  WesBanco (CIK 203596)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:37,429  INFO       Skipping WesBanco FY2023 (already saved)
+2026-03-09 00:24:37,429  INFO       Skipping WesBanco FY2022 (already saved)
+2026-03-09 00:24:37,430  INFO       Skipping WesBanco FY2021 (already saved)
+2026-03-09 00:24:37,631  WARNING    WesBanco FY2020  item_1a  NOT FOUND
+2026-03-09 00:24:37,632  WARNING    WesBanco FY2020  item_7  NOT FOUND
+2026-03-09 00:24:37,632  WARNING    WesBanco FY2020  item_7a  NOT FOUND
+2026-03-09 00:24:37,632  INFO       Skipping WesBanco FY2019 (already saved)
+2026-03-09 00:24:37,869  INFO     [C] 19/36  First Horizon Corporation (CIK 36966)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:38,129  INFO       Skipping First Horizon Corporation FY2023 (already saved)
+2026-03-09 00:24:38,129  INFO       Skipping First Horizon Corporation FY2022 (already saved)
+2026-03-09 00:24:38,358  WARNING    First Horizon Corporation FY2021  item_1a  NOT FOUND
+2026-03-09 00:24:38,359  WARNING    First Horizon Corporation FY2021  item_7  NOT FOUND
+2026-03-09 00:24:38,359  WARNING    First Horizon Corporation FY2021  item_7a  NOT FOUND
+2026-03-09 00:24:38,359  INFO       Skipping First Horizon Corporation FY2020 (already saved)
+2026-03-09 00:24:38,359  INFO       Skipping First Horizon Corporation FY2019 (already saved)
+2026-03-09 00:24:38,581  INFO     [C] 20/36  Seacoast Banking Corp (CIK 730708)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:39,470  INFO       Seacoast Banking Corp FY2023  item_1a  10361 words
+2026-03-09 00:24:39,474  INFO       Seacoast Banking Corp FY2023  item_7  13333 words
+2026-03-09 00:24:39,476  INFO       Seacoast Banking Corp FY2023  item_7a  3677 words
+2026-03-09 00:24:40,088  INFO       Seacoast Banking Corp FY2022  item_1a  10871 words
+2026-03-09 00:24:40,093  INFO       Seacoast Banking Corp FY2022  item_7  16477 words
+2026-03-09 00:24:40,095  INFO       Seacoast Banking Corp FY2022  item_7a  3801 words
+2026-03-09 00:24:40,669  INFO       Seacoast Banking Corp FY2021  item_1a  12215 words
+2026-03-09 00:24:40,674  INFO       Seacoast Banking Corp FY2021  item_7  17388 words
+2026-03-09 00:24:40,676  INFO       Seacoast Banking Corp FY2021  item_7a  4001 words
+2026-03-09 00:24:41,250  INFO       Seacoast Banking Corp FY2020  item_1a  11820 words
+2026-03-09 00:24:41,257  INFO       Seacoast Banking Corp FY2020  item_7  38370 words
+2026-03-09 00:24:41,261  INFO       Seacoast Banking Corp FY2020  item_7a  5930 words
+2026-03-09 00:24:42,054  INFO       Seacoast Banking Corp FY2019  item_1a  12785 words
+2026-03-09 00:24:42,059  INFO       Seacoast Banking Corp FY2019  item_7  21556 words
+2026-03-09 00:24:42,062  INFO       Seacoast Banking Corp FY2019  item_7a  5647 words
+2026-03-09 00:24:42,292  INFO     [C] 21/36  Banner Financial Group (CIK 883948)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:42,573  INFO       Skipping Banner Financial Group FY2023 (already saved)
+2026-03-09 00:24:42,573  INFO       Skipping Banner Financial Group FY2022 (already saved)
+2026-03-09 00:24:42,573  INFO       Skipping Banner Financial Group FY2021 (already saved)
+2026-03-09 00:24:42,573  INFO       Skipping Banner Financial Group FY2020 (already saved)
+2026-03-09 00:24:42,573  INFO       Skipping Banner Financial Group FY2019 (already saved)
+2026-03-09 00:24:42,830  INFO     [C] 22/36  Wintrust Financial (CIK 1015328)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:43,073  INFO       Skipping Wintrust Financial FY2023 (already saved)
+2026-03-09 00:24:43,073  INFO       Skipping Wintrust Financial FY2022 (already saved)
+2026-03-09 00:24:43,073  INFO       Skipping Wintrust Financial FY2021 (already saved)
+2026-03-09 00:24:43,073  INFO       Skipping Wintrust Financial FY2020 (already saved)
+2026-03-09 00:24:43,073  INFO       Skipping Wintrust Financial FY2019 (already saved)
+2026-03-09 00:24:43,323  INFO     [C] 23/36  Valley National Bancorp (CIK 714310)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:44,284  INFO       Valley National Bancorp FY2023  item_1a  24704 words
+2026-03-09 00:24:44,290  INFO       Valley National Bancorp FY2023  item_7  26349 words
+2026-03-09 00:24:44,292  INFO       Valley National Bancorp FY2023  item_7a  39 words
+2026-03-09 00:24:44,903  INFO       Valley National Bancorp FY2022  item_1a  20010 words
+2026-03-09 00:24:44,905  INFO       Valley National Bancorp FY2022  item_7  64 words
+2026-03-09 00:24:44,907  INFO       Valley National Bancorp FY2022  item_7a  49 words
+2026-03-09 00:24:45,593  INFO       Valley National Bancorp FY2021  item_1a  20732 words
+2026-03-09 00:24:45,594  INFO       Valley National Bancorp FY2021  item_7  64 words
+2026-03-09 00:24:45,597  INFO       Valley National Bancorp FY2021  item_7a  49 words
+2026-03-09 00:24:46,182  INFO       Valley National Bancorp FY2020  item_1a  18570 words
+2026-03-09 00:24:46,187  INFO       Valley National Bancorp FY2020  item_7  20913 words
+2026-03-09 00:24:46,189  INFO       Valley National Bancorp FY2020  item_7a  49 words
+2026-03-09 00:24:47,042  INFO       Valley National Bancorp FY2019  item_1a  15556 words
+2026-03-09 00:24:47,045  INFO       Valley National Bancorp FY2019  item_7  17890 words
+2026-03-09 00:24:47,048  INFO       Valley National Bancorp FY2019  item_7a  51 words
+2026-03-09 00:24:47,283  INFO     [C] 24/36  Pinnacle Financial Partners (CIK 2082866)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:47,488  WARNING    No 10-K filings found for Pinnacle Financial Partners in [2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:47,489  INFO     [C] 25/36  Eagle Bancorp (CIK 1169770)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:47,818  INFO       Skipping Eagle Bancorp FY2023 (already saved)
+2026-03-09 00:24:47,818  INFO       Skipping Eagle Bancorp FY2022 (already saved)
+2026-03-09 00:24:47,818  INFO       Skipping Eagle Bancorp FY2021 (already saved)
+2026-03-09 00:24:47,818  INFO       Skipping Eagle Bancorp FY2020 (already saved)
+2026-03-09 00:24:47,818  INFO       Skipping Eagle Bancorp FY2019 (already saved)
+2026-03-09 00:24:48,076  INFO     [C] 26/36  HomeStreet (CIK 1390478)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:48,302  INFO       Skipping HomeStreet FY2023 (already saved)
+2026-03-09 00:24:48,302  INFO       Skipping HomeStreet FY2022 (already saved)
+2026-03-09 00:24:48,302  INFO       Skipping HomeStreet FY2021 (already saved)
+2026-03-09 00:24:48,302  INFO       Skipping HomeStreet FY2020 (already saved)
+2026-03-09 00:24:48,302  INFO       Skipping HomeStreet FY2019 (already saved)
+2026-03-09 00:24:48,560  INFO     [C] 27/36  First BanCorp (CIK 1057706)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:24:50,191  INFO       First BanCorp FY2023  item_1a  12087 words
+2026-03-09 00:24:50,193  INFO       First BanCorp FY2023  item_7  2047 words
+2026-03-09 00:24:50,197  INFO       First BanCorp FY2023  item_7a  46 words
+2026-03-09 00:24:51,029  WARNING    First BanCorp FY2022  item_1a  NOT FOUND
+2026-03-09 00:24:51,033  WARNING    First BanCorp FY2022  item_7  NOT FOUND
+2026-03-09 00:24:51,036  WARNING    First BanCorp FY2022  item_7a  NOT FOUND
+2026-03-09 00:24:52,571  INFO       First BanCorp FY2021  item_1a  13360 words
+2026-03-09 00:24:52,571  INFO       First BanCorp FY2021  item_7  68 words
+2026-03-09 00:24:52,576  INFO       First BanCorp FY2021  item_7a  45 words
+2026-03-09 00:24:54,270  INFO       First BanCorp FY2020  item_1a  25317 words
+2026-03-09 00:24:54,273  INFO       First BanCorp FY2020  item_7  1024 words
+2026-03-09 00:24:54,277  INFO       First BanCorp FY2020  item_7a  44 words
+2026-03-09 00:24:55,584  INFO       First BanCorp FY2019  item_1a  31410 words
+2026-03-09 00:24:55,587  INFO       First BanCorp FY2019  item_7  7706 words
+2026-03-09 00:24:55,592  INFO       First BanCorp FY2019  item_7a  44 words
+2026-03-09 00:24:55,833  INFO     [C] 28/36  JPMorgan Chase (CIK 19617)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:13,475  INFO       Skipping JPMorgan Chase FY2023 (already saved)
+2026-03-09 00:25:13,475  INFO       Skipping JPMorgan Chase FY2022 (already saved)
+2026-03-09 00:25:13,475  INFO       Skipping JPMorgan Chase FY2021 (already saved)
+2026-03-09 00:25:13,475  INFO       Skipping JPMorgan Chase FY2020 (already saved)
+2026-03-09 00:25:13,475  INFO       Skipping JPMorgan Chase FY2019 (already saved)
+2026-03-09 00:25:13,738  INFO     [C] 29/36  Bank of America (CIK 70858)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:17,949  INFO       Skipping Bank of America FY2023 (already saved)
+2026-03-09 00:25:17,949  INFO       Skipping Bank of America FY2022 (already saved)
+2026-03-09 00:25:17,949  INFO       Skipping Bank of America FY2021 (already saved)
+2026-03-09 00:25:17,949  INFO       Skipping Bank of America FY2020 (already saved)
+2026-03-09 00:25:17,949  INFO       Skipping Bank of America FY2019 (already saved)
+2026-03-09 00:25:18,206  INFO     [C] 30/36  Citigroup (CIK 831001)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:29,920  WARNING    Citigroup FY2023  item_1a  NOT FOUND
+2026-03-09 00:25:29,929  WARNING    Citigroup FY2023  item_7  NOT FOUND
+2026-03-09 00:25:29,938  WARNING    Citigroup FY2023  item_7a  NOT FOUND
+2026-03-09 00:25:31,261  WARNING    Citigroup FY2022  item_1a  NOT FOUND
+2026-03-09 00:25:31,270  WARNING    Citigroup FY2022  item_7  NOT FOUND
+2026-03-09 00:25:31,279  WARNING    Citigroup FY2022  item_7a  NOT FOUND
+2026-03-09 00:25:32,562  WARNING    Citigroup FY2021  item_1a  NOT FOUND
+2026-03-09 00:25:32,571  WARNING    Citigroup FY2021  item_7  NOT FOUND
+2026-03-09 00:25:32,580  WARNING    Citigroup FY2021  item_7a  NOT FOUND
+2026-03-09 00:25:33,838  WARNING    Citigroup FY2020  item_1a  NOT FOUND
+2026-03-09 00:25:33,846  WARNING    Citigroup FY2020  item_7  NOT FOUND
+2026-03-09 00:25:33,855  WARNING    Citigroup FY2020  item_7a  NOT FOUND
+2026-03-09 00:25:35,507  WARNING    Citigroup FY2019  item_1a  NOT FOUND
+2026-03-09 00:25:35,514  WARNING    Citigroup FY2019  item_7  NOT FOUND
+2026-03-09 00:25:35,522  WARNING    Citigroup FY2019  item_7a  NOT FOUND
+2026-03-09 00:25:35,762  INFO     [C] 31/36  Wells Fargo (CIK 72971)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:36,323  INFO       Skipping Wells Fargo FY2023 (already saved)
+2026-03-09 00:25:36,323  INFO       Skipping Wells Fargo FY2022 (already saved)
+2026-03-09 00:25:36,323  INFO       Skipping Wells Fargo FY2021 (already saved)
+2026-03-09 00:25:36,323  INFO       Skipping Wells Fargo FY2020 (already saved)
+2026-03-09 00:25:36,323  INFO       Skipping Wells Fargo FY2019 (already saved)
+2026-03-09 00:25:36,585  INFO     [C] 32/36  Morgan Stanley (CIK 886982)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:50,581  WARNING    Morgan Stanley FY2023  item_1a  NOT FOUND
+2026-03-09 00:25:50,581  WARNING    Morgan Stanley FY2023  item_7  NOT FOUND
+2026-03-09 00:25:50,582  WARNING    Morgan Stanley FY2023  item_7a  NOT FOUND
+2026-03-09 00:25:50,582  INFO       Skipping Morgan Stanley FY2022 (already saved)
+2026-03-09 00:25:50,582  INFO       Skipping Morgan Stanley FY2021 (already saved)
+2026-03-09 00:25:50,582  INFO       Skipping Morgan Stanley FY2020 (already saved)
+2026-03-09 00:25:50,582  INFO       Skipping Morgan Stanley FY2019 (already saved)
+2026-03-09 00:25:50,843  INFO     [C] 33/36  Goldman Sachs (CIK 65984)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:51,490  INFO       Skipping Goldman Sachs FY2023 (already saved)
+2026-03-09 00:25:51,491  INFO       Skipping Goldman Sachs FY2022 (already saved)
+2026-03-09 00:25:51,491  INFO       Skipping Goldman Sachs FY2021 (already saved)
+2026-03-09 00:25:51,491  INFO       Skipping Goldman Sachs FY2020 (already saved)
+2026-03-09 00:25:51,491  INFO       Skipping Goldman Sachs FY2019 (already saved)
+2026-03-09 00:25:51,750  INFO     [C] 34/36  US Bancorp (CIK 49196)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:52,316  INFO       Skipping US Bancorp FY2023 (already saved)
+2026-03-09 00:25:52,316  INFO       Skipping US Bancorp FY2022 (already saved)
+2026-03-09 00:25:52,316  INFO       Skipping US Bancorp FY2021 (already saved)
+2026-03-09 00:25:52,316  INFO       Skipping US Bancorp FY2020 (already saved)
+2026-03-09 00:25:52,316  INFO       Skipping US Bancorp FY2019 (already saved)
+2026-03-09 00:25:52,575  INFO     [C] 35/36  PNC Financial Services (CIK 713676)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:53,208  INFO       Skipping PNC Financial Services FY2023 (already saved)
+2026-03-09 00:25:53,208  INFO       Skipping PNC Financial Services FY2022 (already saved)
+2026-03-09 00:25:53,208  INFO       Skipping PNC Financial Services FY2021 (already saved)
+2026-03-09 00:25:53,208  INFO       Skipping PNC Financial Services FY2020 (already saved)
+2026-03-09 00:25:53,208  INFO       Skipping PNC Financial Services FY2019 (already saved)
+2026-03-09 00:25:53,467  INFO     [C] 36/36  Truist Financial (CIK 92230)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:54,667  INFO       Truist Financial FY2023  item_1a  17556 words
+2026-03-09 00:25:54,668  INFO       Truist Financial FY2023  item_7  30 words
+2026-03-09 00:25:54,672  WARNING    Truist Financial FY2023  item_7a  NOT FOUND
+2026-03-09 00:25:55,448  INFO       Truist Financial FY2022  item_1a  25056 words
+2026-03-09 00:25:55,448  INFO       Truist Financial FY2022  item_7  30 words
+2026-03-09 00:25:55,453  WARNING    Truist Financial FY2022  item_7a  NOT FOUND
+2026-03-09 00:25:56,187  INFO       Truist Financial FY2021  item_1a  24697 words
+2026-03-09 00:25:56,193  INFO       Truist Financial FY2021  item_7  25069 words
+2026-03-09 00:25:56,198  WARNING    Truist Financial FY2021  item_7a  NOT FOUND
+2026-03-09 00:25:56,944  INFO       Truist Financial FY2020  item_1a  24591 words
+2026-03-09 00:25:56,951  INFO       Truist Financial FY2020  item_7  26519 words
+2026-03-09 00:25:56,955  WARNING    Truist Financial FY2020  item_7a  NOT FOUND
+2026-03-09 00:25:57,820  INFO       Truist Financial FY2019  item_1a  21089 words
+2026-03-09 00:25:57,826  INFO       Truist Financial FY2019  item_7  24176 words
+2026-03-09 00:25:57,830  WARNING    Truist Financial FY2019  item_7a  NOT FOUND
+2026-03-09 00:25:58,321  INFO     Scenario C complete: 456 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_c/corpus.csv
+2026-03-09 00:25:58,323  INFO     ============================================================
+2026-03-09 00:25:58,323  INFO     Starting Scenario D  (38 firms)
+2026-03-09 00:25:58,323  INFO     ============================================================
+2026-03-09 00:25:58,420  INFO     Resuming Scenario D: 493 rows already saved
+2026-03-09 00:25:58,420  INFO     [D] 1/38  Ford Motor Company (CIK 37996)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:58,729  INFO       Skipping Ford Motor Company FY2023 (already saved)
+2026-03-09 00:25:58,730  INFO       Skipping Ford Motor Company FY2022 (already saved)
+2026-03-09 00:25:58,730  INFO       Skipping Ford Motor Company FY2021 (already saved)
+2026-03-09 00:25:58,730  INFO       Skipping Ford Motor Company FY2020 (already saved)
+2026-03-09 00:25:58,730  INFO       Skipping Ford Motor Company FY2019 (already saved)
+2026-03-09 00:25:58,914  INFO     [D] 2/38  General Motors (CIK 40987)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:59,111  INFO       Skipping General Motors FY2023 (already saved)
+2026-03-09 00:25:59,111  INFO       Skipping General Motors FY2022 (already saved)
+2026-03-09 00:25:59,111  INFO       Skipping General Motors FY2021 (already saved)
+2026-03-09 00:25:59,111  INFO       Skipping General Motors FY2020 (already saved)
+2026-03-09 00:25:59,111  INFO       Skipping General Motors FY2019 (already saved)
+2026-03-09 00:25:59,276  INFO     [D] 3/38  Tesla (CIK 1318605)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:25:59,487  INFO       Skipping Tesla FY2023 (already saved)
+2026-03-09 00:25:59,487  INFO       Skipping Tesla FY2022 (already saved)
+2026-03-09 00:25:59,895  WARNING    Tesla FY2021  item_1a  NOT FOUND
+2026-03-09 00:25:59,897  WARNING    Tesla FY2021  item_7  NOT FOUND
+2026-03-09 00:25:59,898  WARNING    Tesla FY2021  item_7a  NOT FOUND
+2026-03-09 00:26:00,110  WARNING    Tesla FY2020  item_1a  NOT FOUND
+2026-03-09 00:26:00,111  WARNING    Tesla FY2020  item_7  NOT FOUND
+2026-03-09 00:26:00,113  WARNING    Tesla FY2020  item_7a  NOT FOUND
+2026-03-09 00:26:00,360  WARNING    Tesla FY2019  item_1a  NOT FOUND
+2026-03-09 00:26:00,362  WARNING    Tesla FY2019  item_7  NOT FOUND
+2026-03-09 00:26:00,364  WARNING    Tesla FY2019  item_7a  NOT FOUND
+2026-03-09 00:26:00,507  INFO     [D] 4/38  BorgWarner (CIK 723254)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:00,734  INFO       Skipping BorgWarner FY2023 (already saved)
+2026-03-09 00:26:00,734  INFO       Skipping BorgWarner FY2022 (already saved)
+2026-03-09 00:26:00,734  INFO       Skipping BorgWarner FY2021 (already saved)
+2026-03-09 00:26:00,734  INFO       Skipping BorgWarner FY2020 (already saved)
+2026-03-09 00:26:00,734  INFO       Skipping BorgWarner FY2019 (already saved)
+2026-03-09 00:26:00,899  INFO     [D] 5/38  Aptiv (CIK 60714)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:01,137  INFO       Skipping Aptiv FY2023 (already saved)
+2026-03-09 00:26:01,137  INFO       Skipping Aptiv FY2022 (already saved)
+2026-03-09 00:26:01,338  WARNING    Aptiv FY2021  item_1a  NOT FOUND
+2026-03-09 00:26:01,339  WARNING    Aptiv FY2021  item_7  NOT FOUND
+2026-03-09 00:26:01,339  WARNING    Aptiv FY2021  item_7a  NOT FOUND
+2026-03-09 00:26:01,339  INFO       Skipping Aptiv FY2020 (already saved)
+2026-03-09 00:26:01,339  INFO       Skipping Aptiv FY2019 (already saved)
+2026-03-09 00:26:01,486  INFO     [D] 6/38  Lear Corporation (CIK 59478)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:02,121  INFO       Skipping Lear Corporation FY2023 (already saved)
+2026-03-09 00:26:02,121  INFO       Skipping Lear Corporation FY2022 (already saved)
+2026-03-09 00:26:02,121  INFO       Skipping Lear Corporation FY2021 (already saved)
+2026-03-09 00:26:02,121  INFO       Skipping Lear Corporation FY2020 (already saved)
+2026-03-09 00:26:02,121  INFO       Skipping Lear Corporation FY2019 (already saved)
+2026-03-09 00:26:02,287  INFO     [D] 7/38  Apple (CIK 320193)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:02,618  INFO       Skipping Apple FY2023 (already saved)
+2026-03-09 00:26:02,618  INFO       Skipping Apple FY2022 (already saved)
+2026-03-09 00:26:02,618  INFO       Skipping Apple FY2021 (already saved)
+2026-03-09 00:26:02,618  INFO       Skipping Apple FY2020 (already saved)
+2026-03-09 00:26:02,618  INFO       Skipping Apple FY2019 (already saved)
+2026-03-09 00:26:02,809  INFO     [D] 8/38  HP Inc (CIK 47217)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:03,723  INFO       HP Inc FY2023  item_1a  13470 words
+2026-03-09 00:26:03,725  INFO       HP Inc FY2023  item_7  4213 words
+2026-03-09 00:26:03,727  INFO       HP Inc FY2023  item_7a  836 words
+2026-03-09 00:26:04,192  WARNING    HP Inc FY2022  item_1a  NOT FOUND
+2026-03-09 00:26:04,194  WARNING    HP Inc FY2022  item_7  NOT FOUND
+2026-03-09 00:26:04,196  WARNING    HP Inc FY2022  item_7a  NOT FOUND
+2026-03-09 00:26:04,900  INFO       HP Inc FY2021  item_1a  13636 words
+2026-03-09 00:26:04,902  INFO       HP Inc FY2021  item_7  1511 words
+2026-03-09 00:26:04,904  INFO       HP Inc FY2021  item_7a  870 words
+2026-03-09 00:26:05,460  INFO       HP Inc FY2020  item_1a  13908 words
+2026-03-09 00:26:05,463  INFO       HP Inc FY2020  item_7  7349 words
+2026-03-09 00:26:05,465  INFO       HP Inc FY2020  item_7a  872 words
+2026-03-09 00:26:05,764  WARNING    HP Inc FY2019  item_1a  NOT FOUND
+2026-03-09 00:26:05,765  WARNING    HP Inc FY2019  item_7  NOT FOUND
+2026-03-09 00:26:05,766  WARNING    HP Inc FY2019  item_7a  NOT FOUND
+2026-03-09 00:26:05,913  INFO     [D] 9/38  Dell Technologies (CIK 217346)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:06,519  INFO       Skipping Dell Technologies FY2023 (already saved)
+2026-03-09 00:26:06,519  INFO       Skipping Dell Technologies FY2022 (already saved)
+2026-03-09 00:26:06,519  INFO       Skipping Dell Technologies FY2021 (already saved)
+2026-03-09 00:26:06,519  INFO       Skipping Dell Technologies FY2020 (already saved)
+2026-03-09 00:26:06,687  INFO     [D] 10/38  Qualcomm (CIK 804328)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:06,902  INFO       Skipping Qualcomm FY2023 (already saved)
+2026-03-09 00:26:06,902  INFO       Skipping Qualcomm FY2022 (already saved)
+2026-03-09 00:26:06,902  INFO       Skipping Qualcomm FY2021 (already saved)
+2026-03-09 00:26:06,902  INFO       Skipping Qualcomm FY2020 (already saved)
+2026-03-09 00:26:06,902  INFO       Skipping Qualcomm FY2019 (already saved)
+2026-03-09 00:26:07,072  INFO     [D] 11/38  Jabil (CIK 1037868)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:07,261  INFO       Skipping Jabil FY2023 (already saved)
+2026-03-09 00:26:07,261  INFO       Skipping Jabil FY2022 (already saved)
+2026-03-09 00:26:07,261  INFO       Skipping Jabil FY2021 (already saved)
+2026-03-09 00:26:07,261  INFO       Skipping Jabil FY2020 (already saved)
+2026-03-09 00:26:07,261  INFO       Skipping Jabil FY2019 (already saved)
+2026-03-09 00:26:07,430  INFO     [D] 12/38  Walmart (CIK 104169)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:08,068  INFO       Skipping Walmart FY2023 (already saved)
+2026-03-09 00:26:08,068  INFO       Skipping Walmart FY2022 (already saved)
+2026-03-09 00:26:08,068  INFO       Skipping Walmart FY2021 (already saved)
+2026-03-09 00:26:08,068  INFO       Skipping Walmart FY2020 (already saved)
+2026-03-09 00:26:08,068  INFO       Skipping Walmart FY2019 (already saved)
+2026-03-09 00:26:08,238  INFO     [D] 13/38  Target (CIK 27419)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:08,417  INFO       Skipping Target FY2023 (already saved)
+2026-03-09 00:26:08,418  INFO       Skipping Target FY2022 (already saved)
+2026-03-09 00:26:08,418  INFO       Skipping Target FY2021 (already saved)
+2026-03-09 00:26:08,418  INFO       Skipping Target FY2020 (already saved)
+2026-03-09 00:26:08,418  INFO       Skipping Target FY2019 (already saved)
+2026-03-09 00:26:08,584  INFO     [D] 14/38  Amazon (CIK 1018724)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:08,777  INFO       Skipping Amazon FY2023 (already saved)
+2026-03-09 00:26:08,777  INFO       Skipping Amazon FY2022 (already saved)
+2026-03-09 00:26:08,777  INFO       Skipping Amazon FY2021 (already saved)
+2026-03-09 00:26:08,777  INFO       Skipping Amazon FY2020 (already saved)
+2026-03-09 00:26:08,777  INFO       Skipping Amazon FY2019 (already saved)
+2026-03-09 00:26:08,952  INFO     [D] 15/38  Home Depot (CIK 354950)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:09,122  INFO       Skipping Home Depot FY2023 (already saved)
+2026-03-09 00:26:09,122  INFO       Skipping Home Depot FY2022 (already saved)
+2026-03-09 00:26:09,122  INFO       Skipping Home Depot FY2021 (already saved)
+2026-03-09 00:26:09,122  INFO       Skipping Home Depot FY2020 (already saved)
+2026-03-09 00:26:09,122  INFO       Skipping Home Depot FY2019 (already saved)
+2026-03-09 00:26:09,286  INFO     [D] 16/38  Best Buy (CIK 764478)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:09,602  INFO       Skipping Best Buy FY2023 (already saved)
+2026-03-09 00:26:09,602  INFO       Skipping Best Buy FY2022 (already saved)
+2026-03-09 00:26:09,602  INFO       Skipping Best Buy FY2021 (already saved)
+2026-03-09 00:26:09,602  INFO       Skipping Best Buy FY2020 (already saved)
+2026-03-09 00:26:09,602  INFO       Skipping Best Buy FY2019 (already saved)
+2026-03-09 00:26:09,772  INFO     [D] 17/38  Costco Wholesale (CIK 909832)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:10,076  INFO       Skipping Costco Wholesale FY2023 (already saved)
+2026-03-09 00:26:10,076  INFO       Skipping Costco Wholesale FY2022 (already saved)
+2026-03-09 00:26:10,076  INFO       Skipping Costco Wholesale FY2021 (already saved)
+2026-03-09 00:26:10,076  INFO       Skipping Costco Wholesale FY2020 (already saved)
+2026-03-09 00:26:10,076  INFO       Skipping Costco Wholesale FY2019 (already saved)
+2026-03-09 00:26:10,246  INFO     [D] 18/38  TJX Companies (CIK 109198)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:10,835  INFO       Skipping TJX Companies FY2023 (already saved)
+2026-03-09 00:26:10,835  INFO       Skipping TJX Companies FY2022 (already saved)
+2026-03-09 00:26:10,835  INFO       Skipping TJX Companies FY2021 (already saved)
+2026-03-09 00:26:10,836  INFO       Skipping TJX Companies FY2020 (already saved)
+2026-03-09 00:26:10,836  INFO       Skipping TJX Companies FY2019 (already saved)
+2026-03-09 00:26:11,006  INFO     [D] 19/38  3M (CIK 66740)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:11,265  INFO       Skipping 3M FY2023 (already saved)
+2026-03-09 00:26:11,265  INFO       Skipping 3M FY2022 (already saved)
+2026-03-09 00:26:11,265  INFO       Skipping 3M FY2021 (already saved)
+2026-03-09 00:26:11,265  INFO       Skipping 3M FY2020 (already saved)
+2026-03-09 00:26:11,265  INFO       Skipping 3M FY2019 (already saved)
+2026-03-09 00:26:11,448  INFO     [D] 20/38  Honeywell (CIK 773840)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:12,194  WARNING    Honeywell FY2023  item_1a  NOT FOUND
+2026-03-09 00:26:12,197  WARNING    Honeywell FY2023  item_7  NOT FOUND
+2026-03-09 00:26:12,200  WARNING    Honeywell FY2023  item_7a  NOT FOUND
+2026-03-09 00:26:12,575  WARNING    Honeywell FY2022  item_1a  NOT FOUND
+2026-03-09 00:26:12,577  WARNING    Honeywell FY2022  item_7  NOT FOUND
+2026-03-09 00:26:12,580  WARNING    Honeywell FY2022  item_7a  NOT FOUND
+2026-03-09 00:26:12,934  WARNING    Honeywell FY2021  item_1a  NOT FOUND
+2026-03-09 00:26:12,937  WARNING    Honeywell FY2021  item_7  NOT FOUND
+2026-03-09 00:26:12,940  WARNING    Honeywell FY2021  item_7a  NOT FOUND
+2026-03-09 00:26:13,260  WARNING    Honeywell FY2020  item_1a  NOT FOUND
+2026-03-09 00:26:13,263  WARNING    Honeywell FY2020  item_7  NOT FOUND
+2026-03-09 00:26:13,265  WARNING    Honeywell FY2020  item_7a  NOT FOUND
+2026-03-09 00:26:13,265  INFO       Skipping Honeywell FY2019 (already saved)
+2026-03-09 00:26:13,423  INFO     [D] 21/38  Parker Hannifin (CIK 76334)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:13,613  INFO       Skipping Parker Hannifin FY2023 (already saved)
+2026-03-09 00:26:13,613  INFO       Skipping Parker Hannifin FY2022 (already saved)
+2026-03-09 00:26:13,613  INFO       Skipping Parker Hannifin FY2021 (already saved)
+2026-03-09 00:26:13,613  INFO       Skipping Parker Hannifin FY2020 (already saved)
+2026-03-09 00:26:13,613  INFO       Skipping Parker Hannifin FY2019 (already saved)
+2026-03-09 00:26:13,782  INFO     [D] 22/38  Illinois Tool Works (CIK 49826)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:14,001  INFO       Skipping Illinois Tool Works FY2023 (already saved)
+2026-03-09 00:26:14,001  INFO       Skipping Illinois Tool Works FY2022 (already saved)
+2026-03-09 00:26:14,001  INFO       Skipping Illinois Tool Works FY2021 (already saved)
+2026-03-09 00:26:14,001  INFO       Skipping Illinois Tool Works FY2020 (already saved)
+2026-03-09 00:26:14,001  INFO       Skipping Illinois Tool Works FY2019 (already saved)
+2026-03-09 00:26:14,174  INFO     [D] 23/38  Flex Ltd (CIK 866374)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:14,899  INFO       Flex Ltd FY2023  item_1a  15675 words
+2026-03-09 00:26:14,902  INFO       Flex Ltd FY2023  item_7  9769 words
+2026-03-09 00:26:14,904  INFO       Flex Ltd FY2023  item_7a  954 words
+2026-03-09 00:26:15,281  INFO       Flex Ltd FY2022  item_1a  14782 words
+2026-03-09 00:26:15,284  INFO       Flex Ltd FY2022  item_7  11255 words
+2026-03-09 00:26:15,286  INFO       Flex Ltd FY2022  item_7a  1005 words
+2026-03-09 00:26:15,623  INFO       Flex Ltd FY2021  item_1a  13697 words
+2026-03-09 00:26:15,625  INFO       Flex Ltd FY2021  item_7  5170 words
+2026-03-09 00:26:15,627  INFO       Flex Ltd FY2021  item_7a  905 words
+2026-03-09 00:26:16,076  INFO       Flex Ltd FY2020  item_1a  13125 words
+2026-03-09 00:26:16,080  INFO       Flex Ltd FY2020  item_7  15195 words
+2026-03-09 00:26:16,082  INFO       Flex Ltd FY2020  item_7a  987 words
+2026-03-09 00:26:16,468  INFO       Flex Ltd FY2019  item_1a  11188 words
+2026-03-09 00:26:16,470  INFO       Flex Ltd FY2019  item_7  1294 words
+2026-03-09 00:26:16,472  INFO       Flex Ltd FY2019  item_7a  738 words
+2026-03-09 00:26:16,622  INFO     [D] 24/38  Boeing (CIK 12927)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:16,813  INFO       Skipping Boeing FY2023 (already saved)
+2026-03-09 00:26:16,813  INFO       Skipping Boeing FY2022 (already saved)
+2026-03-09 00:26:16,814  INFO       Skipping Boeing FY2021 (already saved)
+2026-03-09 00:26:16,814  INFO       Skipping Boeing FY2020 (already saved)
+2026-03-09 00:26:16,814  INFO       Skipping Boeing FY2019 (already saved)
+2026-03-09 00:26:16,986  INFO     [D] 25/38  Caterpillar (CIK 18230)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:17,282  INFO       Skipping Caterpillar FY2023 (already saved)
+2026-03-09 00:26:17,282  INFO       Skipping Caterpillar FY2022 (already saved)
+2026-03-09 00:26:17,282  INFO       Skipping Caterpillar FY2021 (already saved)
+2026-03-09 00:26:17,282  INFO       Skipping Caterpillar FY2020 (already saved)
+2026-03-09 00:26:17,282  INFO       Skipping Caterpillar FY2019 (already saved)
+2026-03-09 00:26:17,455  INFO     [D] 26/38  Deere and Company (CIK 315189)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:17,620  INFO       Skipping Deere and Company FY2023 (already saved)
+2026-03-09 00:26:17,620  INFO       Skipping Deere and Company FY2022 (already saved)
+2026-03-09 00:26:17,620  INFO       Skipping Deere and Company FY2021 (already saved)
+2026-03-09 00:26:17,620  INFO       Skipping Deere and Company FY2020 (already saved)
+2026-03-09 00:26:17,620  INFO       Skipping Deere and Company FY2019 (already saved)
+2026-03-09 00:26:17,786  INFO     [D] 27/38  Emerson Electric (CIK 32604)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:17,966  INFO       Skipping Emerson Electric FY2023 (already saved)
+2026-03-09 00:26:17,966  INFO       Skipping Emerson Electric FY2022 (already saved)
+2026-03-09 00:26:17,966  INFO       Skipping Emerson Electric FY2021 (already saved)
+2026-03-09 00:26:17,966  INFO       Skipping Emerson Electric FY2020 (already saved)
+2026-03-09 00:26:17,966  INFO       Skipping Emerson Electric FY2019 (already saved)
+2026-03-09 00:26:18,137  INFO     [D] 28/38  Cummins (CIK 26172)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:18,325  INFO       Skipping Cummins FY2023 (already saved)
+2026-03-09 00:26:18,325  INFO       Skipping Cummins FY2022 (already saved)
+2026-03-09 00:26:18,325  INFO       Skipping Cummins FY2021 (already saved)
+2026-03-09 00:26:18,325  INFO       Skipping Cummins FY2020 (already saved)
+2026-03-09 00:26:18,325  INFO       Skipping Cummins FY2019 (already saved)
+2026-03-09 00:26:18,500  INFO     [D] 29/38  Danaher Corporation (CIK 313616)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:18,689  INFO       Skipping Danaher Corporation FY2023 (already saved)
+2026-03-09 00:26:18,690  INFO       Skipping Danaher Corporation FY2022 (already saved)
+2026-03-09 00:26:18,690  INFO       Skipping Danaher Corporation FY2021 (already saved)
+2026-03-09 00:26:18,690  INFO       Skipping Danaher Corporation FY2020 (already saved)
+2026-03-09 00:26:18,690  INFO       Skipping Danaher Corporation FY2019 (already saved)
+2026-03-09 00:26:18,861  INFO     [D] 30/38  Eaton Corporation (CIK 31462)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:19,427  INFO       Skipping Eaton Corporation FY2023 (already saved)
+2026-03-09 00:26:19,427  INFO       Skipping Eaton Corporation FY2022 (already saved)
+2026-03-09 00:26:19,427  INFO       Skipping Eaton Corporation FY2021 (already saved)
+2026-03-09 00:26:19,427  INFO       Skipping Eaton Corporation FY2020 (already saved)
+2026-03-09 00:26:19,427  INFO       Skipping Eaton Corporation FY2019 (already saved)
+2026-03-09 00:26:19,600  INFO     [D] 31/38  Lockheed Martin (CIK 936468)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:19,776  INFO       Skipping Lockheed Martin FY2023 (already saved)
+2026-03-09 00:26:19,776  INFO       Skipping Lockheed Martin FY2022 (already saved)
+2026-03-09 00:26:19,776  INFO       Skipping Lockheed Martin FY2021 (already saved)
+2026-03-09 00:26:19,777  INFO       Skipping Lockheed Martin FY2020 (already saved)
+2026-03-09 00:26:19,777  INFO       Skipping Lockheed Martin FY2019 (already saved)
+2026-03-09 00:26:19,950  INFO     [D] 32/38  FedEx (CIK 1048911)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:20,950  INFO       FedEx FY2023  item_1a  4116 words
+2026-03-09 00:26:20,950  INFO       FedEx FY2023  item_7  53 words
+2026-03-09 00:26:20,953  INFO       FedEx FY2023  item_7a  683 words
+2026-03-09 00:26:21,615  INFO       FedEx FY2022  item_1a  3437 words
+2026-03-09 00:26:21,616  INFO       FedEx FY2022  item_7  42 words
+2026-03-09 00:26:21,618  INFO       FedEx FY2022  item_7a  688 words
+2026-03-09 00:26:22,241  INFO       FedEx FY2021  item_1a  5997 words
+2026-03-09 00:26:22,242  INFO       FedEx FY2021  item_7  42 words
+2026-03-09 00:26:22,244  INFO       FedEx FY2021  item_7a  655 words
+2026-03-09 00:26:22,952  WARNING    FedEx FY2020  item_1a  NOT FOUND
+2026-03-09 00:26:22,954  INFO       FedEx FY2020  item_7  31 words
+2026-03-09 00:26:22,955  INFO       FedEx FY2020  item_7a  22 words
+2026-03-09 00:26:23,137  WARNING    FedEx FY2019  item_1a  NOT FOUND
+2026-03-09 00:26:23,137  WARNING    FedEx FY2019  item_7  NOT FOUND
+2026-03-09 00:26:23,138  WARNING    FedEx FY2019  item_7a  NOT FOUND
+2026-03-09 00:26:23,288  INFO     [D] 33/38  UPS (CIK 1090727)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:23,502  INFO       Skipping UPS FY2023 (already saved)
+2026-03-09 00:26:23,502  INFO       Skipping UPS FY2022 (already saved)
+2026-03-09 00:26:23,502  INFO       Skipping UPS FY2021 (already saved)
+2026-03-09 00:26:23,503  INFO       Skipping UPS FY2020 (already saved)
+2026-03-09 00:26:23,503  INFO       Skipping UPS FY2019 (already saved)
+2026-03-09 00:26:23,678  INFO     [D] 34/38  Expeditors International (CIK 746515)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:24,457  WARNING    Expeditors International FY2023  item_1a  NOT FOUND
+2026-03-09 00:26:24,459  WARNING    Expeditors International FY2023  item_7  NOT FOUND
+2026-03-09 00:26:24,461  WARNING    Expeditors International FY2023  item_7a  NOT FOUND
+2026-03-09 00:26:24,829  WARNING    Expeditors International FY2022  item_1a  NOT FOUND
+2026-03-09 00:26:24,831  WARNING    Expeditors International FY2022  item_7  NOT FOUND
+2026-03-09 00:26:24,833  WARNING    Expeditors International FY2022  item_7a  NOT FOUND
+2026-03-09 00:26:25,195  WARNING    Expeditors International FY2021  item_1a  NOT FOUND
+2026-03-09 00:26:25,197  WARNING    Expeditors International FY2021  item_7  NOT FOUND
+2026-03-09 00:26:25,199  WARNING    Expeditors International FY2021  item_7a  NOT FOUND
+2026-03-09 00:26:25,555  WARNING    Expeditors International FY2020  item_1a  NOT FOUND
+2026-03-09 00:26:25,557  WARNING    Expeditors International FY2020  item_7  NOT FOUND
+2026-03-09 00:26:25,559  WARNING    Expeditors International FY2020  item_7a  NOT FOUND
+2026-03-09 00:26:25,908  WARNING    Expeditors International FY2019  item_1a  NOT FOUND
+2026-03-09 00:26:25,910  WARNING    Expeditors International FY2019  item_7  NOT FOUND
+2026-03-09 00:26:25,912  WARNING    Expeditors International FY2019  item_7a  NOT FOUND
+2026-03-09 00:26:26,060  INFO     [D] 35/38  CH Robinson Worldwide (CIK 1043277)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:26,299  INFO       Skipping CH Robinson Worldwide FY2023 (already saved)
+2026-03-09 00:26:26,299  INFO       Skipping CH Robinson Worldwide FY2022 (already saved)
+2026-03-09 00:26:26,299  INFO       Skipping CH Robinson Worldwide FY2021 (already saved)
+2026-03-09 00:26:26,299  INFO       Skipping CH Robinson Worldwide FY2020 (already saved)
+2026-03-09 00:26:26,299  INFO       Skipping CH Robinson Worldwide FY2019 (already saved)
+2026-03-09 00:26:26,477  INFO     [D] 36/38  Ryder System (CIK 813672)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:27,130  INFO       Skipping Ryder System FY2023 (already saved)
+2026-03-09 00:26:27,130  INFO       Skipping Ryder System FY2022 (already saved)
+2026-03-09 00:26:27,467  WARNING    Ryder System FY2021  item_1a  NOT FOUND
+2026-03-09 00:26:27,468  WARNING    Ryder System FY2021  item_7  NOT FOUND
+2026-03-09 00:26:27,469  WARNING    Ryder System FY2021  item_7a  NOT FOUND
+2026-03-09 00:26:27,470  INFO       Skipping Ryder System FY2019 (already saved)
+2026-03-09 00:26:27,618  INFO     [D] 37/38  JB Hunt Transport (CIK 728535)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:27,806  INFO       Skipping JB Hunt Transport FY2023 (already saved)
+2026-03-09 00:26:27,806  INFO       Skipping JB Hunt Transport FY2022 (already saved)
+2026-03-09 00:26:27,806  INFO       Skipping JB Hunt Transport FY2021 (already saved)
+2026-03-09 00:26:27,806  INFO       Skipping JB Hunt Transport FY2020 (already saved)
+2026-03-09 00:26:27,806  INFO       Skipping JB Hunt Transport FY2019 (already saved)
+2026-03-09 00:26:27,981  INFO     [D] 38/38  Werner Enterprises (CIK 793074)  years=[2019, 2020, 2021, 2022, 2023]
+2026-03-09 00:26:28,151  INFO       Skipping Werner Enterprises FY2023 (already saved)
+2026-03-09 00:26:28,152  INFO       Skipping Werner Enterprises FY2022 (already saved)
+2026-03-09 00:26:28,152  INFO       Skipping Werner Enterprises FY2021 (already saved)
+2026-03-09 00:26:28,152  INFO       Skipping Werner Enterprises FY2020 (already saved)
+2026-03-09 00:26:28,152  INFO       Skipping Werner Enterprises FY2019 (already saved)
+2026-03-09 00:26:28,469  INFO     Scenario D complete: 528 rows -> /Users/jamesbowden/AG952/assignments/march2026/data/scenario_d/corpus.csv
+2026-03-09 00:26:28,470  INFO     All done. Output files:
+2026-03-09 00:26:28,558  INFO       scenario_a/corpus.csv  405 rows
+2026-03-09 00:26:28,678  INFO       scenario_b/corpus.csv  496 rows
+2026-03-09 00:26:28,843  INFO       scenario_c/corpus.csv  456 rows
+2026-03-09 00:26:28,941  INFO       scenario_d/corpus.csv  528 rows
