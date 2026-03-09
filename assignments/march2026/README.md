@@ -75,15 +75,17 @@ You need to decide which section or sections you will analyse. This is your firs
 
 ### Step 4 – Record Pre-Processing Decisions
 
-Run the cell to display four dropdown menus. Set each one according to your chosen approach:
+Run the cell to display five dropdown menus. Set each one according to your chosen approach:
 
-1. **Stop-word list** – Choose between Standard NLTK (removes common English words) or Finance-adjusted (also removes common words but retains modal verbs such as "may", "could", "will" and negation terms such as "not", "no"). The finance-adjusted list is often preferable for sentiment analysis of financial text.
+1. **Case folding** – Choose Yes (lowercase all tokens) or No (preserve original case). Lowercasing means "Risk" and "risk" are treated as the same token; preserving case retains the distinction between proper nouns and common words. This choice affects dictionary matching, topic model vocabulary, and downstream analysis.
 
-2. **Normalisation** – Choose Lemmatisation (reduces words to their dictionary form), Stemming (cruder reduction to a root form), or None (keep words as they appear). Lemmatisation is generally preferred for interpretability.
+2. **Stop-word list** – Choose between Standard NLTK (removes common English words) or Finance-adjusted (also removes common words but retains modal verbs such as "may", "could", "will" and negation terms such as "not", "no"). The finance-adjusted list is often preferable for sentiment analysis of financial text.
 
-3. **Number handling** – Choose Remove (delete all numeric tokens), Retain (keep them), or Replace with placeholder (swap all numbers for a generic token like NUM). Consider whether numbers carry meaning in your context.
+3. **Normalisation** – Choose Lemmatisation (reduces words to their dictionary form), Stemming (cruder reduction to a root form), or None (keep words as they appear). Lemmatisation is generally preferred for interpretability.
 
-4. **TF-IDF weighting** – Choose Yes or No. TF-IDF downweights terms that appear frequently across all documents. Relevant if you are using a model that relies on term frequency.
+4. **Number handling** – Choose Remove (delete all numeric tokens), Retain (keep them), or Replace with placeholder (swap all numbers for a generic token like NUM). Consider whether numbers carry meaning in your context.
+
+5. **TF-IDF weighting** – Choose Yes or No. TF-IDF downweights terms that appear frequently across all documents. Relevant if you are using a model that relies on term frequency.
 
 Your choices are shown live in a confirmation panel below the dropdowns. Check this panel before moving on. You will need to report and justify all four choices.
 
