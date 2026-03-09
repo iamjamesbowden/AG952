@@ -66,12 +66,18 @@ The notebook will tell you which scenario (A, B, C, or D) you have been assigned
 
 ### Step 3 – Load the Corpus
 
-Run this cell. Your assigned corpus will be loaded. Each filing contains two sections:
+Run this cell. Your assigned corpus will be loaded and a dropdown will appear. Each filing contains two sections:
 
 - **item_1a** – Risk Factors
 - **item_7** – Management Discussion and Analysis (MD&A)
 
-You need to decide which section or sections you will analyse. This is your first methodological decision and you must justify it in your written report. Think about which section is more relevant to your scenario's research theme and what prior literature suggests.
+Use the dropdown to select which section(s) you will analyse:
+
+- **Both sections combined (full narrative)** – the two sections are merged into a single text per firm-year, treating the complete narrative disclosure as the unit of analysis.
+- **item_1a — Risk Factors only** – only the Risk Factors section is retained.
+- **item_7 — MD&A only** – only the MD&A section is retained.
+
+This is your first methodological decision and you must justify it in your written report with reference to relevant literature and your scenario's research question. The working corpus updates automatically when you change the dropdown. Your selection is recorded and submitted with your other choices in Step 12.
 
 ### Step 4 – Record Pre-Processing Decisions
 
