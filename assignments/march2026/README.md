@@ -93,7 +93,7 @@ Run the cell to display five dropdown menus. Set each one according to your chos
 
 5. **TF-IDF weighting** – Choose Yes or No. TF-IDF downweights terms that appear frequently across all documents. Relevant if you are using a model that relies on term frequency.
 
-Your choices are shown live in a confirmation panel below the dropdowns. Check this panel before moving on. You will need to report and justify all four choices.
+Your choices are shown live in a confirmation panel below the dropdowns. Check this panel before moving on. You will need to report and justify all five choices.
 
 ### Step 5 – Apply Pre-Processing
 
@@ -101,28 +101,35 @@ Run the cell. The pre-processing pipeline runs automatically using the choices y
 
 Check that the tokens look sensible for your choices. If something looks wrong (e.g. numbers are still present when you chose Remove), go back to Step 4 and check your settings, then re-run Step 5.
 
-### Step 6 – Select Sentiment Model
+### Step 6 – Select Sentiment Model and Set Thresholds
 
-Run the cell to display a dropdown. Choose one of:
+Run the cell. Three inputs appear:
 
-- **lm_dictionary** – Loughran-McDonald financial sentiment dictionary
-- **harvard_iv** – Harvard General Inquirer dictionary
-- **naive_bayes** – Machine learning classifier (Naive Bayes)
-- **logistic_regression** – Machine learning classifier (Logistic Regression)
+1. **Sentiment model dropdown** – Choose one of:
+   - **lm_dictionary** – Loughran-McDonald financial sentiment dictionary
+   - **harvard_iv** – Harvard General Inquirer dictionary
+   - **naive_bayes** – Machine learning classifier (Naive Bayes)
+   - **logistic_regression** – Machine learning classifier (Logistic Regression)
 
-Your choice determines which of the next two sub-steps you run.
+2. **Positive threshold** (default ≥ 0.10) and **Negative threshold** (default ≤ −0.10) – These apply to all methods. Every sentiment approach produces a continuous score in [−1, +1]: dictionary methods use (positive words − negative words) / (positive + negative); ML methods use P(Positive) − P(Negative). The thresholds determine where the boundaries between Positive, Neutral, and Negative fall. Scores in between the two thresholds are classified as Neutral.
+
+You must justify your threshold choices in your report. Consider that a very narrow neutral zone will produce very few Neutral classifications even when the sentiment signal is weak, while a very wide zone may misclassify genuinely positive or negative sentences. Your model choice determines which of the next two sub-steps you run.
 
 ### Step 6a – Dictionary Sentiment (if you chose lm_dictionary or harvard_iv)
 
-Run this cell if you selected a dictionary-based model. It computes sentiment scores across the corpus and then displays the score distribution on a set of seed sentences.
+Run this cell if you selected a dictionary-based model. It scores the full corpus and then evaluates the method against a set of 286 human-labelled seed sentences.
 
-Two threshold inputs appear: **Positive threshold** (default ≥ 0.10) and **Negative threshold** (default ≤ −0.10). These determine how scores are converted into labels (positive, negative, neutral). A confusion matrix and classification report update live as you adjust the thresholds.
+A classification metrics table (Precision, Recall, F1) and a confusion matrix are displayed. Both also appear as plain text below the table — select and copy this text to paste into your report. The confusion matrix updates live whenever you adjust the thresholds in Step 6.
 
-You may adjust the thresholds to improve classification performance on the seed sentences. Your chosen thresholds will be recorded. Justify your threshold choices in your report.
+**The classification metrics table and confusion matrix must appear in your written report**, along with a discussion of what the results reveal about the method's accuracy and limitations.
 
 ### Step 6b – ML Classifier Sentiment (if you chose naive_bayes or logistic_regression)
 
-Run this cell if you selected a machine learning model. The classifier is trained on labelled seed sentences and then applied to the full corpus. A classification report and confusion matrix are printed automatically.
+Run this cell if you selected a machine learning model. Rather than hard class labels, the classifier computes a net probability score — P(Positive) − P(Negative) — for each document. The thresholds set in Step 6 are then applied to categorise each document.
+
+Performance is evaluated using **5-fold stratified cross-validation** across all 286 seed sentences, so every sentence is assessed by a model that was not trained on it. A classification metrics table (Precision, Recall, F1) and confusion matrix are displayed, both also in plain text for easy copying. The final model is trained on all 286 seed sentences before being applied to the full corpus.
+
+**The classification metrics table and confusion matrix must appear in your written report**, along with a discussion of classifier performance and the implications of the threshold choices you made.
 
 ### Step 6c – Sentiment Score Table
 
@@ -199,16 +206,19 @@ Run this cell. A formatted summary table of all your methodological choices is d
 
 ## 5. What to Download and Include in Your Report
 
-Your written report must include all six of the following. Missing items will be penalised.
+Your written report must include all seven of the following. Missing items will be penalised.
 
 | Item | Where it comes from | What you must write |
 |------|---------------------|---------------------|
+| Classification metrics table and confusion matrix | Step 6a or 6b | Discussion of model accuracy, which classes are hardest to predict, and what the results suggest about the method's suitability for your corpus |
 | Sentiment score table | Step 6c | Discussion of patterns, trends, and what they suggest about your research theme |
 | Secondary metric score table | Step 9 | Discussion of findings and what they add to the sentiment analysis |
 | Sentiment chart (fig1_sentiment.png) | Step 10 | Discussion of visual patterns and what they show |
 | Secondary metric chart (fig2_*.png) | Step 10 | Discussion of visual patterns |
 | Completed manual validation table (50 rows) | Step 11, filled by you | Discussion of agreement/disagreement with automated labels and what this reveals |
 | Methodological choices summary table | Step 13 | Justification of every choice you made |
+
+To copy a table from the notebook output, use the plain-text version printed below each displayed table — select the text, copy, and paste into your document.
 
 In addition, your report must include a discussion of your corpus section choice (item_1a vs item_7 or both) from Step 3.
 
