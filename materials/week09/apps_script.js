@@ -33,6 +33,8 @@ function doPost(e) {
       data.cp2_stopwords              || "",
       data.cp2_remove_numbers         || "",
       data.cp2_lowercase              || "",
+      data.cp2b_n_clusters            || "",
+      data.cp2b_cluster_names         || "",
       data.cp3_n_topics               || "",
       data.cp3_topic_labels           || "",
       data.cp4_dictionary             || "",

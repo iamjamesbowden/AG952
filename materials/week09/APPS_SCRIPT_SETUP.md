@@ -7,7 +7,7 @@
 3. Add the following header row in row 1 (one value per column, exactly as written):
 
 ```
-team_name | cp1_period | cp2_normalisation | cp2_stopwords | cp2_remove_numbers | cp2_lowercase | cp3_n_topics | cp3_topic_labels | cp4_dictionary | cp4_sentiment_2010_2014 | cp4_sentiment_2019_2025 | cp6_model | cp6_finbert_accuracy | cp6_distilbert_accuracy | cp7_interpretability_choice | cp8_analyst_note | timestamp
+team_name | cp1_period | cp2_normalisation | cp2_stopwords | cp2_remove_numbers | cp2_lowercase | cp2b_n_clusters | cp2b_cluster_names | cp3_n_topics | cp3_topic_labels | cp4_dictionary | cp4_sentiment_2010_2014 | cp4_sentiment_2019_2025 | cp6_model | cp6_finbert_accuracy | cp6_distilbert_accuracy | cp7_interpretability_choice | cp8_analyst_note | timestamp
 ```
 
 4. Copy the Sheet ID from the URL:
