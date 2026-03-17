@@ -8,7 +8,7 @@ Run these tests the day before the session on a fresh Colab runtime.
 - [ ] Run Step 0 (dependencies install, ~60 seconds)
 - [ ] Run CP0 — select any team name, confirm registration message
 - [ ] Run CP1 — confirm the CSV loads from the DATA_URL and the two charts render
-- [ ] If the URL fetch fails: check the GitHub repo has the CSV committed at `materials/week09/data/brewdog_articles.csv`
+- [ ] If the URL fetch fails: check the GitHub repo has the CSV committed at `materials/week09/data/brewdog_articles_factiva.csv`
 
 ## 2. Part 1 (traditional NLP)
 
@@ -21,9 +21,9 @@ Run these tests the day before the session on a fresh Colab runtime.
 - [ ] CP5 Button A (tokenisation): confirm FinBERT tokeniser downloads and tokenisation demo prints
 - [ ] CP5 Button B (context sensitivity): confirm Markdown panel renders
 - [ ] CP5 Button C (attention): confirm attention heatmap renders (may fail on CPU — that is acceptable, the cell prints a graceful message)
-- [ ] CP6 — DistilBERT option (faster, ~2 min on CPU): confirm inference runs on 40-article sample and accuracy is reported
-- [ ] CP6 — FinBERT option (slower, ~4 min on CPU): confirm inference runs and results differ from DistilBERT
-- [ ] CP7: confirm VADER vs transformer comparison runs and two confusion matrices render
+- [ ] CP6 — DistilBERT option (faster, ~2 min on CPU): confirm inference runs on 40-article sample and VADER agreement rate is reported
+- [ ] CP6 — FinBERT option (slower, ~4 min on CPU): confirm inference runs and disagreement articles are listed
+- [ ] CP7: confirm VADER vs transformer comparison runs, trajectory chart and method-agreement heatmap render
 - [ ] CP8: type a test note, confirm word counter updates, confirm submission POST (if Apps Script deployed)
 
 ## 4. Submission
@@ -47,7 +47,7 @@ Run the full notebook end-to-end on Colab CPU and note actual timings:
 | CP7 | ~30s | |
 | CP8 | — | |
 
-**Total target: ≤ 55 minutes on CPU.** If CP6 is running long, reduce the default sample size in the widget from 60 to 40 before the session.
+**Total target: ≤ 55 minutes on CPU.** Default sample size is already set to 40 articles in CP6. Increase to 80–120 if time permits.
 
 ## 6. Colab GPU recommendation
 
