@@ -1,0 +1,579 @@
+========================================================================
+  2021 Q1  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0625  analyst_neg_norm=0.0000  musk_net_sent=0.0625
+  sentence ids: analyst 149–149  Musk 153–153
+  Analyst (Pierre Ferragu):
+    Okay. And I had a quick follow-up on -- maybe Zach for you on your Energy business. So I understand when I get to gross margin with Solar Roof ramp, but I was wondering, what do gross margin look like there when you look at the Storage business and where you -- what’s your ambition in terms of gross margin in that business? I guess it’s going to grow in the mix in coming years, so it’s important for long-term modeling?
+  Musk:
+    We have a clear runway for improving the cost for the megawatt hours for the Megapack.
+
+  [Rank 2]  divergence=0.0104  analyst_neg_norm=0.0104  musk_net_sent=0.0000
+  sentence ids: analyst 172–172  Musk 173–173
+  Analyst (Dan Levy):
+    Hi. Good evening. Thanks. Two questions. One is on COGS, I think, you have gotten from Battery Day a pretty good feel about the potential for COGS reduction related to Powertrain. But I’d like to get a sense of the path to reducing COGS ex-Powertrain as you would still need a meaningful reduction on that front to make the math work on a $25,000 vehicle. So what levers do you have to reduce in your cost ex-Powertrain, is it just more scale, better supply pricing or is it just based on ongoing cost reductions?
+  Musk:
+    I think all of the above.
+
+  [Rank 3]  divergence=0.0071  analyst_neg_norm=0.0088  musk_net_sent=0.0159
+  sentence ids: analyst 136–136  Musk 137–138
+  Analyst (Pierre Ferragu):
+    Hi, guys. Thanks for taking my question. I’d love to get actually the data on what you presented on the Battery Day. In the last six, seven months, I was wondering how much progress you have made on that front, first in terms of process development. So how are things coming together on your pilot line, are you getting to the kind of productivity throughput you are aiming for? And second, actually on your production ramps, I was wondering in which size you are ramping production capacity cells with 4680 cell and where you stand on ramping up that capacity as well? And I have a quick follow-up on energy rate as well.
+  Musk:
+    Well, so we have the -- I call it the Atlas, but we have a small cell power plant which is still big by normal standards. We expect to have like a 10-gigawatt-hour per year capability in Fremont, California and we have made quite a few cells. We are not quite yet at the point where we think the cells are reliable enough to be shipped in cars, but we are getting close to that point. And then we have already ordered most of the equipment for battery production in Berlin and then electric for Austin, as well. So we are really down to the nitty-gritty on this. But overall, I think, we are still quite optimistic about achieving volume production of the 4680 next year.
+
+  [Rank 4]  divergence=0.0000  analyst_neg_norm=0.0000  musk_net_sent=0.0000
+  sentence ids: analyst 140–140  Musk 143–143
+  Analyst (Pierre Ferragu):
+    Thank you.
+  Musk:
+    Yeah. And basically, this is just a guess because we don’t know for sure, but it appears as though we are about 12, probably, not more than 18 months away from volume production of the 4680. Now at the same time, we are actually trying to have our cell supply partners ramp up their supply as much as possible. So this is not something that is to the exclusion of suppliers. It is in conjunction with suppliers.
+
+  [Rank 5]  divergence=0.0000  analyst_neg_norm=0.0000  musk_net_sent=0.0000
+  sentence ids: analyst 157–157  Musk 158–158
+  Analyst (Rod Lache):
+    Hi, everybody. I was hoping maybe just first, you could talk a little bit about how you are thinking about the rollout of version 9 of SSD and the transition of the subscription models. It sounds like some of this is about to roll out next month. I am not sure if that’s just a subscription model. But maybe you could just spend a little time talking about how impactful you expect that to be.
+  Musk:
+    So go ahead, Zach.
+
+========================================================================
+  2021 Q2  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0414  analyst_neg_norm=0.0081  musk_net_sent=-0.0333
+  sentence ids: analyst 131–131  Musk 132–132
+  Analyst (Pierre Ferragu):
+    Okay. Great. Thank you. And I have a quick question. I know, Elon, you don't think it's meaningful today, but I'd be curious to know if you have any thoughts about when you announced the new pricing on the FSD ring from 10,000 and thrown to 199 without looking. I'd be curious to understand how it's affected behavior in issues, so like a massive effect effect, affecting the service. And I'm not thinking about people looking at it as a message, but more to try the most advanced version of autopilots, and to try it. In the first days, even on the pricing, have you seen a very significant spike in the tech rate? And can you give us a sense of how big it was?
+  Musk:
+    Okay. What you are asking, like if the FSD tech rate is too expensive and that's why we're doing subscription? Or -- I'm not sure if I understand your question correctly.
+
+  [Rank 2]  divergence=0.0372  analyst_neg_norm=0.0090  musk_net_sent=-0.0282
+  sentence ids: analyst 109–109  Musk 110–110
+  Analyst (Rod Lache):
+    Hi everybody. Your cost of goods sold per vehicle's already down to the mid $37,000 range in the quarter, it's down $5,000 year-over-year, despite some of the inefficiencies that you talked about. And I know that a lot is going to change from here just given how mix is going to evolve. But if you're successful on the structural pack and front and rear castings in the launch of the 4680 cell, can you just maybe give us a sense of what a successful outcome would look like maybe a year from now. Obviously a lot has to go right. But just any kind of broad framework for us to think about.
+  Musk:
+    Yes, it's really difficult for us to make specific predictions is very difficult. I think we felt confident of, say at least a few percent growth year-over-year next year. And maybe it's a 100%, but that's -- we need a lot of crystal balls to figure out exactly what it's going to be. And it is literally impossible to make a specific prediction. But at least 50, maybe a 100, something like that.
+
+  [Rank 3]  divergence=0.0208  analyst_neg_norm=0.0208  musk_net_sent=0.0000
+  sentence ids: analyst 133–133  Musk 135–135
+  Analyst (Pierre Ferragu):
+    No, my question is from the time you announced the subscription at $199 the amounts, how much did like the take rate increase like the [Indiscernible] people who basically took the subscription about the new car. That is how it was when they had to pay 10 grand up front.
+  Musk:
+    Yeah, I mean, we --
+
+  [Rank 4]  divergence=0.0175  analyst_neg_norm=0.0175  musk_net_sent=0.0000
+  sentence ids: analyst 122–122  Musk 123–124
+  Analyst (Pierre Ferragu):
+    Thanks very much for taking my question. I have another question, actually, on batteries, but on a slightly different angle. I was wondering how you're looking at your sourcing strategy for the 4680. You've talked a lot about all the work you're doing to develop your in-house production. But what about asking other battery manufacturers to do 4680 cell with their own technology? Maybe less innovation than what you guys are lining up internally, and I was wondering if the first 4680 cells that we see on the road will definitely come from Tesla's own manufacturing lines, or whether it could be coming actually from outside suppliers as well. And I have a quick follow-up.
+  Musk:
+    Yeah. We are in fact working with our existing suppliers to produce 4680 format cells. And this is just a guess right now. But I see us consolidating around a 4680 nickel-based structural pack and -- for long-range vehicles, and then not necessarily a 4680 format, but some other format for iron-based cells. So right now, we kind of have the Baskin Robbins of batteries situation, where there's so many formats and so many chemistries, that it's like we've got like 36 flavors of battery at this point. This is just -- this results in an engineering drag coefficient where each variants of cell chemistry and format requires as to an amount of engineering to maintain it and troubleshoot and this inhibits our forward progress. So it is going to be important to consolidate to maybe -- ideally 2, 4 factors, maybe 3, but ideally 2. And then just 1 nickel chemistry and 1 iron chemistry and -- so we don't have to troubleshoot so many different variants.
+
+  [Rank 5]  divergence=0.0107  analyst_neg_norm=0.0000  musk_net_sent=-0.0107
+  sentence ids: analyst 103–103  Musk 104–106
+  Analyst (Colin Rusch):
+    And then just the follow-up there is about the kin to the regulatory environment, keeping up with the technology. Are you seeing meaningful evolution in terms of the regulators really understanding the technology and beginning to set some standards here sometime in the near-term?
+  Musk:
+    At least in the U.S. we don't see regulation as the fundamental limiter. We've obviously got to make it work and then demonstrate that the reliability is significantly in excess of the average human driver for it to be allowed -- use it without paying attention to the road. But I think we have a massive fleet. It will be, I think, straightforward to make the arguments on statistical grounds, just based on the number of interventions, especially in events that would result in a crash. At scale, it will have billions of miles of travel to be able to show that it is the safety of the car with Autopilot on is a 100% or 200% or more safer than the average human driver. At that point, I think would be unconscionable to not to allow autopilot because the car just becomes way less safe. It would be like "shake the elevator" analogy. Back in the day, we used to have elevator operators with a big switch that -- and they were to operate the elevator and move between floors. But they get tired or maybe drunk or something or distracted and every now and again, somebody would be kind of sheared in half between floors. That's kind of the situation we have with cars. Autonomy will become so safe that it will be unsafe to manually operate the car relatively speaking. And today [Indiscernible] just get in an elevator where we press the button for which floor we want and it just takes us there safely. And it would require alarming if those elevators were operated by a person with a giant switch. That's how we it would be with cars.
+
+========================================================================
+  2021 Q4  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0208  analyst_neg_norm=0.0000  musk_net_sent=-0.0208
+  sentence ids: analyst 91–91  Musk 92–92
+  Analyst (Jed Dorsheimer):
+    That's helpful. Thank you. So, you see that '22 is kind of the opening of that the energy business reaccelerating?
+  Musk:
+    It's hard to predict 2022 because we still have lingering supply chain -- there are still lingering supply chain issues globally. But I think the chip stuff, at least the chip side of things appears to looks like it will alleviate end of this year or '23. I mean, there are a crazy number of chip fabs being built, which is great. The sheer number of chip fabs being built right now is exciting to see, yes. So, there could be other issues. We're trying to anticipate those as much as possible but predicting the future is difficult.
+
+  [Rank 2]  divergence=0.0183  analyst_neg_norm=0.0183  musk_net_sent=0.0000
+  sentence ids: analyst 120–120  Musk 121–121
+  Analyst (Pierre Ferragu):
+    Okay. Thanks. And I have a quick follow-up on chips. So, you've talked a lot about all this shortage and the supply difficulties. And I was wondering if you could give us some color on like the power chips you need for investors and all the power systems you're putting together versus like the more traditional logic chips, if the situation is different between the two? And should we understand from the situation today that you're working very hard also at expanding the scope of your suppliers? And should we expect like Tesla to take on board additional suppliers in the near term, especially on the power side?
+  Musk:
+    Well, last year was chip hell of many chips, so silicon carbide inverters certainly one of them, but...
+
+  [Rank 3]  divergence=0.0115  analyst_neg_norm=0.0115  musk_net_sent=0.0000
+  sentence ids: analyst 88–88  Musk 89–90
+  Analyst (Jed Dorsheimer):
+    Hi. Thanks, and congratulations on a great year. Elon, I guess, my question is around the Megapack or your energy business. And so, as we look at the strategy or the supply chain constraints that you mentioned, you have two different strategies or it seems like with Megapack and Powerwall. And I think the Powerwall was answered with 4680 and the 2170 opening up. So, I was wondering if you could just talk about the supply chain and LFP for the Megapack and what we should expect for that.
+  Musk:
+    Yes. To be clear, we do think that old stationary storage, Powerwall and Megapack, will be -- will transition to an iron-based system, basically a non-nickel system. Manganese is also -- could be part of the future, but primarily iron. It just comes down -- iron nickel -- we need something that is formed in a star before a supernova, ideally. So iron is. So that's because there's a ridiculous amount of iron on earth as is a ridiculous amount of lithium. So, you can really expect all stationary storage to transition to iron over time. And like I said, with manganese is like a wildcard, manganese. And I should say like we did short-change the energy business last year and that vehicle took priority over the energy side. So not on cells, but on -- yes, on chipset, yes. So, we do see a very -- I mean, long-term probably terawatt-hour per year energy business. A lot -- it's very vast. Yes.
+
+  [Rank 4]  divergence=0.0085  analyst_neg_norm=0.0000  musk_net_sent=0.0085
+  sentence ids: analyst 113–113  Musk 114–114
+  Analyst (Toni Sacconaghi):
+    Elon, I was wondering if I could just follow up and ask. You talked about your product road map and also your goal to keep growing at 50% per year or better. That would put you at 3.2 million vehicles or more in 2024. And I think you made reference to Cybertruck maybe being 250,000 vehicles. If there is no $25,000 vehicle being worked on, is it really realistic to think that you can sell more than 3 million vehicles with two very high-volume cars and Cybertruck in 2024, or how do we think about that or what else is missing in that equation?
+  Musk:
+    Yes. I mean, it's apparent from the questions that the gravity of Full Self-Driving is not fully appreciated. If an asset has 5 times more utilization than the -- it's like dividing the cost of that asset by 5. So, if you have a $50,000 car, it's like having a $10,000 car all of a sudden, but maybe better than that because still you don't want to drive. So the person can be engaged in productivity or amusement instead of having to onerously drive through traffic. So, it's probably better than 5 times, I don't know. Yes. I mean, basically, if the cost of our cars do not change at all, we would still sell as many as we could possibly make.
+
+  [Rank 5]  divergence=0.0059  analyst_neg_norm=0.0059  musk_net_sent=0.0000
+  sentence ids: analyst 116–116  Musk 119–119
+  Analyst (Pierre Ferragu):
+    I wanted to come back on battery. So, it's great to hear on one hand that you guys expect to sell like the first car with 4680 this quarter and at the same time that you don't really depend on that ramp to achieve your -- what you hope to achieve in terms of significant volume growth this year. And the question I had is I understand well the ramp of 4680 internally. But I'd be curious to hear you talk about how you think about 4680 as being a form factor that your suppliers could adopt as well. And how you see in the long run, in the greater scheme of things, what does 4680 become? Is it going to be outside of Tesla the largest form factor for batteries? Is it something that you guys are going to deploy in all cars, whatever the chemistry also in the Megapack, in all your energy storage business? And do you expect eventually a lot of other companies to use that form factor as well?
+  Musk:
+    So, we don't use 4680 at all for the iron cells.
+
+========================================================================
+  2022 Q1  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0353  analyst_neg_norm=0.0147  musk_net_sent=0.0500
+  sentence ids: analyst 78–78  Musk 80–80
+  Analyst (Dan Levy):
+    Hi. Good evening. Thank you for taking the questions. First, maybe you can just talk through or address what some of the drivers of cost improvement were in the quarter. Was it just further improvements within Shanghai or in Fremont? Anything around sort of ongoing kaizen that you’ve talked about in the past? Maybe you could just talk through what you benefited from in the first quarter.
+  Musk:
+    Special mention goes to the Fremont manufacturing team and our associates there because we’re achieving record output at Fremont.
+
+  [Rank 2]  divergence=0.0317  analyst_neg_norm=0.0317  musk_net_sent=0.0000
+  sentence ids: analyst 126–126  Musk 127–127
+  Analyst (Alex Potter):
+    Okay, great. So first question I had was the extent to which other plants outside of China are insulated from any further upstream supply bottlenecks that we may have in China. Obviously, if this COVID lockdown things gets out of hand, clearly, that’s going to continue impacting Shanghai. But is there a point at which it could actually also impact other facilities?
+  Musk:
+    Yes. If it would continue, but there are some parts that are sourced in China that apply worldwide. And that would be -- that would impact production elsewhere. But all indications are that we are -- our Giga Shanghai is back in production at fairly high levels already and so are our suppliers. So, we don’t think this is going to be a big deal.
+
+  [Rank 3]  divergence=0.0290  analyst_neg_norm=0.0290  musk_net_sent=0.0000
+  sentence ids: analyst 113–113  Musk 114–114
+  Analyst (Trip Chowdhry):
+    Thank you. Two questions I have. First is regarding the Cybertruck. And I was wondering like in terms of number of parts, how would Cybertruck compare with the traditional pickup truck in terms of number of parts? The second question I have is on Gigafactory Nevada, Sparks. Will we have any production of vehicles in that factory, or all the future production will happen in Giga Austin? Thank you.
+  Musk:
+    I’m not sure if we’ve actually done a comparison of Cybertruck parts versus regular truck parts. I mean, Lars?
+
+  [Rank 4]  divergence=0.0263  analyst_neg_norm=0.0133  musk_net_sent=-0.0130
+  sentence ids: analyst 105–105  Musk 106–106
+  Analyst (Pierre Ferragu):
+    Great. I’d like to ask you some questions about free cash flow. Do you -- so first, maybe in the long run, if you look at your performance and your growth model and your growth ambitions, I did the math very quick. And I see you guys sitting on $400 billion or maybe $500 billion of cash at the end of the decade. And I was wondering if it’s something you have given some thoughts about.
+  Musk:
+    If inflation keeps going crazy, $500 billion might be like $20 billion today. I don’t know. So, we’ll see what $500 billion buys you in a decade, but it might be a lot less. So, I don’t know if we’ll -- that seems like a lot of cash. I don’t know. We’ll try to do something useful with it. I mean, Zach, I don’t know -- I realize that’s problem, that’s for sure.
+
+  [Rank 5]  divergence=0.0230  analyst_neg_norm=0.0084  musk_net_sent=-0.0146
+  sentence ids: analyst 87–87  Musk 88–89
+  Analyst (Dan Levy):
+    Second question, one of the initial goals of Model 3 way back when was to have an EV that was affordable for a wide portion of the market. And we know prices are much higher now just given the supply constraints. Prices are higher for all other automakers. We know that there’s inflation that you’re battling through, and some of that needs to be passed through the price of the vehicles. And you’re going to be supply-constrained for the foreseeable future. So, it’s one of the points. But given the goal long term of making EVs more widely available to the masses over time, how do you look at the progression of prices over time?
+  Musk:
+    We absolutely want to make EVs as affordable as possible. It’s been very difficult with the -- I mean, I think, inflation is at like a 40 or 50-year high. And I think the official numbers actually understate the true magnitude of inflation, so. And that inflation appears to be likely to continue for at least the remainder of this year is what -- when we’re talking to suppliers, suppliers are under severe cost pressure. So, yes, and in some cases, we’re seeing suppliers request 20% to 30% cost increases for parts from last year to the end of this year. So, it’s -- there’s a lot of cost pressure there. That’s why we raised our prices because we -- when things are on -- with respect to inflation, you know it’s high, then -- and we’ve got orders that go out a year or more in some cases, then we have to anticipate those cost increases. But I think, especially with the robotaxi and autonomy, I think we will end up providing consumers with, by far, the lowest cost per mile of transport that they’ve ever experienced. Yes. I mean with robotaxi, like maybe 5 to 10 times cost per mile. It’s really quite substantial.
+
+========================================================================
+  2022 Q2  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0724  analyst_neg_norm=0.0189  musk_net_sent=-0.0536
+  sentence ids: analyst 105–105  Musk 106–106
+  Analyst (Toni Sacconaghi):
+    Yes. Thank you for taking my question. I have two as well. In response to the question around demand, I think Zach, you said maybe a little, and Elon, you said maybe some indication that you might see some pressure on demand. And I am wondering if that is really just speculation or whether there is any empirical data that you saw in the last month, whether it would be cancellations or order lead times that led you to make that comment. I think anecdotally, if you squint, the lead times have gotten a little lower over the last four months in both China and the U.S. That’s really the only visibility investors have. So, I am wondering if you could maybe elaborate on whether that’s really just you are sort of anticipating there could be some impact because of high prices or whether they are something anecdotally or quantitatively that you could point to, please?
+  Musk:
+    No. I mean I think we have said this now for many years, I know has proven true. Tesla does not have a demand problem, we have a production problem. And we have almost always had it’s a very rare exception it’s always been a production problem. I think that will remain the case.
+
+  [Rank 2]  divergence=0.0690  analyst_neg_norm=0.0000  musk_net_sent=0.0690
+  sentence ids: analyst 70–70  Musk 71–71
+  Analyst (Pierre Ferragu):
+    Okay.
+  Musk:
+    I’d say we are highly confident of a good outcome. It’s the exact counterpoint of that is perhaps is of some debate but the outcome is not.
+
+  [Rank 3]  divergence=0.0500  analyst_neg_norm=0.0000  musk_net_sent=0.0500
+  sentence ids: analyst 92–92  Musk 93–93
+  Analyst (Emmanuel Rosner):
+    Yes. My follow-up was actually on the supply side. So, it was very encouraging to see that you are quantifying your current installed capacity at basically already in excess of 1.9 million units installed currently. How quickly do you think that you can fill that capacity?
+  Musk:
+    Well, I mean we – I think we have got a good chance of exiting this year at 40,000 vehicles a week.
+
+  [Rank 4]  divergence=0.0422  analyst_neg_norm=0.0244  musk_net_sent=-0.0179
+  sentence ids: analyst 85–85  Musk 86–86
+  Analyst (Emmanuel Rosner):
+    Yes. Thank you so much. I have a question on your vehicle demand and then a quick follow-up on supply. First, on the demand side. Are you seeing any sort of pressure in the order book or the pace of new order or any sort of like slowdown as a result of the pressures that the consumer is experiencing? Are you worried about it in light of your view of the risks to the economy that I think you expressed, Elon?
+  Musk:
+    Well, right now, our firm is very much production. So, we have long leads on – as anyone can tell, if they order our car, if you order Model Y, it will arrive sometime next year. So, this is clearly not an issue for many months for us. Our problem is overwhelmingly that of production. So, yes.
+
+  [Rank 5]  divergence=0.0263  analyst_neg_norm=0.0263  musk_net_sent=0.0000
+  sentence ids: analyst 113–113  Musk 114–114
+  Analyst (Toni Sacconaghi):
+    Okay. Thank you. Now I was just trying to follow-up on the fact that you both said that maybe we are seeing demand be impacted a little bit, and that was the spirit of the question, maybe...
+  Musk:
+    We don’t have like – like because we see daily orders from around the world for our cars, it’s actually – it is like a mood barometer of people’s confidence in the economy. But one can’t read too much into it because things can vary a great deal from one day to the next. Consumer sentiment is all over the map. So, it’s – manage price, frankly. But we have so much excess demand. That is really just not an issue for us. It might be an issue for some other companies but it is not an issue for us.
+
+========================================================================
+  2022 Q3  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0435  analyst_neg_norm=0.0000  musk_net_sent=0.0435
+  sentence ids: analyst 106–106  Musk 108–108
+  Analyst (Colin Rusch):
+    The operating leverage has been pretty impressive here. And I’m curious about areas where you could invest in an incremental way, whether it’s on the R&D side or on the sales side to accelerate growth or cost reduction, or should we be thinking about this level of spend on a go-forward basis and some significant operating leverage as you scale up from here?
+  Musk:
+    Yes. Look, we are in the -- at least for now, quite in a good position of -- we’re investing in everything we can think of to possibly invest in, and we’re still generating cash. So, I guess, it gets a pretty good place to be.
+
+  [Rank 2]  divergence=0.0431  analyst_neg_norm=0.0714  musk_net_sent=0.0283
+  sentence ids: analyst 88–88  Musk 89–89
+  Analyst (Adam Jonas):
+    So Elon, would you consider vertically integrating into mining? That’s my first question.
+  Musk:
+    We’ll do whatever we have to. Whatever the limiting factor is, we’ll do. We do not personally constrain ourselves. We don’t particularly integrate just for the hell of particularly integrating. Like if there was a great supplier who’s better than us or we think actively is very good, or even where the economics of comparative advantage suggest that we should use that supplier, even if we could beat them, but we could use our resources to do something else that will be more productive, then we would in source in that case. But if we have to go mine, we will mine.
+
+  [Rank 3]  divergence=0.0421  analyst_neg_norm=0.0348  musk_net_sent=0.0769
+  sentence ids: analyst 138–139  Musk 141–141
+  Analyst (Pierre Ferragu):
+    Great. I’d love to have another update on 4680, Drew. So last time we talked about it, there were -- it was a question about like scaling up with manufacturing and there were still a few things to get right. Is it fair to say that now you are at scale, and it’s just a question of logistics to get bigger? So, that’s question number one. And then, question number two, on the kind of like innovation and cost reduction and efficiency improvements kind of path that you described at the battery day, where are we today? And how much time is it going to take to deliver all the potential you outlined then?
+  Musk:
+    Yes, I’d be surprised. I think we’ll do better than that.
+
+  [Rank 4]  divergence=0.0250  analyst_neg_norm=0.0000  musk_net_sent=0.0250
+  sentence ids: analyst 97–97  Musk 98–98
+  Analyst (Colin Langan):
+    Okay. Sorry about that. Any update on full self-driving? I think you had said a couple of quarters ago, it would be available by the end of the year. Is that still possible? Is it -- would it still be like a Level 4 or Level 5 that you’re talking about? And are there any sort of regulatory hurdles you’d have to think about?
+  Musk:
+    We -- as I said earlier, we’re expecting to release the full self-driving software to anyone who orders the package by the end of this year. So, a separate matter as to will it have regulatory approval. It won’t have regulatory approval at that time. But the car will be able to take you from your home to your work, your friend’s house, to the grocery store without you touching wheel. So, it’s looking very good.
+
+  [Rank 5]  divergence=0.0238  analyst_neg_norm=0.0000  musk_net_sent=0.0238
+  sentence ids: analyst 170–170  Musk 171–173
+  Analyst (William Stein):
+    I guess, I’ll go at one that I asked last time, Elon, which is your expectation for the likelihood of commercial success in each of the three major AI endeavors. FSD, sort of as imagined without a driver, the training computer and, of course, Optimus.
+  Musk:
+    We’ll achieve full self-driving full autonomy -- I look at that occurring is 100%. And I think we’ll -- we’re almost there. And then, of course, we’ve got to prove it to regulators and get the regulatory approvals, which is outside of our control. But anyone who’s driving full self-driving cars -- has full self-driving Beta in the car, you can see the rate of improvement. You can just experience for yourself that we are, in fact, getting there. In fact, we almost are there. And so, we’re probably -- achieving that 100%. The Optimus, probably of that being a successful product, I think, it’s also extremely high given enough time, 100%. Dojo, just maybe more of a question around Dojo, like can we be competitive with NVIDIA GPUs even as NVIDIA continues to rapidly evolve their GPUs. So the jury is out on Dojo. Dojo team, they can outperform NVIDIA for Neuralink training. The jury’s out. We will probably know -- I don’t know, next year, if that’s true or not. But we think we’ll probably -- we think it’s -- this is -- the architecture of Dojo is the right architecture to win. Yes. It depends on how well we execute in that architecture.
+
+========================================================================
+  2022 Q4  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.1185  analyst_neg_norm=0.0244  musk_net_sent=0.1429
+  sentence ids: analyst 137–137  Musk 138–138
+  Analyst (Adam Jonas):
+    Hi. Elon, first question is, is it time for Tesla to significantly expand the captive finco? I mean, you only have like $4.5 billion of receivables. It's basically nothing compared to other big auto companies. And then I have a follow-up.
+  Musk:
+    Zach maybe is best to answer that.
+
+  [Rank 2]  divergence=0.0435  analyst_neg_norm=0.0000  musk_net_sent=-0.0435
+  sentence ids: analyst 145–145  Musk 146–146
+  Analyst (Adam Jonas):
+    Thanks Elon. And just a follow-up, I don't want to steal thunder from March 1st and in Austin, but how close are we to that step change improvement in BoM cost where you could sell an EV for under $25,000 or $30,000 and actually generate a profit, that kind of real moving assembly line moment in manufacturing? Again, I don't want to steal the thunder but just if you wanted to kind of wrap-up with thoughts there that would be helpful. Thanks Elon.
+  Musk:
+    I mean, I'd love to answer -- I'll probably be asking the same question, but we would be jumping the gun on future announcements.
+
+  [Rank 3]  divergence=0.0404  analyst_neg_norm=0.0000  musk_net_sent=0.0404
+  sentence ids: analyst 100–101  Musk 102–105
+  Analyst (Pierre Ferragu):
+    Thank you, so much. So as a quick follow-up, Elon, I was thinking about like FSD, and when you look at like the situation today compared to a year ago, it's -- like the progress has been, like, amazing in the quality of the product, but also its rollout. And so, I was wondering, how much is this like impacting the take rate of FSD today? So do you already see that people are getting more excited by FSD, because they see it around them on 400,000 cars and they see the value of the service already, or is that too early to really see like, to expect like an uptick in the take rate?
+  Musk:
+    The trend is very strong towards use of FSD. And as you alluded to, the -- with each incremental improvement, the enthusiasm obviously increases. And -- so, I think something that still a lot of people out there don't quite appreciate is that Tesla -- I would say, like, Tesla is as much as a software company as a hardware company, but Tesla is really one of the world's leading AI companies. This is kind of a big deal with AI on the software side and on the hardware side. With the Hardware 3 inference computer, still the most efficient inference computer in the world despite being, at this point, five years old from the design point. And with Hardware 4 coming and then Hardware 5 beyond that, where there are significant leaps. And the Dojo computer, we expect to be using that operationally at Tesla later this year. So -- and we're seeing just a lot of world-class AI talent join the company. There's also the long-term potential of Optimus where we're able to use our expertise in electric motors and power electronics, batteries and advanced manufacturing to be able to make a humanoid robot that is actually useful and can be made at high volume with exceptional capabilities, because of the -- or robot AI that, where we take the -- because the car is like a robot on four wheels and Optimus is a robot on legs. But the -- as we get closer and closer to solving real-world AI, and we don't see anyone even close to us in achieving this, the value -- I think, you appreciate this and a few others do, but most don't know what I'm talking about. And so -- but it's -- this is the thing that has order of magnitude potential market cap improvement for Tesla.
+
+  [Rank 4]  divergence=0.0200  analyst_neg_norm=0.0200  musk_net_sent=0.0000
+  sentence ids: analyst 112–112  Musk 113–113
+  Analyst (Alex Potter):
+    Okay, great. And then maybe 1 additional question here on the incremental capacity in Nevada, the 4680s that you're planning. That's a lot of batteries obviously, and presumably, you won't be putting all of those in Tesla Semi. So I guess, two questions about that incremental capacity. First, is it correct to assume that all of those 4680s are going to be more or less fungible and usable in your entire range of products? And if the answer is yes, then if you had to guess, how do you think that 100 gigawatt-hours would be allocated between your various end markets?
+  Musk:
+    I don't know, this is a bit too much guessing
+
+  [Rank 5]  divergence=0.0141  analyst_neg_norm=0.0000  musk_net_sent=-0.0141
+  sentence ids: analyst 96–96  Musk 99–99
+  Analyst (Pierre Ferragu):
+    Excellent. Thank you. And I…
+  Musk:
+    Yes. My guess is, if there is -- if the recession is a serious one and I think it probably will be, but I hope it isn't, that would lead to meaningful decreases in almost all of our input costs. So we expect to see deflation in our input costs most likely, which would then lead to, yes, better margins. I'm just guessing here. So, this is -- that would be my guess.
+
+========================================================================
+  2023 Q1  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0722  analyst_neg_norm=0.0256  musk_net_sent=-0.0465
+  sentence ids: analyst 150–150  Musk 151–151
+  Analyst (Dan Levy):
+    Hi. Good evening. Thank you. First question, you're ramping supply at Austin and Berlin. So I wanted to understand just how critical it is to further increase volume at those plants just to get the vertical integration benefits in the face of the market with some demand questions. And just broadly, should we -- I mean, historically, you've been operating at the pace at which your supply allows you to produce as opposed to gauging to demand. Should we generally expect that you're going to continue to produce at your -- whatever the max capacity that you're allowed within your supply constraints, regardless of what the broader economic environment is just to continue to get that volume out there?
+  Musk:
+    So that is -- yes, I mean, there could be like obviously a macro shock that is so severe that people just stop buying cars for some reason. But in the absence of that, we will continue to grow output at a rapid clip.
+
+  [Rank 2]  divergence=0.0625  analyst_neg_norm=0.0625  musk_net_sent=0.0000
+  sentence ids: analyst 137–137  Musk 138–138
+  Analyst (Adam Jonas):
+    Hi everybody. So, first, Elon, good luck with tomorrow's launch of Boca Chica. Break a leg.
+  Musk:
+    Thanks. You can't have too much luck in the rocket business, that's for sure.
+
+  [Rank 3]  divergence=0.0512  analyst_neg_norm=0.0571  musk_net_sent=0.0059
+  sentence ids: analyst 133–133  Musk 134–135
+  Analyst (Rod Lache):
+    Okay. And the -- normally, in a recession, when consumers feel less financially secure, actually price elasticity deteriorates. Just based on your pulse taking of the consumer, do you have a view on elasticity of demand?
+  Musk:
+    Well, I can't emphasize enough the whole -- just fundamental question of affordability. For most people, their ability to buy a car is a function of can they make monthly payment or not. And so like I said, if interest rates are really high, like they are right now, then in some cases, people can't get a loan at all. So it's -- I think probably banks are pretty -- not leaning forward in providing loans, I expect, these days. So that's -- like there is -- there is quite a powerful story here when you -- going back to something as alluded to a moment ago -- I mentioned a moment ago that Tesla is in a uniquely strong strategic position. Because we're the only ones making cars that technically, we could sell for zero profit for now and then yield actually tremendous economics in the future through autonomy, no one else can do that. I'm not sure how many people will appreciate the profundity of what I've just said, but it is extremely significant.
+
+  [Rank 4]  divergence=0.0499  analyst_neg_norm=0.0286  musk_net_sent=0.0784
+  sentence ids: analyst 152–152  Musk 153–153
+  Analyst (Dan Levy):
+    Great. Thank you. And then just on the margins associated with Austin and Berlin. You mentioned Austin want to have the margin drag until you reach intended volumes. I don't know if you can disclose what those volumes are. And then maybe you could just remind us of what the margin profile of Austin and Berlin will look like versus Shanghai once you get the vertical integration benefits in place?
+  Musk:
+    Well, probably one have be quite as good as Shanghai. Shanhai is hard to -- has a very efficient cost structures, obviously, our lowest cost structure in the world. But we do expect to be -- make significant improvements in Austin and Berlin and continue to make improvements in Fremont as well. So...
+
+  [Rank 5]  divergence=0.0377  analyst_neg_norm=0.0377  musk_net_sent=0.0000
+  sentence ids: analyst 69–69  Musk 70–70
+  Analyst (George Gianarikas):
+    Hi. Thanks for taking my question. I was wondering, first, if you could discuss your FSD take rates and whether you've seen any significant positive or negative change there? And also, given that you've reduced the prices for your vehicles, do you think you need to do that for FSD as well? Thanks.
+  Musk:
+    Well, I can kind of answer the details on the FSD take rate, but the -- it's a tricky pricing question, because the value of a car that is autonomous is enormous. So in a way, the price right now is an option value on an autonomous vehicle. And that value is -- that will ultimately be very significant. And it's really -- yes. I mean, for those that are using the FSD beta, I think you can see the improvements are really quite dramatic. There'll be a little bit of two steps forward, one step back between releases for those trying the beta. But the trend is very clearly towards full self-driving, towards full autonomy. And I hesitate to say this, but I think we'll do it this year. So that's what it looks like. Yes.
+
+========================================================================
+  2023 Q2  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0229  analyst_neg_norm=0.0000  musk_net_sent=0.0229
+  sentence ids: analyst 103–103  Musk 104–105
+  Analyst (William Stein):
+    Great. I'd like to ask about -- so to stick on this AI topic, we've read with great interest the developments in Dojo today, and you've spoken about FSD. But you've also -- Elon, you started this x.ai company. And for investors that think that there might be quite a bit of value in the AI features and products of Tesla, it might be concerning to see you pursuing another endeavor where AI is the focus. So can you talk about how x.ai might overlap, might perhaps compete, with Tesla or, in other ways, perhaps it enhances the value of what Tesla does?
+  Musk:
+    Yes, I think it will actually enhance the value of Tesla. There were just some of the world's best AI engineers and scientists that were willing to join a startup, but they were not willing to join a large, sort of relatively established company like Tesla. So I was like -- that's actually how it got started. I was interviewing a few people. And they're like, 'No, we want to do a startup." I was like -- and that's all -- I couldn't convince them to join Tesla. So I was like, "Okay, well, better to start up that, that I run this, than they go work somewhere else." That's kind of the genesis of xAI. And xAI is focused on sort of AGI. Yes. So it's -- like I said, I think there will be some value that xAI brings to Tesla. Also, some of the very best people in the world, they really just want to work on interesting problems. So if you take, say, our materials science group, really what convinced Charlie Kuehmann to leave Apple, where he was very happy and well compensated, and both at -- to where we think is the best materials science group in the world, was that he got to work at both Tesla and SpaceX. He wasn't willing to leave Apple if it was just Tesla, but he was willing to do it if it was Tesla and SpaceX. So sometimes you get the best talent in the world, that's the kind of thing you need to do. And that actually has been very beneficial to Tesla.
+
+  [Rank 2]  divergence=0.0227  analyst_neg_norm=0.0227  musk_net_sent=0.0000
+  sentence ids: analyst 136–136  Musk 138–138
+  Analyst (Mark Delaney):
+    Yes. Maybe you could put a finer point on the downtime impact that you spoke about in your prepared comments in terms of production impacts and then also to what extent there's a margin impact from those factory upgrades that you're planning this quarter.
+  Musk:
+    I think we're getting too much into the weeds here. I mean like you're asking for a level of precision that is not possible to answer. So let's move on.
+
+  [Rank 3]  divergence=0.0115  analyst_neg_norm=0.0115  musk_net_sent=0.0000
+  sentence ids: analyst 82–82  Musk 83–83
+  Analyst (Dan Levy):
+    Great. I wanted to start first with a question about your efforts in AI and Dojo. It's pretty clear, it sounds like you're accelerating your focus. Can you maybe provide us with a sense of what the process is of refining a product? Is it more machines? And maybe you could give us a sense of when the payout starts to -- when you start to see the payout and what the resource outlay is, what should we expect on the OpEx front as a result of this?
+  Musk:
+    Sorry, are you saying how much are we going to spend on Dojo?
+
+  [Rank 4]  divergence=0.0112  analyst_neg_norm=0.0208  musk_net_sent=0.0096
+  sentence ids: analyst 95–95  Musk 96–97
+  Analyst (Dan Levy):
+    Great. Thank you. Just as a follow-up, I recognize there's sort of incredible macro uncertainty right now, but you're sticking with your near-term volume target of 50% CAGR. As we just think about sort of in the year ahead, Cybertruck, there's going to be some contribution. There's going to be some help from further EV penetration growth. But to what extent are you willing to sacrifice on pricing to keep that 50% volume CAGR intact? Or are you thinking differently about margins versus your prior commentary of willing to sacrifice on margins to get more share?
+  Musk:
+    It's not about getting more share. It's just that you can think of every car that we sell or produce that has full autonomy capability as actually something that, in the future, may be worth as much as 5x what it is today. Because average [ pass-through ] vehicle is doing like maybe 10 hours of driving a week. If this is sort of -- if this says 1.5 hours a day on average, that's 10 hours a week-ish. If you've got on autonomous -- if that vehicle is able to operate autonomously and use -- so either dedicated autonomous or partially autonomous, like Airbnb, like maybe sometimes you allow your car to be used by others, sometimes you want to use it exclusively just like doing Airbnb with a room in your house, the value is just tremendous. So I think sort of it would be -- I think it does make sense to sacrifice margins in favor of making more vehicles because we think, in the not too distant future, they will have a dramatic valuation increase. I think the Tesla fleet value increase at the point in which we can upload full self-driving and is approved by regulators will be the single biggest step change in asset value maybe in history.
+
+  [Rank 5]  divergence=0.0109  analyst_neg_norm=0.0149  musk_net_sent=0.0259
+  sentence ids: analyst 106–106  Musk 107–107
+  Analyst (William Stein):
+    And if I could squeeze one more mundane question in, I wonder if you think you can hit the 1.8 million unit number with current pricing or do you anticipate needing to continue to lower prices? Because it seems like they've stabilized, the trends have stabilized, in the last maybe 1.5 months. Should we expect the sort of continued decreases or more stabilization for the rest of the year?
+  Musk:
+    Sure. We have sort of restarted the referral program, which I think will be quite effective. As Zach was saying earlier, we don't control the macroeconomic conditions. So if interest rates continue to rise, that reduces the affordability of cars. And for a lot of people, they're really kind of just barely breaking even every month. In fact, if you look at the rise in credit card debt, they are, in fact, not breaking even every month. Like, credit card debt is freaking scary. So yes, we just don't control the market conditions. If market conditions stabilize, I think prices will be stable. If they're not stable, then we would have to lower prices then. Yes.
+
+========================================================================
+  2023 Q3  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0182  analyst_neg_norm=0.0147  musk_net_sent=-0.0035
+  sentence ids: analyst 124–124  Musk 125–126
+  Analyst (Colin Langan):
+    You said in the commentary that you're not going full tilt on the plant in Mexico until there are signs that the economy is strong. Can you continue at a 50% CAGR without that plant? And where would that come from? And any color on what you mean of sort of not going full tilt? Could that plant get delayed indefinitely? Or what are you kind of talking about?
+  Musk:
+    No, we're definitely making the factory in Mexico. We feel very good about that. We put a lot of effort into looking at different locations, and we feel very good about that location, and we are going to build a factory there. And it's going to be great. The question is really just one of timing. And it's going to be a broken record on the interest front. It's just interest rates have to come down. Like, if interest rates keep rising, you just fundamentally reduce affordability. It is just the same as increasing the price of the car. So I just don't have visibility into -- if you can tell me what the interest rates are, I can tell you when we should build the factory. We're going to build it. And I mean we think we'll start the initial phases of construction next year. But I am still somewhat scarred by 2009 when General Motors and Chrysler went bankrupt. So -- while that's now 14 years ago, it's -- that is seared into my mind with a branding iron because kind of Tesla was just hanging on by a thread during that entire time and with -- I mean we closed a financing round 2008 at 6 p.m. December 24, Christmas Eve. And if we had not closed that financing round, we would have bounced payroll 2 days after Christmas. So we actually closed that round at the last hour, at the last day that it was possible. Stressful, to say the least, and then barely made it through 2009. So I'm like I want to just -- I don't want to be going at top speed into uncertainty. A lot of wars going on in the world obviously as well, so...
+
+  [Rank 2]  divergence=0.0084  analyst_neg_norm=0.0000  musk_net_sent=-0.0084
+  sentence ids: analyst 87–87  Musk 88–88
+  Analyst (Rod Lache):
+    Okay. And just as a follow-up, obviously, price is also a driver of demand, but that's obviously not happening in a vacuum. And you mentioned that -- I think you mentioned at some point during this call that you're also maybe hitting the law of large numbers on some of your products. Can you just share how you're thinking about price elasticity just at this point in this macro environment, and any thoughts along those lines?
+  Musk:
+    I think that there's very significant price elasticity. I mean to be totally frank, if our car costs the same as a Rav4, nobody would buy a Rav4, or at least they're very unlikely to. It's worth noting that a lot of these incentives like the tax credit and whatnot, they're actually very difficult for the average person to access because they -- most people do not have $10,000 or even $7,500 burning a hole in their bank account. A lot of -- a large number of people are living paycheck to paycheck and with a lot of debt. They've got credit card debt, mortgage debt. So yes, it's -- that's reality for most people. It's sometimes difficult for people who have high income, and when I say high, it'd be like someone who's earning over $200,000 a year, to understand what life is like for someone who is earning $50,000 or $60,000 or $70,000 a year, which is most people.
+So like, for a lot of people, like, this tax credit just -- they can't front $7,500 for 18 months or even 6 months to -- for the tax credit, and they actually don't, in some case, even have that $7,500 in taxes. So it's really just the vast regard to people is how much money do they have to pay immediately and how much per month. That's it. They stop right there. And our car is still much more expensive than a Rav4 when you look at it that way.
+
+  [Rank 3]  divergence=0.0056  analyst_neg_norm=0.0091  musk_net_sent=0.0147
+  sentence ids: analyst 71–72  Musk 73–73
+  Analyst (Pierre Ferragu):
+    I have first like a follow-up question on FSD and pricing and adoption. So I agree with you that as FSD improves, we should see its value increasing. But I guess like the ultimate values of FSD, which is to be able to handle like a robotaxi is not going to necessarily interest everybody, and you have a bit of a degraded version that would be like a chauffeur service where the car drives by itself, but you still have to be in the car and around. And then there is like the hands-on, eyes-on version of the service. And I guess, there should be like much lower cost, lower feature kind of variance of the service that could have a very large penetration on your installed base and a more expensive one that would remain at a lower penetration level. So I'm just wondering if you're taking that. And last but not least, like the simplest version of FSD available are going to work from a technical perspective, probably before like the ultimate robotaxi version can work, if ever. And so I'm wondering how you take that into account and how you're thinking like the financial contribution of FSD over time and whether you could evolve your pricing along that kind of tiers to increase adoption.
+  Musk:
+    Yes. I mean, a fully autonomous vehicle, I think, Pierre, sort of the economics of an autonomous vehicle are truly astounding in a positive way. When you look at passenger vehicles today, they only get about 10 to 12 hours of usage per week. That's -- if you drive 1.5 hours a day on average, that's roughly 10 hours a week out of 168 hours. And then there's -- also you're going to have parking and insurance. You got to take care of the car. It's like there's a lot of overhead.
+So I mean, yes, it's like the economics of the system are just insanely positive given that the car -- like, all of the cars we're making and have made for a while, we believe, are capable of full autonomy. So then if you're able to, say, increase the utility of that car by a factor of 5, which only means that you've -- it's being used for maybe 50 hours a week out of 168, so you still notice -- you're still assuming -- that still assumes less than 1/3 of the hours of the week it is doing something useful. You've increased the value of that by 5, but it still costs the same. Like, you have something -- then we're a hardware company with software margins.
+
+  [Rank 4]  divergence=0.0042  analyst_neg_norm=0.0000  musk_net_sent=-0.0042
+  sentence ids: analyst 100–100  Musk 101–102
+  Analyst (George Gianarikas):
+    Just to focus on the cost per vehicle coming down in future quarters as you discussed in your written remarks, I'm curious as to what the levers of that could be. Is it more scale, more factory utilization? Is it material cost reductions? Are there things like Gigacasting? I mean can you just kind of give us some data points to give us confidence that that's going to come down over time?
+And if I can sneak one in, please, there are press reports, and I know how perilous it is to believe some of these, but they say that you've included radar as an option in some Model Ys in China. And I'm just here to ask if that's true. And if so, why?
+  Musk:
+    We've not included radar. We have radar as -- a Tesla-designed radar is an experiment in Model S and X. That's it. We'll see whether that experiment is worth it, but there are no plans to integrate radar into 3 or Y. Just as humans drive well, and in fact, an excellent human driver can drive with amazing safety simply with their eyes, the car will far exceed the average human safety just with visual, far, far, far. Because, I mean, the car is looking at all directions all at once, and we don't have eyes on the back of our head. So -- and the computer never gets tired and never gets distracted, get drunk, hopefully. And so radar is -- what really matters is how much does it affect the probability of an accident. And in order for the radar to be effective, you have to be able to do radar-only braking. You have to do actions that are radar only. Otherwise, you get this disambiguation problem between vision and radar. That's why we actually turned off the radar in cars historically that we had shipped. All 3 and Y used to have radar, but we turned it off because the radar actually generated more noise than signal. Now the Tesla-designed radar is a high-resolution radar that has some potential to be useful, but the jury is still very much out on whether that is, in fact, the case.
+
+  [Rank 5]  divergence=0.0000  analyst_neg_norm=0.0000  musk_net_sent=0.0000
+  sentence ids: analyst 54–54  Musk 55–55
+  Analyst (William Stein):
+    We learned earlier on the call, it sounds like you don't think the truck will ramp to significant volume until its third year of production. Should we have a similar anticipation for the ramp of the next-gen platform? Or is there any reason that we should be maybe more optimistic or pessimistic about the ramp profile there?
+  Musk:
+    Yes. I mean, to be clear, it's not really the third year of production. It's kind of like the 18th month of production is roughly my guess. So it's just that they happen -- it will happen if not the -- it starts this year, spans next year and gets to 2025. So technically, there are 3 calendar years in there, but there's actually only 18 months, not 3 years. I would be very disappointed if it took us -- and that would be shocking if it took us 3 years. But 18 months from initial deliveries to have -- to reach volume and reach prosperity with an immense -- I can't tell you how much -- the blood, sweat and tears level required to achieve that is just staggering. I have been through it many times. Then, here we go again.
+
+========================================================================
+  2023 Q4  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0328  analyst_neg_norm=0.0000  musk_net_sent=0.0328
+  sentence ids: analyst 76–76  Musk 77–77
+  Analyst (Adam Jonas):
+    Maybe as a follow-up, Elon, I'd love your thoughts on the topic of China-based OEMs expanding into western markets as that -- as the China market kind of gets saturated and there's a tremendous growth in the supply, how much success should Tesla investors allow for this competition to achieve in western markets? And can you envision a scenario where Tesla could  partner with a Chinese OEM to help accelerate sustainable transport in markets like Europe and the United States?
+  Musk:
+    Well, our observation is generally that the Chinese car companies are the most competitive car companies in the world. So I think they will have significant success outside of China, depending on what kind of tariffs or trade barriers are established. Frankly, I think if there are not trade barriers established, they will pretty much demolish most other car companies in the world. So they're extremely good.
+We don't see an obvious opportunity to partner. Certainly, we're happy to -- except on the Supercharger front, we're obviously happy to give any electric car company access to our Supercharger network. We're also happy to license full self-driving, perhaps license other technologies and anything that could be helpful in advancing the sustainable energy revolution.
+
+  [Rank 2]  divergence=0.0019  analyst_neg_norm=0.0000  musk_net_sent=0.0019
+  sentence ids: analyst 95–95  Musk 96–96
+  Analyst (Dan Levy):
+    As a follow-up, your release does not mention Dojo, so if you could just provide us an update on where Dojo stands and at what point do you expect Dojo to be a resource in improving FSD. Or do you think that you now have sufficient supply of NVIDIA GPUs needed for the training of the system?
+  Musk:
+    I mean the AI part of your question is -- that is a deep one. So we're obviously hedging our bets here with significant orders of NVIDIA GPUs. GPU is the wrong word. They really didn't see it -- there's no -- you can't like produce graphics, so that's not a graphic processing unit, neural net processing unit or something like that. Yes, GPU's a funny word, like vestigial.
+So -- and a lot of our progress in self-driving is training limited. Something that's important with training, it's much like a human. The more effort you put into training, the less effort you need in inference. So just like a person, if you train in a subject, sort of class, 10,000 hours, the less mental effort it takes to do something. If you remember when you first started to drive how much of your mental capacity it took to drive, it was -- you had to be focused completely on driving. And after you've been driving for many years, it only takes a little bit of your mind to drive, and you can think about other things and still drive safely.
+So the more training you do, the more efficient it is at the inference level. So we do need a lot of training. And we're pursuing the dual path of NVIDIA and Dojo, but I would think of Dojo as a long shot. It's a long shot worth taking because the payoff is potentially very high but it's not something that is a high probability. It's not like a sure thing at all. It's a high risk, high payoff program. Dojo is working, and it is doing training jobs, so -- and we are scaling it up. And we have plans for Dojo 1.5, Dojo 2, Dojo 3 and whatnot. So I think it's got potential.
+I can't emphasize enough, high risk, high payoff. So I think it still makes sense given the -- even if it's a low probability of success for the -- I think anyway -- I'm belaboring the subject. It's a very interesting program. It has the potential for something special. There's also our inference hardware in the car, so we're now on what's called Hardware 4, but it's actually version 2 of the Tesla-designed AI inference chip.
+And we're about to complete design of -- the terminology is a bit confusing. About to complete design of Hardware 5, which is actually version 3 of the Tesla-designed chip because the version 1 was Mobileye. Version 2 was NVIDIA, and then version 3 was Tesla. So -- and we're making gigantic improvements from 1 -- from Hardware 3 to 4 to 5.
+I mean there's a potentially interesting play where when cars are not in use in the future, that the in-car computer can do generalized AI tasks, can run a sort of GPT4 or 3 or something like that. If you've got tens of millions of vehicles out there, even in a robotaxi scenario, whether in heavy use, maybe they're used 50 out of 168 hours, that still leaves well over 100 hours of time available -- of compute hours. Like it's possible with the right architectural decisions that Tesla may, in the future, have more compute than everyone else combined.
+
+  [Rank 3]  divergence=0.0000  analyst_neg_norm=0.0000  musk_net_sent=0.0000
+  sentence ids: analyst 62–62  Musk 63–63
+  Analyst (Pierre Ferragu):
+    Yes, a quick one. It's -- you mentioned this like phase in which you are between 2 big growth periods. I'd love to hear you about what you consider the size of your addressable market with the portfolio you have today, like the 3, the Y, the X and the S. What's your estimate of your addressable market? You're shipping like probably about like a 2 million unit run rate today. And given the price points of these cars, what kind of market share of what you addressed with this car do you think you've already achieved today?
+  Musk:
+    I don't know if we have -- did anybody -- I actually don't think we have a firm idea that's -- it's hard to say exactly.
+
+  [Rank 4]  divergence=0.0000  analyst_neg_norm=0.0000  musk_net_sent=0.0000
+  sentence ids: analyst 70–70  Musk 71–71
+  Analyst (Adam Jonas):
+    So I can't wait to see the Optimus lab. I'm sure everybody on this call feels the same way. Your last AI Day, Elon, was September 2022. Can we expect a Tesla AI Day this year? It seems like a lot has changed in that realm and is this year the time?
+  Musk:
+    Yes, it's a good question. We have found that when we do these AI Days, some of our competitors literally look at what we do on a frame-by-frame basis.
+
+  [Rank 5]  divergence=0.0000  analyst_neg_norm=0.0000  musk_net_sent=0.0000
+  sentence ids: analyst 72–72  Musk 73–73
+  Analyst (Adam Jonas):
+    They do.
+  Musk:
+    And then we find these things being copied.
+
+========================================================================
+  2024 Q1  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.1111  analyst_neg_norm=0.0000  musk_net_sent=0.1111
+  sentence ids: analyst 123–123  Musk 125–125
+  Analyst (George Gianarikas):
+    Yes. So my follow-up has to do with the first quarter deliveries and I'm curious as to whether or not you feel that supply constraints that you mentioned throughout the release impacted the results and maybe can you help us quantify that? And is that why you have some confidence in unit growth in 2024? .
+  Musk:
+    Yes. We think Q2 will be a lot better.
+
+  [Rank 2]  divergence=0.0909  analyst_neg_norm=0.0000  musk_net_sent=0.0909
+  sentence ids: analyst 102–102  Musk 103–103
+  Analyst (Mark Delaney):
+    Yes, very helpful. My follow-up was to better understand Tesla's approach to pricing going forward. Previously, the company had said that the price reductions were driving incremental demand with how affordable the cars have become, especially for vehicles that have access to IRA credits and some of the leasing offers that Tesla has in place. Do you still see meaningful incremental price reductions as making sense from here for the existing products? And can the company meaningfully lower prices from here and also stay free cash flow positive on an annual basis with the current product set?
+  Musk:
+    Yes. I think we can be free cash flow positive meaningfully.
+
+  [Rank 3]  divergence=0.0638  analyst_neg_norm=0.0000  musk_net_sent=0.0638
+  sentence ids: analyst 152–152  Musk 153–153
+  Analyst (Colin Rusch):
+    And just my follow-up is a little bit more mundane. Looking at the 4680 ramp, can you talk about how close you were to target yields and when you might start to accelerate incremental capacity expansions on that technology?
+  Musk:
+    We're making good progress on that. But I don't think it's super important for at least in the near term. As Lars said, we think it will be -- it will exceed the competitiveness of suppliers by the end of this year. And then we'll continue to improve.
+
+  [Rank 4]  divergence=0.0517  analyst_neg_norm=0.0312  musk_net_sent=-0.0204
+  sentence ids: analyst 76–76  Musk 78–78
+  Analyst (Alex Potter):
+    All right. That's actually all very helpful context. Maybe one final question and I'll pass it on. OpEx reductions, thank you for quantifying the impact there. I'd be interested also in potentially more qualitative discussion of what the implications are for these head count reductions. What are the types of activities that you're presumably sacrificing as a result of parting ways with these folks?
+  Musk:
+    Yes, we're not giving up anything that is significant that I'm aware of. We've had a long period of prosperity from 2019 to now. And so if a company sort of organizationally is 5% wrong per year, that accumulates to 25%, 30% of inefficiency. We've made some corrections along the way. But it is time to reorganize the company for the next phase of growth and you really need to reorganize it, just like a human when we start off with one cell and kind of zygote and blastocyst and you start growing arms and legs and briefly, you have a tail.
+
+  [Rank 5]  divergence=0.0482  analyst_neg_norm=0.0297  musk_net_sent=-0.0185
+  sentence ids: analyst 163–163  Musk 164–164
+  Analyst (Shreyas Patil):
+    Okay. Great. And then just on that topic of 4680 cells, I know you mentioned it, you really thought of it more as like a hedge against rising battery costs from other OEMs. But it seems even today, it seems like you would have a cost advantage against some of those other automakers. And I'm wondering, given the rationalizing of your vehicle manufacturing plans that you're talking about now, if there's an opportunity to maybe convert the 4680 cells and maybe sell those to other automakers and really generate an additional revenue stream, I'm just curious if you have any thoughts about that.
+  Musk:
+    Great. What seems to be happening is that the -- unless I'm missing something, the orders for batteries from other automakers have declined dramatically. So we're seeing much more competitive prices for sales from our suppliers dramatically more competitive than in the past. It is clear that a lot of our suppliers have excess capacity.
+
+========================================================================
+  2024 Q2  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0636  analyst_neg_norm=0.0450  musk_net_sent=-0.0185
+  sentence ids: analyst 114–114  Musk 115–115
+  Analyst (Colin Langan):
+    Great. Thanks for taking my questions. Do you hear me? Yes. Yes. I guess we can ask Trump wins, there's a higher chance that IRA could get cut. I think Elan, you had commented online that Tesla doesn't survive on EV subsidies. But when Tesla lose a lot of support via goes away, I think Model 3 and Y get IRA held for customers, and I think your batteries get production tax credits. So just can you clarify if the [indiscernible], would it be a negative for your profitability in the near term? Why might it not be a negative? And then any framing of the current support you get IRA-related.
+  Musk:
+    I guess that there would be like some impact, but I think it would be devastating for our competitors, but -- and we're that slightly. But long term probably actually helps Tesla would be my guess -- yes -- but as I said this before earning calls, it -- the value of Tesla overwhelmingly is autonomy. These other things are in the none relative to autonomy. So I recommend anyone who doesn't believe that too old, big autonomy should keep not cold Tesla stuff. They should sell it Tesla stuff. If you believe Tesla will solve autonomy, you should bake as a start. And all these other questions are in the noise.
+
+  [Rank 2]  divergence=0.0578  analyst_neg_norm=0.0360  musk_net_sent=-0.0217
+  sentence ids: analyst 88–88  Musk 89–89
+  Analyst (George Gianarikas):
+    Maybe just to expand on the regulatory question for a second. And I could be comparing apples and oranges, but GM canceled their pedalless, wheelless vehicle, and according to the company this morning, their decision was driven by uncertainty about the regulatory environment. And from what we understand, and again, maybe I'm wrong here, but the robotaxi that has been shown, at least in the images of the public is also pedalles and wheelless. Is there a different regulatory concern just if you deploy a vehicle like that, that doesn't have pedal pedals or a wheel and that may that be different from just regular FSD on the traditional Tesla vehicle.
+  Musk:
+    Well, obviously, the real reason that they can't is because GM can't make it work, not because of regulators, they're blaming regulators. That's misleading [indiscernible] do so because Waymo is doing just fine in those markets. So it's just that their technology is not at par.
+
+  [Rank 3]  divergence=0.0553  analyst_neg_norm=0.0161  musk_net_sent=0.0714
+  sentence ids: analyst 68–68  Musk 69–69
+  Analyst (Alex Potter):
+    Okay. Good. That's more or less what I expected. So then the follow-up here is, if you did sign an FSD licensing agreement with another automaker, when do you think you would disclose that? Would you do it right when you sign the agreement or only after that multiple years has passed and the vehicle is ready to be rolled out?
+  Musk:
+    I think it depends on the OEM. I guess we'd be happy either way.
+
+  [Rank 4]  divergence=0.0247  analyst_neg_norm=0.0000  musk_net_sent=0.0247
+  sentence ids: analyst 90–90  Musk 92–92
+  Analyst (George Gianarikas):
+    And maybe just as a follow-up, I think you mentioned that FSD take rates were up materially after you reduce the price. Is there any way you can help us quantify what that means exactly?
+  Musk:
+    We're fixing the [indiscernible]. It's coming soon. So you will be able to -- you'll be able to have some glasses on and had to contract -- so -- but there's these number of times I've talked with smart people who like live in New York or maybe downtown Boston and don't ever drive and then ask me about FSD, I'm like, you can just get a car and try it. And if you're not doing that, you have no idea what's going on.
+
+  [Rank 5]  divergence=0.0200  analyst_neg_norm=0.0200  musk_net_sent=0.0000
+  sentence ids: analyst 100–100  Musk 104–104
+  Analyst (Colin Rusch):
+    I've got 2 questions around energy storage. With the types of [indiscernible] the stationary storage, can you talk about your pricing strategy? And how you're thinking about saturation in given geographies given that some of these larger systems are starting to shift wholesale power markets in a pretty meaningful way quickly.
+  Musk:
+    Yes, we find customers that they can sort of put together a [indiscernible] solution and then sometimes they'll pick our solutions. And then that doesn't work, and then they come back to us.
+
+========================================================================
+  2024 Q3  — top 2 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.0232  analyst_neg_norm=0.0130  musk_net_sent=-0.0102
+  sentence ids: analyst 103–103  Musk 104–104
+  Analyst (Adam Jonas):
+    I just had a question about the relationship between Tesla and xAI. Many investors are still not clear how the work at xAI is truly beneficial to Tesla. Some even take the view that the 2 companies may even be in competition with each other in terms of talent and tech and even your time, Elon. So what's your message to investors on that relationship between Tesla and xAI? And where do you see it going over time?
+  Musk:
+    Well, I should say that xAI has been helpful to Tesla AI quite a few times in terms of things like scaling it, bought it, like training, just even like recently in the last week or so, improvements in training, where if you're doing a big training 1 and it fails, be able to continue training and is to recover from a training on has been pretty helpful.
+But there are different problems. xAI actually is working on artificial general intelligence or artificial super intelligence. Tesla's autonomous cars and autonomous robots. There are different problems. So yes, I mean
+
+  [Rank 2]  divergence=0.0030  analyst_neg_norm=0.0000  musk_net_sent=-0.0030
+  sentence ids: analyst 97–97  Musk 98–98
+  Analyst (Pierre Ferragu):
+    I was wondering about like the compute you're ramping up. So you gave like interesting statistics on how much you have and you said you don't feel your compute constrained. And I was wondering how you are putting to work this additional compute. Is that a game for you of creating like larger and larger models like next generation of models that are larger the way OpenAI go from GPT-3 to GPT-4? Or is that more like you're set on your model and you need to throw more and more compute to accelerate the pace of learning to improve reliability.
+And then I had a quick follow-up real quick on your rollout in Texas and in California next year. The plan, as you see today, is it to roll out like a fleet or 2 with cars that will start with like a supervisory like some onboard supervision, someone sitting at the wheel just in case and removing the supervisors progressively? Or are you aiming for going fully fledged without even a human supervisor when you get started?
+  Musk:
+    Okay. Well, I guess regarding -- the first part of the question, The nature of real world AI is different from LLM in that you have a massive amount of context. So like the -- you've got a case of Tesla cameras that [indiscernible] if you include tunnel camera that -- so you've got some context. And that is then distilled down into a small number of control outputs, whereas it's like it's very rare to have, in fact, I'm not sure any LLM out there can do gigabytes of context.
+And then you've got to then process that in the car with a very small amount of compute power. So it's all doable and it's happening, but it is a different problem than what, say, a Gemini or OpenAI is doing. And now part of the way you can make up for the fact that the inference computer is quite small. It is by spending a lot of effort on training. And just like a human the way you train on something, the less metal work takes when you try to -- when you do it, like when the first time like a driving it absolves your whole mind.
+But then as you train more and more on driving different than the driving becomes a background task. It doesn't -- it only solves a small amount of your mental capacity because you have a lot of training. So we can make up for the fact that the insurance computers -- it's tiny compared to a 10-kilowatt bank of GPUs because you've got a few hundred watts of inference compute. We can make up that with heavy training.
+So yes, that's -- and then there's also vast amounts to the actual petabytes of data coming in tremendous. And then sorting out what training is important of the vast amounts of video training video data coming complete what is actually most important for trading. That's quite difficult. But as I said, we're not currently training compute constraint. -- had you want levering
+
+========================================================================
+  2024 Q4  — top 5 divergent exchanges
+========================================================================
+
+  [Rank 1]  divergence=0.1111  analyst_neg_norm=0.1111  musk_net_sent=0.0000
+  sentence ids: analyst 73–73  Musk 74–74
+  Analyst (Adam Jonas):
+    Care to elaborate? Or just I have another question.
+  Musk:
+    Look, we even have a radar in the car and we turned it off.
+
+  [Rank 2]  divergence=0.0561  analyst_neg_norm=0.0159  musk_net_sent=-0.0403
+  sentence ids: analyst 66–66  Musk 67–67
+  Analyst (Daniel Roeska):
+    It's Daniel from Bernstein. Elon, Tesla's share price clearly already includes quite a few of the anticipated benefits you talked about today, yet realizing what you call kind of difficult but achievable will take some time. What are you pushing the Tesla executive team to do differently now to accelerate the innovation in order to realize the value you described for the company?
+  Musk:
+    Well, I mean, we're, I think, working on perfecting real-world AI and making rapid progress week-over-week, if not month -- certainly month-over-month, it's often week-over-week. I spent a lot of time with the Tesla AI team and the Tesla Optimus team. I mean I go with the problem essentially, like not -- if something this is -- unfortunately, sometimes I don't talk to Tesla executive and like, hey, we don't see you very often. I'm like that's because your staff is working awesome. Your staff is working really great.
+Unfortunately, I don't seen them very often because I go where the problem is. So [indiscernible] the problem is like what's the greatest challenge that lies ahead. So obviously, there's -- there are many challenges with Optimus. It's a hard problem to solve. Many challenges with the vehicle autonomy. But we're making rapid progress in both. Yes.
+
+  [Rank 3]  divergence=0.0445  analyst_neg_norm=0.0109  musk_net_sent=-0.0336
+  sentence ids: analyst 97–97  Musk 98–98
+  Analyst (Dan Levy):
+    Elon, you've talked about the need for proliferation of sustainable transport in the past. It's part of the sort of broader push to sustainable energy. I know we've heard a lot about President Trump's plans to reverse the EV mandate. And I think there's a view that given regulation is a driver of EV uptake, this could slow EV uptake in the U.S. So what would be your view on the right policy in the U.S., given your comments in the past of the need to push for sustainable transport?
+  Musk:
+    At this point, I think that sustainable transport is inevitable. I'm highly confident that all transport will be autonomous electric, including aircraft, and that it's simply -- it can't be stopped any more than one could have stopped the advent of the external combustion engine, steam engine or one could have stopped the advent of the internal combustion engine. Like even if you've been the biggest horse advocate on Earth, like horses of the way on these newfangled car automobiles, you can't stop the advent of the automobile. It's going to happen. And you can't stop the advent of electric cars. It's going to happen. The only thing holding back electric cars was range and that is a solved problem.
+
+  [Rank 4]  divergence=0.0435  analyst_neg_norm=0.0000  musk_net_sent=-0.0435
+  sentence ids: analyst 99–99  Musk 100–100
+  Analyst (Dan Levy):
+    Great. And then as a follow-up, in the past, Elon, you had made a comment that you'd be willing to sell cars at effectively no margin to get the cars out there. And there's a comment in the release today of the rate of acceleration of the autonomy efforts does impact volume growth. So perhaps you could just talk about with your efforts on FSD, how we should think about your desire to put more vehicles out in the market to take advantage of your tech advances?
+  Musk:
+    So I'm not sure I understand the question. We have a lot of cars. I mean we've got millions of cars out there.
+
+  [Rank 5]  divergence=0.0236  analyst_neg_norm=0.0192  musk_net_sent=-0.0043
+  sentence ids: analyst 85–85  Musk 86–86
+  Analyst (Pierre Ferragu):
+    So I have a question, Elon, on deploying like robotaxis in June in Austin, so that's great news. And I was wondering if it means I can drive down to Austin in June and try unsupervised by myself with my car or it's going to be more like your fleet testing it.
+  Musk:
+    It will be our fleet testing it. That's how sort of toe in the water. We'll be scrutinizing it very carefully to make sure it's not something we missed. But it will be autonomous ride-hailing [ for money ] in Austin in June, and then as swiftly as possible, other cities in America. And I expect us to be operating -- doing unsupervised activity with our internal fleet in several cities by the end of the year.
+Then as probably next year when people are able to add or subtract their car from the fleet. So kind of like Airbnb, where you can sort of add or subtract your house or your guestroom, you can say like add it to the Airbnb inventory or don't add it to the Airbnb inventory. If you're traveling for a month, you can -- or whatever the case maybe you can let other people use your house, and then you can -- so that's probably next year because we want to just make sure we've ironed out any kinks. And a lot of it -- it's not like we're not splitting the atom here. It's just a bunch of work that needs to be done to make sure the whole thing works, especially that people can order the car, it comes to the right spot, does exactly the right thing, all the payment systems work, the billing works. Yes.
