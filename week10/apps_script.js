@@ -75,7 +75,8 @@ function submitRound(ss, data, sheetName, roundNumber) {
     for (const callData of data.calls) {
       sheet.appendRow([
         teamName, ts,
-        callData.quarter, callData.chips, callData.prediction, callData.reasoning
+        callData.quarter, callData.chips, callData.prediction, callData.reasoning,
+        roundNumber === 3 ? (callData.power_play || 0) : 0
       ]);
     }
   } else if (roundNumber === 2) {
