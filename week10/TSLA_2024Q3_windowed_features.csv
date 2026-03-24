@@ -1,0 +1,2 @@
+window_index,window_start_seconds,window_end_seconds,mean_pitch,mean_intensity,number_of_periods,fraction_of_unvoiced,number_of_voice_breaks,jitter_local,shimmer_local,mean_autocorrelation,mean_nhr,musk_dominant
+0,0,300,131.7718,67.863,16699,0.5573,849,0.024467,0.156802,0.896886,0.114969,True

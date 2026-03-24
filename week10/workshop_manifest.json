@@ -1,0 +1,287 @@
+{
+  "_comment": "TSLA Earnings Call Workshop \u2014 Session 2 asset manifest. WAV files are stored in Google Drive only; do NOT commit to GitHub.",
+  "google_drive": {
+    "folder_id": "1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N",
+    "colab_path": "/content/drive/MyDrive/workshop_data/clips",
+    "note": "Mount Drive in Colab with drive.mount('/content/drive'), then access clips at colab_path."
+  },
+  "grand_mean": {
+    "status": "provisional",
+    "file": "TSLA_grand_mean_provisional.csv",
+    "note": "Computed from all 17 calls. Recompute from four selected calls before final notebook use."
+  },
+  "calls": {
+    "TSLA_2021Q0": {
+      "year": 2021,
+      "quarter": 0,
+      "qa_boundary_sentence_id": 58,
+      "audio": {
+        "filename": "TSLA_2021Q0_qa.wav",
+        "size_mb": 87.7,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q0_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2021Q0_transcript.csv",
+        "windowed_features": "TSLA_2021Q0_windowed_features.csv"
+      },
+      "n_windows_5min": 6
+    },
+    "TSLA_2021Q1": {
+      "year": 2021,
+      "quarter": 1,
+      "qa_boundary_sentence_id": 47,
+      "audio": {
+        "filename": "TSLA_2021Q1_qa.wav",
+        "size_mb": 129.3,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q1_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2021Q1_transcript.csv",
+        "windowed_features": "TSLA_2021Q1_windowed_features.csv"
+      },
+      "n_windows_5min": 9
+    },
+    "TSLA_2021Q2": {
+      "year": 2021,
+      "quarter": 2,
+      "qa_boundary_sentence_id": 100,
+      "audio": {
+        "filename": "TSLA_2021Q2_qa.wav",
+        "size_mb": 47.9,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q2_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2021Q2_transcript.csv",
+        "windowed_features": "TSLA_2021Q2_windowed_features.csv"
+      },
+      "n_windows_5min": 3
+    },
+    "TSLA_2021Q3": {
+      "year": 2021,
+      "quarter": 3,
+      "qa_boundary_sentence_id": 82,
+      "audio": {
+        "filename": "TSLA_2021Q3_qa.wav",
+        "size_mb": 96.5,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q3_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2021Q3_transcript.csv",
+        "windowed_features": "TSLA_2021Q3_windowed_features.csv"
+      },
+      "n_windows_5min": 7
+    },
+    "TSLA_2021Q4": {
+      "year": 2021,
+      "quarter": 4,
+      "qa_boundary_sentence_id": 34,
+      "audio": {
+        "filename": "TSLA_2021Q4_qa.wav",
+        "size_mb": 161.1,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q4_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2021Q4_transcript.csv",
+        "windowed_features": "TSLA_2021Q4_windowed_features.csv"
+      },
+      "n_windows_5min": 8
+    },
+    "TSLA_2022Q1": {
+      "year": 2022,
+      "quarter": 1,
+      "qa_boundary_sentence_id": 23,
+      "audio": {
+        "filename": "TSLA_2022Q1_qa.wav",
+        "size_mb": 300.6,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q1_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2022Q1_transcript.csv",
+        "windowed_features": "TSLA_2022Q1_windowed_features.csv"
+      },
+      "n_windows_5min": 10
+    },
+    "TSLA_2022Q2": {
+      "year": 2022,
+      "quarter": 2,
+      "qa_boundary_sentence_id": 24,
+      "audio": {
+        "filename": "TSLA_2022Q2_qa.wav",
+        "size_mb": 255.0,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q2_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2022Q2_transcript.csv",
+        "windowed_features": "TSLA_2022Q2_windowed_features.csv"
+      },
+      "n_windows_5min": 10
+    },
+    "TSLA_2022Q3": {
+      "year": 2022,
+      "quarter": 3,
+      "qa_boundary_sentence_id": 27,
+      "audio": {
+        "filename": "TSLA_2022Q3_qa.wav",
+        "size_mb": 135.3,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q3_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2022Q3_transcript.csv",
+        "windowed_features": "TSLA_2022Q3_windowed_features.csv"
+      },
+      "n_windows_5min": 9
+    },
+    "TSLA_2022Q4": {
+      "year": 2022,
+      "quarter": 4,
+      "qa_boundary_sentence_id": 29,
+      "audio": {
+        "filename": "TSLA_2022Q4_qa.wav",
+        "size_mb": 62.8,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q4_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2022Q4_transcript.csv",
+        "windowed_features": "TSLA_2022Q4_windowed_features.csv"
+      },
+      "n_windows_5min": 9
+    },
+    "TSLA_2023Q1": {
+      "year": 2023,
+      "quarter": 1,
+      "qa_boundary_sentence_id": 25,
+      "audio": {
+        "filename": "TSLA_2023Q1_qa.wav",
+        "size_mb": 65.6,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q1_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2023Q1_transcript.csv",
+        "windowed_features": "TSLA_2023Q1_windowed_features.csv"
+      },
+      "n_windows_5min": 10
+    },
+    "TSLA_2023Q2": {
+      "year": 2023,
+      "quarter": 2,
+      "qa_boundary_sentence_id": 82,
+      "audio": {
+        "filename": "TSLA_2023Q2_qa.wav",
+        "size_mb": 257.2,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q2_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2023Q2_transcript.csv",
+        "windowed_features": "TSLA_2023Q2_windowed_features.csv"
+      },
+      "n_windows_5min": 5
+    },
+    "TSLA_2023Q3": {
+      "year": 2023,
+      "quarter": 3,
+      "qa_boundary_sentence_id": 54,
+      "audio": {
+        "filename": "TSLA_2023Q3_qa.wav",
+        "size_mb": 407.3,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q3_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2023Q3_transcript.csv",
+        "windowed_features": "TSLA_2023Q3_windowed_features.csv"
+      },
+      "n_windows_5min": 7
+    },
+    "TSLA_2023Q4": {
+      "year": 2023,
+      "quarter": 4,
+      "qa_boundary_sentence_id": 50,
+      "audio": {
+        "filename": "TSLA_2023Q4_qa.wav",
+        "size_mb": 326.5,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q4_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2023Q4_transcript.csv",
+        "windowed_features": "TSLA_2023Q4_windowed_features.csv"
+      },
+      "n_windows_5min": 6
+    },
+    "TSLA_2024Q1": {
+      "year": 2024,
+      "quarter": 1,
+      "qa_boundary_sentence_id": 45,
+      "audio": {
+        "filename": "TSLA_2024Q1_qa.wav",
+        "size_mb": 546.4,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q1_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2024Q1_transcript.csv",
+        "windowed_features": "TSLA_2024Q1_windowed_features.csv"
+      },
+      "n_windows_5min": 9
+    },
+    "TSLA_2024Q2": {
+      "year": 2024,
+      "quarter": 2,
+      "qa_boundary_sentence_id": 49,
+      "audio": {
+        "filename": "TSLA_2024Q2_qa.wav",
+        "size_mb": 88.6,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q2_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2024Q2_transcript.csv",
+        "windowed_features": "TSLA_2024Q2_windowed_features.csv"
+      },
+      "n_windows_5min": 7
+    },
+    "TSLA_2024Q3": {
+      "year": 2024,
+      "quarter": 3,
+      "qa_boundary_sentence_id": 97,
+      "audio": {
+        "filename": "TSLA_2024Q3_qa.wav",
+        "size_mb": 78.8,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q3_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2024Q3_transcript.csv",
+        "windowed_features": "TSLA_2024Q3_windowed_features.csv"
+      },
+      "n_windows_5min": 1
+    },
+    "TSLA_2024Q4": {
+      "year": 2024,
+      "quarter": 4,
+      "qa_boundary_sentence_id": 66,
+      "audio": {
+        "filename": "TSLA_2024Q4_qa.wav",
+        "size_mb": 275.3,
+        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q4_qa.wav",
+        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+      },
+      "files": {
+        "transcript": "TSLA_2024Q4_transcript.csv",
+        "windowed_features": "TSLA_2024Q4_windowed_features.csv"
+      },
+      "n_windows_5min": 5
+    }
+  }
+}
