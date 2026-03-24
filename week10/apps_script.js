@@ -2,39 +2,41 @@
  * AG952 Week 10 — Workshop Submission Handler
  * Deploy as a Google Apps Script Web App (Execute as: Me, Access: Anyone)
  *
- * Sheet structure:
- *   "Teams"       — registered teams (col A: team_name, col B: registered_at)
- *   "Round1"      — raw submissions (team_name, timestamp, call, chips, prediction, reasoning)
- *   "Round2"      — signal classifications (team_name, timestamp, call, classification)
- *   "Round3"      — final predictions (same as Round1 format)
- *   "Leaderboard" — public leaderboard (written ONLY after all teams submit each round)
- *   "Reflections" — personal reflections (team_name, timestamp, q1, q2, q3)
+ * Sheet tabs required:
+ *   "Teams"       — team_name, registered_at
+ *   "Round1"      — team_name, timestamp, quarter, chips, prediction, reasoning
+ *   "Round2"      — team_name, timestamp, quarter, classification
+ *   "Round3"      — team_name, timestamp, quarter, chips, prediction, reasoning
+ *   "Leaderboard" — written automatically once all teams submit (or instructor forces)
+ *   "Reflections" — team_name, timestamp, q1, q2, q3
+ *
+ * Instructor-only actions (require instructor_key):
+ *   force_unlock_round   — write leaderboard immediately regardless of submission count
+ *   get_round_data       — fetch all rows from a round sheet
+ *   get_reflections_data — fetch all reflection rows
  */
 
-const SHEET_ID = "1eEVTNHUXFg6covor9kE2sf5_1235ZW-u930152c_-TA";
+const SHEET_ID      = "1eEVTNHUXFg6covor9kE2sf5_1235ZW-u930152c_-TA";
+const INSTRUCTOR_KEY = "AG952_2026";  // Change this before deployment
 
 function doPost(e) {
   try {
-    const data = JSON.parse(e.postData.contents);
+    const data   = JSON.parse(e.postData.contents);
     const action = data.action;
-    const ss = SpreadsheetApp.openById(SHEET_ID);
-    let result = {};
+    const ss     = SpreadsheetApp.openById(SHEET_ID);
+    let result   = {};
 
-    if (action === "register_team") {
-      result = registerTeam(ss, data);
-    } else if (action === "submit_round1") {
-      result = submitRound(ss, data, "Round1", 1);
-    } else if (action === "submit_round2") {
-      result = submitRound(ss, data, "Round2", 2);
-    } else if (action === "submit_round3") {
-      result = submitRound(ss, data, "Round3", 3);
-    } else if (action === "submit_reflection") {
-      result = submitReflection(ss, data);
-    } else if (action === "get_status") {
-      result = getStatus(ss, data);
-    } else if (action === "get_leaderboard") {
-      result = getLeaderboard(ss);
-    }
+    if      (action === "register_team")       result = registerTeam(ss, data);
+    else if (action === "submit_round1")        result = submitRound(ss, data, "Round1", 1);
+    else if (action === "submit_round2")        result = submitRound(ss, data, "Round2", 2);
+    else if (action === "submit_round3")        result = submitRound(ss, data, "Round3", 3);
+    else if (action === "submit_reflection")    result = submitReflection(ss, data);
+    else if (action === "get_status")           result = getStatus(ss, data);
+    else if (action === "get_leaderboard")      result = getLeaderboard(ss);
+    else if (action === "force_unlock_round")   result = forceUnlockRound(ss, data);
+    else if (action === "get_round_data")       result = getRoundData(ss, data);
+    else if (action === "get_reflections_data") result = getReflectionsData(ss, data);
+    else result = { success: false, error: "Unknown action: " + action };
 
     return ContentService.createTextOutput(JSON.stringify(result))
       .setMimeType(ContentService.MimeType.JSON);
@@ -44,6 +46,8 @@ function doPost(e) {
     })).setMimeType(ContentService.MimeType.JSON);
   }
 }
+
+// ── Student actions ───────────────────────────────────────────────────────────
 
 function registerTeam(ss, data) {
   const sheet = ss.getSheetByName("Teams");
@@ -56,18 +60,16 @@ function registerTeam(ss, data) {
 }
 
 function submitRound(ss, data, sheetName, roundNumber) {
-  const sheet = ss.getSheetByName(sheetName);
-  const teamsSheet = ss.getSheetByName("Teams");
+  const sheet    = ss.getSheetByName(sheetName);
   const teamName = data.team_name;
 
   // Prevent double submission
-  const existing = sheet.getDataRange().getValues();
+  const existing       = sheet.getDataRange().getValues();
   const alreadySubmitted = existing.some(r => r[0] === teamName);
   if (alreadySubmitted) {
     return { success: false, message: "already_submitted" };
   }
 
-  // Write submission rows (one per call)
   const ts = new Date().toISOString();
   if (roundNumber === 1 || roundNumber === 3) {
     for (const callData of data.calls) {
@@ -82,43 +84,8 @@ function submitRound(ss, data, sheetName, roundNumber) {
     }
   }
 
-  // Check if all teams have now submitted this round
-  lockPredictionsUntilAllTeamsSubmit(ss, roundNumber);
-
+  checkAndLockRound(ss, roundNumber, false);
   return { success: true, message: "submitted" };
-}
-
-/**
- * Writes predictions to the public Leaderboard tab only after all registered
- * teams have a submission for the given round number.
- */
-function lockPredictionsUntilAllTeamsSubmit(ss, roundNumber) {
-  const teamsSheet = ss.getSheetByName("Teams");
-  const allTeams = teamsSheet.getDataRange().getValues()
-    .slice(1)  // skip header
-    .map(r => r[0])
-    .filter(t => t !== "");
-
-  const roundSheetName = `Round${roundNumber}`;
-  const roundSheet = ss.getSheetByName(roundSheetName);
-  const submissions = roundSheet.getDataRange().getValues()
-    .slice(1)
-    .map(r => r[0]);
-
-  const teamsSubmitted = [...new Set(submissions)];
-  const allSubmitted = allTeams.every(t => teamsSubmitted.includes(t));
-
-  if (!allSubmitted) return; // Not all teams in yet — hold off
-
-  // All teams submitted: write to Leaderboard
-  const lbSheet = ss.getSheetByName("Leaderboard");
-  // Clear only this round's section, then rewrite
-  // For simplicity, append a "round marker" row and all team data
-  lbSheet.appendRow([`--- Round ${roundNumber} complete ---`]);
-  const allRows = roundSheet.getDataRange().getValues().slice(1);
-  for (const row of allRows) {
-    lbSheet.appendRow([`R${roundNumber}`, ...row]);
-  }
 }
 
 function submitReflection(ss, data) {
@@ -130,26 +97,108 @@ function submitReflection(ss, data) {
   return { success: true };
 }
 
-function getStatus(ss, data) {
-  const roundSheetName = `Round${data.round}`;
-  const roundSheet = ss.getSheetByName(roundSheetName);
+// ── Lock logic ────────────────────────────────────────────────────────────────
+
+/**
+ * Writes round data to the Leaderboard tab.
+ * Runs automatically when all teams submit; instructor can force it early.
+ * Safe to call multiple times — checks for duplicate marker before writing.
+ */
+function checkAndLockRound(ss, roundNumber, force) {
   const teamsSheet = ss.getSheetByName("Teams");
-  const allTeams = teamsSheet.getDataRange().getValues().slice(1).map(r => r[0]).filter(t => t);
+  const allTeams   = teamsSheet.getDataRange().getValues()
+    .slice(1).map(r => r[0]).filter(t => t !== "");
+
+  const roundSheet  = ss.getSheetByName("Round" + roundNumber);
+  const submissions = roundSheet.getDataRange().getValues()
+    .slice(1).map(r => r[0]).filter(t => t !== "");
+
+  const teamsSubmitted = [...new Set(submissions)];
+  const allSubmitted   = allTeams.length > 0 &&
+                         allTeams.every(t => teamsSubmitted.includes(t));
+
+  if (!allSubmitted && !force) return;
+
+  // Guard against double-write
+  const lbSheet   = ss.getSheetByName("Leaderboard");
+  const lbData    = lbSheet.getDataRange().getValues();
+  const marker    = "--- Round " + roundNumber + " complete ---";
+  if (lbData.some(r => r[0] === marker)) return;
+
+  lbSheet.appendRow([marker]);
+  const allRows = roundSheet.getDataRange().getValues().slice(1);
+  for (const row of allRows) {
+    lbSheet.appendRow(["R" + roundNumber, ...row]);
+  }
+}
+
+// ── Instructor actions ────────────────────────────────────────────────────────
+
+function forceUnlockRound(ss, data) {
+  if (data.instructor_key !== INSTRUCTOR_KEY) {
+    return { success: false, error: "Unauthorized" };
+  }
+  const round = parseInt(data.round);
+  if (isNaN(round) || round < 1 || round > 3) {
+    return { success: false, error: "round must be 1, 2, or 3" };
+  }
+  checkAndLockRound(ss, round, true);
+
+  const roundSheet = ss.getSheetByName("Round" + round);
+  const rows       = roundSheet.getDataRange().getValues().slice(1);
+  const submitted  = [...new Set(rows.map(r => r[0]).filter(t => t !== ""))];
+  return {
+    success: true,
+    message: "Round " + round + " force-unlocked",
+    teams_included: submitted.length,
+    teams_included_names: submitted
+  };
+}
+
+function getStatus(ss, data) {
+  const roundSheetName = "Round" + data.round;
+  const roundSheet     = ss.getSheetByName(roundSheetName);
+  const teamsSheet     = ss.getSheetByName("Teams");
+  const allTeams       = teamsSheet.getDataRange().getValues()
+    .slice(1).map(r => r[0]).filter(t => t);
   const submitted = [...new Set(
     roundSheet.getDataRange().getValues().slice(1).map(r => r[0]).filter(t => t)
   )];
+  const notSubmitted = allTeams.filter(t => !submitted.includes(t));
   return {
     success: true,
     all_teams: allTeams,
     submitted_teams: submitted,
+    not_submitted: notSubmitted,
     total: allTeams.length,
     submitted_count: submitted.length,
-    all_submitted: allTeams.every(t => submitted.includes(t))
+    all_submitted: allTeams.length > 0 && allTeams.every(t => submitted.includes(t))
   };
+}
+
+function getRoundData(ss, data) {
+  if (data.instructor_key !== INSTRUCTOR_KEY) {
+    return { success: false, error: "Unauthorized" };
+  }
+  const round = parseInt(data.round);
+  const sheet = ss.getSheetByName("Round" + round);
+  if (!sheet) return { success: false, error: "Round" + round + " sheet not found" };
+  const rows = sheet.getDataRange().getValues();
+  return { success: true, rows: rows.length > 1 ? rows.slice(1) : [] };
+}
+
+function getReflectionsData(ss, data) {
+  if (data.instructor_key !== INSTRUCTOR_KEY) {
+    return { success: false, error: "Unauthorized" };
+  }
+  const sheet = ss.getSheetByName("Reflections");
+  if (!sheet) return { success: false, error: "Reflections sheet not found" };
+  const rows = sheet.getDataRange().getValues();
+  return { success: true, rows: rows.length > 1 ? rows.slice(1) : [] };
 }
 
 function getLeaderboard(ss) {
   const lbSheet = ss.getSheetByName("Leaderboard");
-  const data = lbSheet.getDataRange().getValues();
+  const data    = lbSheet.getDataRange().getValues();
   return { success: true, leaderboard: data };
 }
