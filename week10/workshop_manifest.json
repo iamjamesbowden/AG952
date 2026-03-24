@@ -413,7 +413,7 @@
     "price_timeline": "TSLA_price_timeline.png",
     "all_calls_summary": "TSLA_all_calls_summary.csv"
   },
-  "google_apps_script_endpoint": "ENDPOINT_URL_HERE",
-  "google_sheet_id": "SHEET_ID_HERE",
+  "google_apps_script_endpoint": "https://script.google.com/macros/s/AKfycbxnyxoAgcw5qdQk0m3nv4YX-orYcc6i_1yhm1tNNE10rHBYCD-vbwqCOp628kimi0qy/exec",
+  "google_sheet_id": "1eEVTNHUXFg6covor9kE2sf5_1235ZW-u930152c_-TA",
   "registered_teams": []
 }
