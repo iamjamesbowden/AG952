@@ -1,0 +1,5 @@
+fy,vehicle_deliveries,vehicle_production,energy_storage_gwh,supercharger_stations,supercharger_connectors,solar_deployed_mw,vehicle_deliveries_yoy_pct,vehicle_production_yoy_pct,energy_storage_gwh_yoy_pct,supercharger_stations_yoy_pct,supercharger_connectors_yoy_pct,solar_deployed_mw_yoy_pct
+2020,499647.0,509737.0,3.02,,,205.0,,,,,,
+2021,936222.0,930422.0,3.99,,,345.0,87.4,82.5,32.1,,,68.3
+2022,1313851.0,1369611.0,6.5,,,348.0,40.3,47.2,62.9,,,0.9
+2023,1808581.0,1845985.0,14.72,,,223.0,37.7,34.8,126.5,,,-35.9
