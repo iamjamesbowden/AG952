@@ -1,287 +1,419 @@
 {
-  "_comment": "TSLA Earnings Call Workshop \u2014 Session 2 asset manifest. WAV files are stored in Google Drive only; do NOT commit to GitHub.",
-  "google_drive": {
-    "folder_id": "1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N",
-    "colab_path": "/content/drive/MyDrive/workshop_data/clips",
-    "note": "Mount Drive in Colab with drive.mount('/content/drive'), then access clips at colab_path."
-  },
-  "grand_mean": {
-    "status": "provisional",
-    "file": "TSLA_grand_mean_provisional.csv",
-    "note": "Computed from all 17 calls. Recompute from four selected calls before final notebook use."
-  },
-  "calls": {
-    "TSLA_2021Q0": {
-      "year": 2021,
-      "quarter": 0,
-      "qa_boundary_sentence_id": 58,
-      "audio": {
-        "filename": "TSLA_2021Q0_qa.wav",
-        "size_mb": 87.7,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q0_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+  "workshop": "AG952 Week 10 \u2014 The Analyst's Edge",
+  "created": "2026-03-24",
+  "selected_calls": [
+    "2022Q4",
+    "2023Q1",
+    "2024Q1",
+    "2024Q2"
+  ],
+  "calls": [
+    {
+      "quarter": "2022Q4",
+      "call_date": "2023-01-25",
+      "excerpt": {
+        "rank": 3,
+        "analyst_speaker": "Pierre Ferragu",
+        "analyst_sid_start": 100,
+        "analyst_sid_end": 101,
+        "musk_sid_start": 102,
+        "musk_sid_end": 105,
+        "analyst_text": "Thank you, so much. So as a quick follow-up, Elon, I was thinking about like FSD, and when you look at like the situation today compared to a year ago, it's -- like the progress has been, like, amazing in the quality of the product, but also its rollout. And so, I was wondering, how much is this like impacting the take rate of FSD today? So do you already see that people are getting more excited by FSD, because they see it around them on 400,000 cars and they see the value of the service already, or is that too early to really see like, to expect like an uptick in the take rate?",
+        "musk_text": "The trend is very strong towards use of FSD. And as you alluded to, the -- with each incremental improvement, the enthusiasm obviously increases. And -- so, I think something that still a lot of people out there don't quite appreciate is that Tesla -- I would say, like, Tesla is as much as a software company as a hardware company, but Tesla is really one of the world's leading AI companies. This is kind of a big deal with AI on the software side and on the hardware side. With the Hardware 3 inference computer, still the most efficient inference computer in the world despite being, at this point, five years old from the design point. And with Hardware 4 coming and then Hardware 5 beyond that, where there are significant leaps. And the Dojo computer, we expect to be using that operationally at Tesla later this year. So -- and we're seeing just a lot of world-class AI talent join the company. There's also the long-term potential of Optimus where we're able to use our expertise in electric motors and power electronics, batteries and advanced manufacturing to be able to make a humanoid robot that is actually useful and can be made at high volume with exceptional capabilities, because of the -- or robot AI that, where we take the -- because the car is like a robot on four wheels and Optimus is a robot on legs. But the -- as we get closer and closer to solving real-world AI, and we don't see anyone even close to us in achieving this, the value -- I think, you appreciate this and a few others do, but most don't know what I'm talking about. And so -- but it's -- this is the thing that has order of magnitude potential market cap improvement for Tesla.",
+        "musk_net_sent": 0.0404,
+        "analyst_neg_norm": 0.0,
+        "divergence": 0.0404,
+        "musk_sentences": [
+          {
+            "text": "The trend is very strong towards use of FSD.",
+            "net": 0.1111,
+            "category": "positive"
+          },
+          {
+            "text": "And as you alluded to, the -- with each incremental improvement, the enthusiasm obviously increases.",
+            "net": 0.1429,
+            "category": "positive"
+          },
+          {
+            "text": "And -- so, I think something that still a lot of people out there don't quite appreciate is that Tesla -- I would say, like, Tesla is as much as a software company as a hardware company, but Tesla is really one of the world's leading AI companies.",
+            "net": 0.0208,
+            "category": "positive"
+          },
+          {
+            "text": "This is kind of a big deal with AI on the software side and on the hardware side.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "With the Hardware 3 inference computer, still the most efficient inference computer in the world despite being, at this point, five years old from the design point.",
+            "net": 0.0769,
+            "category": "positive"
+          },
+          {
+            "text": "And with Hardware 4 coming and then Hardware 5 beyond that, where there are significant leaps.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "And the Dojo computer, we expect to be using that operationally at Tesla later this year.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "So -- and we're seeing just a lot of world-class AI talent join the company.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "There's also the long-term potential of Optimus where we're able to use our expertise in electric motors and power electronics, batteries and advanced manufacturing to be able to make a humanoid robot that is actually useful and can be made at high volume with exceptional capabilities, because of the -- or robot AI that, where we take the -- because the car is like a robot on four wheels and Optimus is a robot on legs.",
+            "net": 0.039,
+            "category": "positive"
+          },
+          {
+            "text": "But the -- as we get closer and closer to solving real-world AI, and we don't see anyone even close to us in achieving this, the value -- I think, you appreciate this and a few others do, but most don't know what I'm talking about.",
+            "net": 0.0417,
+            "category": "positive"
+          },
+          {
+            "text": "And so -- but it's -- this is the thing that has order of magnitude potential market cap improvement for Tesla.",
+            "net": 0.05,
+            "category": "positive"
+          }
+        ],
+        "analyst_sentences": [
+          {
+            "text": "Thank you, so much.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "So as a quick follow-up, Elon, I was thinking about like FSD, and when you look at like the situation today compared to a year ago, it's -- like the progress has been, like, amazing in the quality of the product, but also its rollout.",
+            "net": 0.0217,
+            "category": "positive"
+          },
+          {
+            "text": "And so, I was wondering, how much is this like impacting the take rate of FSD today?",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "So do you already see that people are getting more excited by FSD, because they see it around them on 400,000 cars and they see the value of the service already, or is that too early to really see like, to expect like an uptick in the take rate?",
+            "net": 0.0208,
+            "category": "positive"
+          }
+        ]
+      },
+      "key_question": {
+        "window_index": 8,
+        "audio_offset_sec": 2409.9,
+        "analyst_text_preview": "Hi. Elon, first question is, is it time for Tesla to significantly expand the captive finco? I mean, you only have like "
+      },
+      "returns": {
+        "day0_tsla_pct": -0.0182,
+        "cum_1to5_tsla_pct": 2.5644,
+        "cum_1to5_gspc_pct": 25.6041,
+        "abnormal_ret_pct": -23.0398,
+        "direction": "negative"
       },
       "files": {
-        "transcript": "TSLA_2021Q0_transcript.csv",
-        "windowed_features": "TSLA_2021Q0_windowed_features.csv"
+        "windowed_features": "TSLA_2022Q4_windowed_features_validated.csv",
+        "image_manifest": "TSLA_2022Q4_image_manifest_validated.csv"
       },
-      "n_windows_5min": 6
+      "10k_fy": 2022,
+      "validation_status": "pass_with_known_gaps"
     },
-    "TSLA_2021Q1": {
-      "year": 2021,
-      "quarter": 1,
-      "qa_boundary_sentence_id": 47,
-      "audio": {
-        "filename": "TSLA_2021Q1_qa.wav",
-        "size_mb": 129.3,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q1_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+    {
+      "quarter": "2023Q1",
+      "call_date": "2023-04-19",
+      "excerpt": {
+        "rank": 3,
+        "analyst_speaker": "Rod Lache",
+        "analyst_sid_start": 133,
+        "analyst_sid_end": 133,
+        "musk_sid_start": 134,
+        "musk_sid_end": 135,
+        "analyst_text": "Okay. And the -- normally, in a recession, when consumers feel less financially secure, actually price elasticity deteriorates. Just based on your pulse taking of the consumer, do you have a view on elasticity of demand?",
+        "musk_text": "Well, I can't emphasize enough the whole -- just fundamental question of affordability. For most people, their ability to buy a car is a function of can they make monthly payment or not. And so like I said, if interest rates are really high, like they are right now, then in some cases, people can't get a loan at all. So it's -- I think probably banks are pretty -- not leaning forward in providing loans, I expect, these days. So that's -- like there is -- there is quite a powerful story here when you -- going back to something as alluded to a moment ago -- I mentioned a moment ago that Tesla is in a uniquely strong strategic position. Because we're the only ones making cars that technically, we could sell for zero profit for now and then yield actually tremendous economics in the future through autonomy, no one else can do that. I'm not sure how many people will appreciate the profundity of what I've just said, but it is extremely significant.",
+        "musk_net_sent": 0.0059,
+        "analyst_neg_norm": 0.0571,
+        "divergence": 0.0512,
+        "musk_sentences": [
+          {
+            "text": "Well, I can't emphasize enough the whole -- just fundamental question of affordability.",
+            "net": -0.0769,
+            "category": "negative"
+          },
+          {
+            "text": "For most people, their ability to buy a car is a function of can they make monthly payment or not.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "And so like I said, if interest rates are really high, like they are right now, then in some cases, people can't get a loan at all.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "So it's -- I think probably banks are pretty -- not leaning forward in providing loans, I expect, these days.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "So that's -- like there is -- there is quite a powerful story here when you -- going back to something as alluded to a moment ago -- I mentioned a moment ago that Tesla is in a uniquely strong strategic position.",
+            "net": 0.0256,
+            "category": "positive"
+          },
+          {
+            "text": "Because we're the only ones making cars that technically, we could sell for zero profit for now and then yield actually tremendous economics in the future through autonomy, no one else can do that.",
+            "net": 0.0286,
+            "category": "positive"
+          },
+          {
+            "text": "I'm not sure how many people will appreciate the profundity of what I've just said, but it is extremely significant.",
+            "net": 0.0,
+            "category": "neutral"
+          }
+        ],
+        "analyst_sentences": [
+          {
+            "text": "Okay.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "And the -- normally, in a recession, when consumers feel less financially secure, actually price elasticity deteriorates.",
+            "net": -0.125,
+            "category": "negative"
+          },
+          {
+            "text": "Just based on your pulse taking of the consumer, do you have a view on elasticity of demand?",
+            "net": 0.0,
+            "category": "neutral"
+          }
+        ]
+      },
+      "key_question": {
+        "window_index": 9,
+        "audio_offset_sec": 2737.2,
+        "analyst_text_preview": "Hi. Good evening. Thank you. First question, you're ramping supply at Austin and Berlin. So I wanted to understand just "
+      },
+      "returns": {
+        "day0_tsla_pct": -0.0084,
+        "cum_1to5_tsla_pct": -2.3716,
+        "cum_1to5_gspc_pct": -14.8624,
+        "abnormal_ret_pct": 12.4908,
+        "direction": "positive"
       },
       "files": {
-        "transcript": "TSLA_2021Q1_transcript.csv",
-        "windowed_features": "TSLA_2021Q1_windowed_features.csv"
+        "windowed_features": "TSLA_2023Q1_windowed_features_validated.csv",
+        "image_manifest": "TSLA_2023Q1_image_manifest_validated.csv"
       },
-      "n_windows_5min": 9
+      "10k_fy": 2022,
+      "validation_status": "pass_with_known_gaps"
     },
-    "TSLA_2021Q2": {
-      "year": 2021,
-      "quarter": 2,
-      "qa_boundary_sentence_id": 100,
-      "audio": {
-        "filename": "TSLA_2021Q2_qa.wav",
-        "size_mb": 47.9,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q2_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+    {
+      "quarter": "2024Q1",
+      "call_date": "2024-04-23",
+      "excerpt": {
+        "rank": 1,
+        "analyst_speaker": "George Gianarikas",
+        "analyst_sid_start": 123,
+        "analyst_sid_end": 123,
+        "musk_sid_start": 125,
+        "musk_sid_end": 125,
+        "analyst_text": "Yes. So my follow-up has to do with the first quarter deliveries and I'm curious as to whether or not you feel that supply constraints that you mentioned throughout the release impacted the results and maybe can you help us quantify that? And is that why you have some confidence in unit growth in 2024? .",
+        "musk_text": "Yes. We think Q2 will be a lot better.",
+        "musk_net_sent": 0.1111,
+        "analyst_neg_norm": 0.0,
+        "divergence": 0.1111,
+        "musk_sentences": [
+          {
+            "text": "Yes.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "We think Q2 will be a lot better.",
+            "net": 0.125,
+            "category": "positive"
+          }
+        ],
+        "analyst_sentences": [
+          {
+            "text": "Yes.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "So my follow-up has to do with the first quarter deliveries and I'm curious as to whether or not you feel that supply constraints that you mentioned throughout the release impacted the results and maybe can you help us quantify that?",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "And is that why you have some confidence in unit growth in 2024?",
+            "net": 0.0,
+            "category": "neutral"
+          }
+        ]
+      },
+      "key_question": {
+        "window_index": 5,
+        "audio_offset_sec": 1583.5,
+        "analyst_text_preview": "Yes. So my follow-up has to do with the first quarter deliveries and I'm curious as to whether or not you feel that supp"
+      },
+      "returns": {
+        "day0_tsla_pct": 1.1965,
+        "cum_1to5_tsla_pct": -0.6875,
+        "cum_1to5_gspc_pct": 26.6796,
+        "abnormal_ret_pct": -27.3671,
+        "direction": "negative"
       },
       "files": {
-        "transcript": "TSLA_2021Q2_transcript.csv",
-        "windowed_features": "TSLA_2021Q2_windowed_features.csv"
+        "windowed_features": "TSLA_2024Q1_windowed_features_validated.csv",
+        "image_manifest": "TSLA_2024Q1_image_manifest_validated.csv"
       },
-      "n_windows_5min": 3
+      "10k_fy": 2023,
+      "validation_status": "pass_with_known_gaps"
     },
-    "TSLA_2021Q3": {
-      "year": 2021,
-      "quarter": 3,
-      "qa_boundary_sentence_id": 82,
-      "audio": {
-        "filename": "TSLA_2021Q3_qa.wav",
-        "size_mb": 96.5,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q3_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
+    {
+      "quarter": "2024Q2",
+      "call_date": "2024-07-23",
+      "excerpt": {
+        "rank": 1,
+        "analyst_speaker": "Colin Langan",
+        "analyst_sid_start": 114,
+        "analyst_sid_end": 114,
+        "musk_sid_start": 115,
+        "musk_sid_end": 115,
+        "analyst_text": "Great. Thanks for taking my questions. Do you hear me? Yes. Yes. I guess we can ask Trump wins, there's a higher chance that IRA could get cut. I think Elan, you had commented online that Tesla doesn't survive on EV subsidies. But when Tesla lose a lot of support via goes away, I think Model 3 and Y get IRA held for customers, and I think your batteries get production tax credits. So just can you clarify if the [indiscernible], would it be a negative for your profitability in the near term? Why might it not be a negative? And then any framing of the current support you get IRA-related.",
+        "musk_text": "I guess that there would be like some impact, but I think it would be devastating for our competitors, but -- and we're that slightly. But long term probably actually helps Tesla would be my guess -- yes -- but as I said this before earning calls, it -- the value of Tesla overwhelmingly is autonomy. These other things are in the none relative to autonomy. So I recommend anyone who doesn't believe that too old, big autonomy should keep not cold Tesla stuff. They should sell it Tesla stuff. If you believe Tesla will solve autonomy, you should bake as a start. And all these other questions are in the noise.",
+        "musk_net_sent": -0.0185,
+        "analyst_neg_norm": 0.045,
+        "divergence": 0.0636,
+        "musk_sentences": [
+          {
+            "text": "I guess that there would be like some impact, but I think it would be devastating for our competitors, but -- and we're that slightly.",
+            "net": -0.04,
+            "category": "negative"
+          },
+          {
+            "text": "But long term probably actually helps Tesla would be my guess -- yes -- but as I said this before earning calls, it -- the value of Tesla overwhelmingly is autonomy.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "These other things are in the none relative to autonomy.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "So I recommend anyone who doesn't believe that too old, big autonomy should keep not cold Tesla stuff.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "They should sell it Tesla stuff.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "If you believe Tesla will solve autonomy, you should bake as a start.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "And all these other questions are in the noise.",
+            "net": -0.1111,
+            "category": "negative"
+          }
+        ],
+        "analyst_sentences": [
+          {
+            "text": "Great.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "Thanks for taking my questions.",
+            "net": -0.2,
+            "category": "negative"
+          },
+          {
+            "text": "Do you hear me?",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "Yes.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "Yes.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "I guess we can ask Trump wins, there's a higher chance that IRA could get cut.",
+            "net": -0.0588,
+            "category": "negative"
+          },
+          {
+            "text": "I think Elan, you had commented online that Tesla doesn't survive on EV subsidies.",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "But when Tesla lose a lot of support via goes away, I think Model 3 and Y get IRA held for customers, and I think your batteries get production tax credits.",
+            "net": -0.0333,
+            "category": "negative"
+          },
+          {
+            "text": "So just can you clarify if the [indiscernible], would it be a negative for your profitability in the near term?",
+            "net": 0.0,
+            "category": "neutral"
+          },
+          {
+            "text": "Why might it not be a negative?",
+            "net": -0.1429,
+            "category": "negative"
+          },
+          {
+            "text": "And then any framing of the current support you get IRA-related.",
+            "net": 0.0,
+            "category": "neutral"
+          }
+        ]
+      },
+      "key_question": {
+        "window_index": 6,
+        "audio_offset_sec": 1950.0,
+        "analyst_text_preview": "Great. Thanks for taking my questions. Do you hear me? Yes. Yes. I guess we can ask Trump wins, there's a higher chance "
+      },
+      "returns": {
+        "day0_tsla_pct": -0.1558,
+        "cum_1to5_tsla_pct": -2.1473,
+        "cum_1to5_gspc_pct": -9.6436,
+        "abnormal_ret_pct": 7.4963,
+        "direction": "positive"
       },
       "files": {
-        "transcript": "TSLA_2021Q3_transcript.csv",
-        "windowed_features": "TSLA_2021Q3_windowed_features.csv"
+        "windowed_features": "TSLA_2024Q2_windowed_features_validated.csv",
+        "image_manifest": "TSLA_2024Q2_image_manifest_validated.csv"
       },
-      "n_windows_5min": 7
-    },
-    "TSLA_2021Q4": {
-      "year": 2021,
-      "quarter": 4,
-      "qa_boundary_sentence_id": 34,
-      "audio": {
-        "filename": "TSLA_2021Q4_qa.wav",
-        "size_mb": 161.1,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2021Q4_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2021Q4_transcript.csv",
-        "windowed_features": "TSLA_2021Q4_windowed_features.csv"
-      },
-      "n_windows_5min": 8
-    },
-    "TSLA_2022Q1": {
-      "year": 2022,
-      "quarter": 1,
-      "qa_boundary_sentence_id": 23,
-      "audio": {
-        "filename": "TSLA_2022Q1_qa.wav",
-        "size_mb": 300.6,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q1_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2022Q1_transcript.csv",
-        "windowed_features": "TSLA_2022Q1_windowed_features.csv"
-      },
-      "n_windows_5min": 10
-    },
-    "TSLA_2022Q2": {
-      "year": 2022,
-      "quarter": 2,
-      "qa_boundary_sentence_id": 24,
-      "audio": {
-        "filename": "TSLA_2022Q2_qa.wav",
-        "size_mb": 255.0,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q2_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2022Q2_transcript.csv",
-        "windowed_features": "TSLA_2022Q2_windowed_features.csv"
-      },
-      "n_windows_5min": 10
-    },
-    "TSLA_2022Q3": {
-      "year": 2022,
-      "quarter": 3,
-      "qa_boundary_sentence_id": 27,
-      "audio": {
-        "filename": "TSLA_2022Q3_qa.wav",
-        "size_mb": 135.3,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q3_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2022Q3_transcript.csv",
-        "windowed_features": "TSLA_2022Q3_windowed_features.csv"
-      },
-      "n_windows_5min": 9
-    },
-    "TSLA_2022Q4": {
-      "year": 2022,
-      "quarter": 4,
-      "qa_boundary_sentence_id": 29,
-      "audio": {
-        "filename": "TSLA_2022Q4_qa.wav",
-        "size_mb": 62.8,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2022Q4_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2022Q4_transcript.csv",
-        "windowed_features": "TSLA_2022Q4_windowed_features.csv"
-      },
-      "n_windows_5min": 9
-    },
-    "TSLA_2023Q1": {
-      "year": 2023,
-      "quarter": 1,
-      "qa_boundary_sentence_id": 25,
-      "audio": {
-        "filename": "TSLA_2023Q1_qa.wav",
-        "size_mb": 65.6,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q1_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2023Q1_transcript.csv",
-        "windowed_features": "TSLA_2023Q1_windowed_features.csv"
-      },
-      "n_windows_5min": 10
-    },
-    "TSLA_2023Q2": {
-      "year": 2023,
-      "quarter": 2,
-      "qa_boundary_sentence_id": 82,
-      "audio": {
-        "filename": "TSLA_2023Q2_qa.wav",
-        "size_mb": 257.2,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q2_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2023Q2_transcript.csv",
-        "windowed_features": "TSLA_2023Q2_windowed_features.csv"
-      },
-      "n_windows_5min": 5
-    },
-    "TSLA_2023Q3": {
-      "year": 2023,
-      "quarter": 3,
-      "qa_boundary_sentence_id": 54,
-      "audio": {
-        "filename": "TSLA_2023Q3_qa.wav",
-        "size_mb": 407.3,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q3_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2023Q3_transcript.csv",
-        "windowed_features": "TSLA_2023Q3_windowed_features.csv"
-      },
-      "n_windows_5min": 7
-    },
-    "TSLA_2023Q4": {
-      "year": 2023,
-      "quarter": 4,
-      "qa_boundary_sentence_id": 50,
-      "audio": {
-        "filename": "TSLA_2023Q4_qa.wav",
-        "size_mb": 326.5,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2023Q4_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2023Q4_transcript.csv",
-        "windowed_features": "TSLA_2023Q4_windowed_features.csv"
-      },
-      "n_windows_5min": 6
-    },
-    "TSLA_2024Q1": {
-      "year": 2024,
-      "quarter": 1,
-      "qa_boundary_sentence_id": 45,
-      "audio": {
-        "filename": "TSLA_2024Q1_qa.wav",
-        "size_mb": 546.4,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q1_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2024Q1_transcript.csv",
-        "windowed_features": "TSLA_2024Q1_windowed_features.csv"
-      },
-      "n_windows_5min": 9
-    },
-    "TSLA_2024Q2": {
-      "year": 2024,
-      "quarter": 2,
-      "qa_boundary_sentence_id": 49,
-      "audio": {
-        "filename": "TSLA_2024Q2_qa.wav",
-        "size_mb": 88.6,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q2_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2024Q2_transcript.csv",
-        "windowed_features": "TSLA_2024Q2_windowed_features.csv"
-      },
-      "n_windows_5min": 7
-    },
-    "TSLA_2024Q3": {
-      "year": 2024,
-      "quarter": 3,
-      "qa_boundary_sentence_id": 97,
-      "audio": {
-        "filename": "TSLA_2024Q3_qa.wav",
-        "size_mb": 78.8,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q3_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2024Q3_transcript.csv",
-        "windowed_features": "TSLA_2024Q3_windowed_features.csv"
-      },
-      "n_windows_5min": 1
-    },
-    "TSLA_2024Q4": {
-      "year": 2024,
-      "quarter": 4,
-      "qa_boundary_sentence_id": 66,
-      "audio": {
-        "filename": "TSLA_2024Q4_qa.wav",
-        "size_mb": 275.3,
-        "drive_path": "/content/drive/MyDrive/workshop_data/clips/TSLA_2024Q4_qa.wav",
-        "drive_api": "https://drive.google.com/file/d/[file_id]/view  # locate by name in folder 1Nf0X7aCBce8knRfyN7N-B1ErSoioxj7N"
-      },
-      "files": {
-        "transcript": "TSLA_2024Q4_transcript.csv",
-        "windowed_features": "TSLA_2024Q4_windowed_features.csv"
-      },
-      "n_windows_5min": 5
+      "10k_fy": 2023,
+      "validation_status": "pass_with_known_gaps"
     }
-  }
+  ],
+  "files": {
+    "grand_mean_final": "TSLA_grand_mean_final.csv",
+    "returns": "TSLA_returns_by_call.csv",
+    "gaap_metrics": "TSLA_gaap_metrics_validated.csv",
+    "nonfin_kpis": "TSLA_nonfin_kpis_validated.csv",
+    "price_timeline": "TSLA_price_timeline.png",
+    "all_calls_summary": "TSLA_all_calls_summary.csv"
+  },
+  "google_apps_script_endpoint": "ENDPOINT_URL_HERE",
+  "google_sheet_id": "SHEET_ID_HERE",
+  "registered_teams": []
 }
